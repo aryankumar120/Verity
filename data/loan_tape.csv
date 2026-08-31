@@ -1,0 +1,1001 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status
+LN-00001,BR-03001,Home Equity,2022-02-13,2027-02-13,487682,289617.45,7.59,60,NY,Education,D,12 years,$50k-$75k,Delinquent,45,Blue Ridge Servicing,2026-04-03,2026-05-06T00:00:00Z,Complete
+LN-00002,BR-03002,Auto,2022-04-13,2032-04-13,152623,140231.89,8.13,120,AZ,Major purchase,D,2 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-04,2026-04-23T00:00:00Z,Complete
+LN-00003,BR-03003,Student,2024-04-04,2031-04-05,74410,41312.72,7.12,84,FL,Home improvement,D,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-01,2026-06-08T00:00:00Z,Complete
+LN-00004,BR-03004,Auto,2022-10-17,2027-10-17,354547,236393.98,7.51,60,AZ,Debt consolidation,B,5 years,$100k-$150k,Delinquent,15,Northstar Servicing,2026-06-20,2026-04-05T00:00:00Z,Complete
+LN-00005,BR-03005,Personal,2023-11-17,2043-11-18,80149,68723.28,9.41,240,IL,Education,A,10 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-09,2026-06-15T00:00:00Z,Complete
+LN-00006,BR-03006,Personal,2022-11-16,2025-11-16,237366,162544.24,9.05,36,CA,Major purchase,B,12 years,$50k-$75k,Current,0,Pioneer Credit,2026-07-30,2026-04-12T00:00:00Z,Complete
+LN-00007,BR-03007,Mortgage,2021-09-12,2026-09-12,439998,269440.17,7.25,60,PA,Home improvement,A,10 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-19,2026-07-04T00:00:00Z,Complete
+LN-00008,BR-03008,Student,2024-03-21,2044-03-22,174813,152851.65,4.12,240,NJ,Debt consolidation,C,2 years,$100k-$150k,Late,30,Northstar Servicing,2026-07-08,2026-05-20T00:00:00Z,Complete
+LN-00009,BR-03009,Auto,2024-01-14,2054-01-14,425948,0,9.13,360,VA,Home improvement,D,7 years,$150k+,Closed,0,Blue Ridge Servicing,2026-06-14,2026-04-17T00:00:00Z,Complete
+LN-00010,BR-03010,Mortgage,2022-08-06,2032-08-06,205838,183612.8,10.28,120,NC,Auto purchase,D,7 years,$150k+,Current,0,Northstar Servicing,2026-06-01,2026-04-11T00:00:00Z,Complete
+LN-00011,BR-03011,Home Equity,2023-06-26,2026-06-26,332806,199152.83,6.26,36,TX,Major purchase,C,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-13,2026-08-01T00:00:00Z,Complete
+LN-00012,BR-03012,Mortgage,2021-04-15,2031-04-16,96808,77963.51,7.96,120,MA,Debt consolidation,B,7 years,$75k-$100k,Current,0,Summit Financial,2026-04-29,2026-07-05T00:00:00Z,Complete
+LN-00013,BR-03013,Personal,2024-03-26,2030-03-27,193171,108158.77,4.86,72,OR,Education,D,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-08,2026-06-21T00:00:00Z,Complete
+LN-00014,BR-03014,Installment,2022-05-15,2042-05-16,386402,215288.09,9.98,240,NY,Medical,B,5 years,$75k-$100k,Late,60,Blue Ridge Servicing,2026-07-03,2026-07-04T00:00:00Z,Complete
+LN-00015,BR-03015,Personal,2025-01-02,2029-01-02,437851,223491.78,6.89,48,VA,Medical,D,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-23,2026-04-20T00:00:00Z,Complete
+LN-00016,BR-03016,Auto,2021-05-01,2023-05-02,221993,179015.09,6.73,24,VA,Auto purchase,D,2 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-02,2026-04-09T00:00:00Z,Complete
+LN-00017,BR-03017,Mortgage,2023-05-14,2029-05-14,444394,161323.36,4.44,72,AZ,Debt consolidation,B,3 years,$150k+,Current,0,Pioneer Credit,2026-07-02,2026-04-14T00:00:00Z,Complete
+LN-00018,BR-03018,Student,2024-02-11,2034-02-11,251233,0,12.05,120,NC,Debt consolidation,D,3 years,$50k-$75k,Closed,0,Atlas Loan Co.,2026-06-28,2026-06-06T00:00:00Z,Complete
+LN-00019,BR-03019,Installment,2024-07-08,2028-07-08,30106,20597.71,6.93,48,NJ,Home improvement,D,7 years,$75k-$100k,Current,0,Summit Financial,2026-04-06,2026-06-29T00:00:00Z,Complete
+LN-00020,BR-03020,Installment,2022-05-11,2042-05-12,412399,163136.14,7.04,240,IL,Education,A,10 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-18,2026-05-10T00:00:00Z,Complete
+LN-00021,BR-03021,Student,2023-06-01,2038-06-01,-134639,37653.75,4.87,180,OR,Major purchase,A,5 years,$50k-$75k,Current,0,Summit Financial,2026-05-03,2026-06-20T00:00:00Z,Complete
+LN-00022,BR-03022,Installment,2023-04-17,2026-04-17,292516,-215423.9,3.91,36,GA,Medical,D,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-08,2026-07-02T00:00:00Z,Complete
+LN-00023,BR-03023,Student,2023-07-27,2038-07-27,459391,472840,9.33,180,TN,Auto purchase,D,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-19,2026-07-11T00:00:00Z,Complete
+LN-00024,BR-03024,Mortgage,2024-08-26,2024-07-27,309216,168415.91,6.49,240,MA,Auto purchase,C,2 years,$150k+,Current,0,Pioneer Credit,2026-06-29,2026-06-19T00:00:00Z,Complete
+LN-00025,BR-03025,Student,2022-11-08,2032-11-08,105214,32073.04,35,120,VA,Medical,B,2 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-13,2026-05-12T00:00:00Z,Complete
+LN-00026,BR-03026,Home Equity,2023-07-09,2038-07-09,277284,236194.24,7.69,180,CA,Auto purchase,A,7 years,$100k-$150k,Current,15,Pioneer Credit,2026-06-27,2026-07-24T00:00:00Z,Complete
+LN-00027,BR-03027,Student,2021-11-01,2036-11-01,174794,26219.1,5.47,180,NC,Home improvement,D,7 years,$75k-$100k,Closed,0,Atlas Loan Co.,2026-08-01,2026-04-29T00:00:00Z,Complete
+LN-00028,BR-03028,Personal,2023-07-15,2053-07-15,304854,269965.71,11.99,360,MN,Education,A,3 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-14,2026-07-08T00:00:00Z,
+LN-00029,BR-03029,Student,2023-12-22,2028-12-21,136096,77155.37,5.38,60,ZZ,Home improvement,C,7 years,$150k+,Delinquent,30,Blue Ridge Servicing,2026-04-05,2026-08-01T00:00:00Z,Complete
+LN-00030,BR-03030,Installment,2023-04-25,2028-04-24,288636,169287.28,10.27,60,CA,Auto purchase,C,12 years,$75k-$100k,Current,0,Summit Financial,2026-05-11,2024-01-15T10:00:00Z,Complete
+LN-00031,BR-03031,Auto,2026-99-40,2053-01-25,201525,67585.06,4.12,360,TX,Auto purchase,D,10 years,$150k+,Current,0,Summit Financial,2026-07-27,2026-06-05T00:00:00Z,Complete
+LN-00032,BR-03032,Installment,2022-10-26,not-a-date,487297,205258.02,6.85,72,FL,Debt consolidation,C,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-10,2026-05-05T00:00:00Z,Partial
+,BR-03033,Home Equity,2022-03-06,2028-03-06,324087,89768.13,11.45,72,PA,Auto purchase,A,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-29,2026-04-06T00:00:00Z,Complete
+LN-00001,BR-03034,Student,2021-03-06,2031-03-07,212382,153274.42,6.43,120,GA,Auto purchase,D,12 years,$150k+,Current,0,Atlas Loan Co.,2026-05-01,2026-06-14T00:00:00Z,Complete
+LN-00035,BR-03001,Auto,2022-02-13,2028-09-22,487682,113171.88,4.7,60,FL,Major purchase,C,10 years,$50k-$75k,Late,45,Northstar Servicing,2026-05-16,2026-07-15T00:00:00Z,Complete
+LN-00036,,Mortgage,2022-07-31,2026-07-31,332078,290895.24,5.41,48,MD,Major purchase,D,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-30,2026-05-02T00:00:00Z,Complete
+LN-00037,BR-03037,Personal,2021-11-20,2036-11-20,not-a-number,136491.86,5.01,180,FL,Medical,C,10 years,$100k-$150k,Current,0,Summit Financial,2026-05-02,2026-06-30T00:00:00Z,Partial
+LN-00038,BR-03038,Personal,2023-06-24,2038-06-24,320905,233105.33,unknown,180,PA,Debt consolidation,A,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-18,2026-04-05T00:00:00Z,Complete
+LN-00039,BR-03039,Installment,2023-11-15,2026-11-15,-456544,345679.24,5.48,36,VA,Debt consolidation,B,5 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-12,2026-07-19T00:00:00Z,Complete
+LN-00040,BR-03040,Auto,2022-07-13,2052-07-13,335402,350919,12.15,360,CO,Home improvement,D,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-21,2026-07-28T00:00:00Z,Complete
+LN-00041,BR-03041,Student,2022-04-02,2052-04-02,156628,71320.91,11.29,360,GA,Major purchase,A,10 years,$100k-$150k,Current,60,Atlas Loan Co.,2026-07-27,2026-04-08T00:00:00Z,Complete
+LN-00042,BR-03042,Mortgage,2024-11-02,2030-11-03,307102,46065.3,10.19,72,PA,Auto purchase,A,5 years,$75k-$100k,Closed,0,Summit Financial,2026-07-14,2026-04-28T00:00:00Z,Complete
+LN-00043,BR-03043,Personal,2023-04-26,2027-04-26,293709,107685.6,6.35,48,WA,Medical,A,12 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-21,2026-06-14T00:00:00Z,
+LN-00044,BR-03044,Mortgage,2024-06-07,2030-06-08,494501,295870.56,6.2,72,ZZ,Debt consolidation,A,7 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-15,2026-04-13T00:00:00Z,Complete
+LN-00045,BR-03045,Auto,2023-02-05,2038-02-05,236508,96576.99,7.16,180,MD,Major purchase,A,5 years,$150k+,Late,45,Pioneer Credit,2026-06-27,2024-01-15T10:00:00Z,Complete
+LN-00046,BR-03046,Installment,2021-10-22,2021-09-22,275862,0,9.99,60,VA,Education,B,12 years,$150k+,Closed,0,Northstar Servicing,2026-05-29,2026-04-30T00:00:00Z,Complete
+LN-00047,BR-03047,Installment,2021-02-08,2025-02-08,173897,75771.31,24,48,MN,Debt consolidation,D,10 years,$150k+,Current,0,Summit Financial,2026-05-10,2026-05-18T00:00:00Z,Complete
+LN-00048,BR-03048,Home Equity,2023-09-30,2028-09-29,177143,-119899.12,9.25,60,MN,Auto purchase,C,12 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-16,2026-05-31T00:00:00Z,Complete
+,BR-03049,Installment,2023-10-20,2026-10-20,56254,46320.33,12.34,36,VA,Home improvement,B,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-08,2026-05-07T00:00:00Z,Complete
+LN-00001,BR-03050,Installment,2022-09-07,2037-09-07,420765,126263.89,5.28,180,TX,Auto purchase,C,10 years,$150k+,Current,0,Pioneer Credit,2026-07-17,2026-04-04T00:00:00Z,Complete
+LN-00051,BR-03001,Home Equity,2022-02-13,2027-09-30,487682,306810.63,9.77,72,MD,Debt consolidation,A,2 years,$100k-$150k,Current,0,Summit Financial,2026-06-20,2026-06-26T00:00:00Z,Complete
+LN-00052,,Installment,2021-11-09,2041-11-10,34667,16959.18,7.53,240,NJ,Auto purchase,C,12 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-15,2026-05-30T00:00:00Z,Complete
+LN-00053,BR-03053,Mortgage,2022-04-29,2042-04-30,74445,N/A,5.11,240,AZ,Education,B,3 years,$50k-$75k,Current,0,Summit Financial,2026-06-02,2026-05-07T00:00:00Z,Complete
+LN-00054,BR-03054,Student,2021-04-06,2023-04-07,406881,228445.36,11.6,24,TN,Auto purchase,B,10 years,$75k-$100k,Late,thirty,Pioneer Credit,2026-04-22,2026-04-26T00:00:00Z,Complete
+LN-00055,BR-03055,Home Equity,2023-11-14,2025-11-14,107060,16059.0,10.32,24,TX,Auto purchase,A,7 years,$150k+,Closed,0,Pioneer Credit,2026-07-09,2026-07-09T00:00:00Z,Complete
+LN-00056,BR-03056,Mortgage,2021-06-13,2024-06-13,401197,302077.3,11.71,36,IL,Major purchase,C,5 years,$150k+,Current,30,Blue Ridge Servicing,2026-04-26,2026-05-20T00:00:00Z,Complete
+LN-00057,BR-03057,Mortgage,2023-06-17,2029-06-17,126128,47758.0,4.09,72,CA,Debt consolidation,A,10 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-29,2026-04-28T00:00:00Z,
+LN-00058,BR-03058,Personal,2021-03-07,2041-03-08,345472,298592.04,9.87,240,VA,Home improvement,B,7 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-04-04,2024-01-15T10:00:00Z,Complete
+LN-00059,BR-03059,Student,2021-08-31,2028-08-31,268932,119882.38,9.09,84,ZZ,Debt consolidation,A,5 years,$150k+,Late,90,Atlas Loan Co.,2026-04-22,2026-05-24T00:00:00Z,Complete
+LN-00060,BR-03060,Installment,2025-02-02,2025-01-03,291402,184671.88,9.61,36,TN,Debt consolidation,B,5 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-06-20,2026-06-15T00:00:00Z,Complete
+LN-00061,BR-03061,Personal,2022-09-10,2026-09-10,268466,293745,4.49,48,IL,Education,D,12 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-08,2026-07-22T00:00:00Z,Complete
+LN-00062,BR-03062,Personal,2023-12-05,2025-12-05,-19678,9939.82,8.75,24,WA,Home improvement,C,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-09,2026-06-28T00:00:00Z,Partial
+LN-00063,BR-03063,Home Equity,2022-02-22,2052-02-23,479058,339596.21,-2,360,FL,Medical,B,5 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-01,2026-05-25T00:00:00Z,Complete
+LN-00064,BR-03064,Auto,2026-99-40,2023-06-14,270049,73683.88,9.68,24,FL,Medical,A,5 years,$50k-$75k,Current,0,Summit Financial,2026-06-24,2026-04-18T00:00:00Z,Complete
+LN-00065,BR-03065,Home Equity,2025-01-31,not-a-date,351040,111794.2,11.77,36,CO,Home improvement,B,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-20,2026-04-29T00:00:00Z,Complete
+,BR-03066,Personal,2021-02-21,2027-02-22,15049,9232.09,8.43,72,IL,Medical,B,12 years,$100k-$150k,Delinquent,30,Pioneer Credit,2026-05-07,2026-04-06T00:00:00Z,Complete
+LN-00001,BR-03067,Personal,2021-04-08,2025-04-08,180396,59120.98,8.14,48,PA,Medical,A,7 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-04,2026-05-02T00:00:00Z,Complete
+LN-00068,BR-03001,Home Equity,2022-02-13,2026-07-26,487682,0,5.94,48,NJ,Debt consolidation,C,10 years,$50k-$75k,Closed,0,Northstar Servicing,2026-07-01,2026-06-20T00:00:00Z,Complete
+LN-00069,BR-03069,Student,2021-03-23,2051-03-24,76019,40866.87,unknown,360,AZ,Education,B,3 years,$150k+,Current,0,Northstar Servicing,2026-04-19,2026-04-03T00:00:00Z,Complete
+LN-00070,BR-03070,Home Equity,2024-07-16,2034-07-17,391088,58663.2,9.49,120,OR,Major purchase,C,12 years,$50k-$75k,Closed,0,Atlas Loan Co.,2026-06-22,2026-06-07T00:00:00Z,Complete
+LN-00071,BR-03071,Installment,2023-11-22,2029-11-22,135188,71093.82,5.81,72,NC,Auto purchase,A,7 years,$50k-$75k,Current,30,Blue Ridge Servicing,2026-06-11,2026-05-30T00:00:00Z,Complete
+LN-00072,BR-03072,Student,2023-05-22,2030-05-22,433781,197959.49,12.46,84,OR,Home improvement,A,10 years,$150k+,Current,0,Atlas Loan Co.,2026-06-19,2026-05-25T00:00:00Z,
+LN-00073,BR-03073,Installment,2022-12-08,2025-12-08,147488,40229.37,11.51,36,MN,Major purchase,C,3 years,$100k-$150k,Current,0,Summit Financial,2026-06-02,2024-01-15T10:00:00Z,Complete
+LN-00074,BR-03074,Mortgage,2024-10-02,2027-10-03,221200,87362.44,11.46,36,ZZ,Medical,D,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-03,2026-04-08T00:00:00Z,Complete
+LN-00075,BR-03075,Student,2023-11-14,2030-11-14,347947,-244278.98,6.3,84,NY,Home improvement,B,10 years,$100k-$150k,Late,45,Harbor Servicing,2026-05-02,2026-07-10T00:00:00Z,Complete
+LN-00076,BR-03076,Student,2021-03-18,2051-03-19,408848,429134,4.76,360,CO,Education,D,10 years,$75k-$100k,Current,0,Northstar Servicing,2026-07-29,2026-07-09T00:00:00Z,Complete
+LN-00077,BR-03077,Student,2022-04-24,2022-03-25,424487,119572.65,5.29,60,CA,Major purchase,D,5 years,$150k+,Current,0,Summit Financial,2026-07-13,2026-07-31T00:00:00Z,Complete
+LN-00078,BR-03078,Personal,2021-07-08,2025-07-08,355709,169037.78,-2,48,NC,Debt consolidation,C,5 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-04-19,2026-04-07T00:00:00Z,Complete
+LN-00079,,Auto,2022-09-14,2027-09-14,119481,101081.38,7.81,60,VA,Debt consolidation,A,5 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-04,2026-04-28T00:00:00Z,Complete
+LN-00080,BR-03080,Student,2022-02-12,2025-02-12,not-a-number,211382.27,11.48,36,AZ,Debt consolidation,C,10 years,$50k-$75k,Late,45,Atlas Loan Co.,2026-07-21,2026-05-30T00:00:00Z,Partial
+LN-00081,BR-03081,Personal,2024-07-25,2031-07-26,187986,N/A,7.53,84,TX,Medical,C,10 years,$50k-$75k,Late,45,Summit Financial,2026-07-28,2026-06-08T00:00:00Z,Complete
+LN-00082,BR-03082,Personal,2025-01-06,2030-01-06,58975,24378.68,4.71,60,GA,Debt consolidation,A,12 years,$50k-$75k,Late,thirty,Pioneer Credit,2026-04-04,2026-04-25T00:00:00Z,Complete
+LN-00083,BR-03083,Mortgage,2023-04-16,2027-04-16,499166,74874.9,11.77,48,GA,Major purchase,A,2 years,$75k-$100k,Closed,45,Northstar Servicing,2026-07-25,2026-06-08T00:00:00Z,Complete
+LN-00084,BR-03084,Mortgage,2021-01-26,2026-01-26,185864,128876.98,9.28,60,VA,Medical,D,12 years,$100k-$150k,Current,60,Northstar Servicing,2026-04-27,2026-07-31T00:00:00Z,Partial
+LN-00085,BR-03085,Personal,2023-07-19,2038-07-19,236769,107574.45,11.73,180,WA,Home improvement,B,12 years,$150k+,Current,0,Harbor Servicing,2026-04-24,2026-06-16T00:00:00Z,
+LN-00086,BR-03086,Mortgage,2025-01-29,2035-01-30,311815,174343.62,7.73,120,OH,Debt consolidation,A,7 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-25,2024-01-15T10:00:00Z,Complete
+LN-00087,BR-03087,Mortgage,2023-02-27,2026-02-27,144012,81650.55,10.9,36,ZZ,Medical,B,2 years,$150k+,Late,45,Blue Ridge Servicing,2026-05-04,2026-07-01T00:00:00Z,Complete
+LN-00088,BR-03088,Personal,2022-12-24,2024-12-24,-442931,258419.09,6.51,24,GA,Debt consolidation,B,12 years,$75k-$100k,Current,0,Northstar Servicing,2026-07-08,2026-07-13T00:00:00Z,Complete
+LN-00089,BR-03089,Home Equity,2021-12-07,2051-12-08,368309,390617,6.8,360,NY,Medical,B,2 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-06,2026-07-26T00:00:00Z,Complete
+LN-00090,BR-03090,Installment,2023-02-11,2023-01-12,82303,0,5.43,72,PA,Auto purchase,D,12 years,$100k-$150k,Closed,0,Blue Ridge Servicing,2026-07-01,2026-06-21T00:00:00Z,Complete
+LN-00091,BR-03091,Student,2022-04-14,2042-04-15,486358,268368.83,24,240,MA,Home improvement,A,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-08,2026-05-22T00:00:00Z,Complete
+,BR-03092,Personal,2021-03-06,2024-03-06,283538,208997.87,7.66,36,WA,Home improvement,B,2 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-20,2026-07-14T00:00:00Z,Complete
+LN-00001,BR-03093,Home Equity,2023-01-12,2030-01-12,45017,15167.84,6.45,84,MD,Education,D,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-03,2026-07-02T00:00:00Z,Complete
+LN-00094,BR-03001,Mortgage,2022-02-13,2026-01-23,487682,20119.99,8.0,60,TX,Education,B,12 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-14,2026-04-19T00:00:00Z,Partial
+LN-00095,BR-03095,Auto,2026-99-40,2025-01-09,336136,257904.34,10.59,24,MD,Medical,A,3 years,$150k+,Delinquent,30,Northstar Servicing,2026-06-12,2026-06-22T00:00:00Z,Complete
+LN-00096,BR-03096,Home Equity,2022-12-01,not-a-date,153410,79203.53,5.43,360,WA,Major purchase,A,7 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-12,2026-07-15T00:00:00Z,Complete
+LN-00097,BR-03097,Auto,2024-01-10,2054-01-10,131279,19691.85,10.66,360,NY,Medical,B,2 years,$75k-$100k,Closed,0,Pioneer Credit,2026-07-01,2026-04-23T00:00:00Z,Complete
+LN-00098,BR-03098,Auto,2023-03-10,2026-03-10,123087,64325.74,12.22,36,PA,Major purchase,C,10 years,$75k-$100k,Current,30,Blue Ridge Servicing,2026-05-13,2026-07-03T00:00:00Z,Complete
+LN-00099,BR-03099,Installment,2022-11-01,2032-11-01,419106,107664.87,9.32,120,PA,Debt consolidation,B,12 years,$150k+,Late,15,Blue Ridge Servicing,2026-07-11,2026-06-07T00:00:00Z,
+LN-00100,BR-03100,Installment,2022-03-08,2032-03-08,372883,179681.08,10.6,120,NJ,Auto purchase,B,12 years,$150k+,Current,0,Pioneer Credit,2026-05-21,2024-01-15T10:00:00Z,Complete
+LN-00101,BR-03101,Home Equity,2025-01-24,2032-01-25,234207,125256.25,6.27,84,MN,Major purchase,A,7 years,$150k+,Current,0,Summit Financial,2026-07-24,2026-04-12T00:00:00Z,Complete
+LN-00102,BR-03102,Mortgage,2022-01-26,2052-01-27,438744,311033.5,8.85,360,IL,Auto purchase,D,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-14,2026-04-24T00:00:00Z,Complete
+LN-00103,BR-03103,Home Equity,2023-06-25,2028-06-24,94927,52918.46,7.03,60,NC,Debt consolidation,A,7 years,$150k+,Current,0,Harbor Servicing,2026-05-31,2026-04-16T00:00:00Z,Complete
+LN-00104,BR-03104,Installment,2023-09-11,2033-09-11,329301,185755.67,4.71,120,MD,Education,A,2 years,$150k+,Current,0,Pioneer Credit,2026-06-01,2026-04-20T00:00:00Z,Complete
+LN-00105,BR-03105,Student,2024-08-23,2039-08-24,166236,0,7.6,180,MI,Auto purchase,D,3 years,$100k-$150k,Closed,0,Northstar Servicing,2026-05-22,2026-07-05T00:00:00Z,Complete
+LN-00106,BR-03106,Personal,2022-06-27,2028-06-27,364368,227332.81,10.68,72,PA,Major purchase,D,12 years,$150k+,Current,0,Atlas Loan Co.,2026-05-17,2026-07-08T00:00:00Z,Complete
+LN-00107,BR-03107,Personal,2022-06-14,2027-06-14,245019,214987.91,7.49,60,CA,Auto purchase,C,12 years,$150k+,Current,0,Summit Financial,2026-05-29,2026-05-12T00:00:00Z,Partial
+LN-00108,BR-03108,Mortgage,2024-09-15,2030-09-16,185670,85077.96,9.6,72,FL,Education,C,5 years,$150k+,Current,0,Harbor Servicing,2026-07-09,2026-05-29T00:00:00Z,Complete
+LN-00109,BR-03109,Auto,2023-07-09,2033-07-09,230180,203689.7,5.4,120,MI,Major purchase,D,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-18,2026-06-20T00:00:00Z,Complete
+LN-00110,BR-03110,Home Equity,2022-04-12,2029-04-12,476030,334686.28,11.12,84,NC,Medical,C,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-06,2026-07-22T00:00:00Z,Complete
+LN-00111,BR-03111,Mortgage,2023-09-11,2038-09-11,313870,149175.13,5.64,180,MD,Education,D,12 years,$100k-$150k,Late,90,Atlas Loan Co.,2026-04-08,2026-07-21T00:00:00Z,Complete
+LN-00112,BR-03112,Student,2023-08-17,2029-08-17,240867,103705.8,8.19,72,TN,Debt consolidation,C,10 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-12,2026-05-23T00:00:00Z,Complete
+LN-00113,BR-03113,Mortgage,2022-12-27,2032-12-27,24254,6524.69,6.16,120,TN,Auto purchase,C,5 years,$150k+,Current,0,Harbor Servicing,2026-04-15,2026-05-14T00:00:00Z,Complete
+LN-00114,BR-03114,Student,2022-11-29,2025-11-29,297229,156701.62,8.64,36,CO,Education,C,2 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-22,2026-07-14T00:00:00Z,Complete
+LN-00115,BR-03115,Home Equity,2023-11-29,2026-11-29,156024,96403.02,11.54,36,MI,Auto purchase,D,3 years,$50k-$75k,Current,0,Summit Financial,2026-07-16,2026-07-27T00:00:00Z,Complete
+LN-00116,BR-03116,Installment,2022-04-03,2037-04-03,481368,336792.11,10.06,180,NJ,Home improvement,A,12 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-08,2026-05-04T00:00:00Z,Complete
+LN-00117,BR-03117,Personal,2022-08-10,2026-08-10,153482,46020.37,4.61,48,PA,Debt consolidation,C,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-12,2026-04-27T00:00:00Z,Complete
+LN-00118,BR-03118,Installment,2022-07-05,2027-07-05,167181,95458.07,3.99,60,WA,Major purchase,B,5 years,$75k-$100k,Current,0,Summit Financial,2026-04-14,2026-06-01T00:00:00Z,Complete
+LN-00119,BR-03119,Personal,2023-04-01,2028-03-31,285747,148262.67,11.0,60,NY,Education,A,12 years,$100k-$150k,Current,0,Summit Financial,2026-04-20,2026-06-17T00:00:00Z,Complete
+LN-00120,BR-03120,Auto,2025-01-30,2035-01-31,193915,62141.4,6.26,120,OR,Auto purchase,A,10 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-11,2026-06-14T00:00:00Z,Complete
+LN-00121,BR-03121,Mortgage,2024-11-02,2029-11-02,475478,353109.44,3.69,60,CA,Debt consolidation,A,12 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-02,2026-04-25T00:00:00Z,Complete
+LN-00122,BR-03122,Auto,2023-06-22,2028-06-21,352741,250084.7,3.57,60,AZ,Debt consolidation,D,3 years,$50k-$75k,Current,0,Summit Financial,2026-06-10,2026-07-27T00:00:00Z,Complete
+LN-00123,BR-03123,Installment,2024-05-26,2031-05-27,36162,0,11.55,84,VA,Major purchase,A,7 years,$75k-$100k,Closed,0,Atlas Loan Co.,2026-04-18,2026-04-12T00:00:00Z,Complete
+LN-00124,BR-03124,Mortgage,2022-01-19,2029-01-19,302988,89278.51,9.07,84,PA,Medical,C,5 years,$75k-$100k,Current,0,Northstar Servicing,2026-07-17,2026-05-02T00:00:00Z,Complete
+LN-00125,BR-03125,Installment,2022-12-18,2028-12-18,280499,107979.61,6.7,72,GA,Major purchase,A,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-05-13,2026-06-03T00:00:00Z,Complete
+LN-00126,BR-03126,Auto,2023-11-28,2029-11-28,276349,140882.13,5.5,72,NC,Debt consolidation,B,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-03,2026-07-11T00:00:00Z,Complete
+LN-00127,BR-03127,Installment,2023-10-06,2028-10-05,181661,77241.78,7.06,60,MN,Home improvement,D,12 years,$100k-$150k,Late,15,Atlas Loan Co.,2026-07-05,2026-06-23T00:00:00Z,Complete
+LN-00128,BR-03128,Mortgage,2023-05-31,2027-05-31,59042,18177.35,9.52,48,NC,Auto purchase,D,2 years,$150k+,Current,0,Harbor Servicing,2026-07-05,2026-07-18T00:00:00Z,Complete
+LN-00129,BR-03129,Auto,2021-03-28,2023-03-29,324756,105989.93,4.39,24,CO,Medical,C,3 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-11,2026-04-03T00:00:00Z,Complete
+LN-00130,BR-03130,Auto,2024-03-23,2031-03-24,474511,173647.94,6.58,84,NJ,Medical,B,12 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-03,2026-06-13T00:00:00Z,Complete
+LN-00131,BR-03131,Home Equity,2024-06-23,2034-06-24,408165,343889.34,5.75,120,AZ,Auto purchase,D,12 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-21,2026-06-30T00:00:00Z,Missing
+LN-00132,BR-03132,Personal,2021-02-19,2026-02-19,188798,89389.29,7.08,60,CO,Education,D,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-04,2026-07-07T00:00:00Z,Missing
+LN-00133,BR-03133,Installment,2022-12-11,2026-12-11,224266,99107.12,4.72,48,CA,Major purchase,C,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-06,2026-05-01T00:00:00Z,Complete
+LN-00134,BR-03134,Student,2021-09-16,2028-09-16,424332,128305.89,8.74,84,NY,Home improvement,D,12 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-04-17,2026-05-20T00:00:00Z,Complete
+LN-00135,BR-03135,Mortgage,2021-11-19,2025-11-19,70672,45573.3,8.64,48,MI,Major purchase,A,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-26,2026-05-24T00:00:00Z,Complete
+LN-00136,BR-03136,Installment,2021-02-23,2024-02-24,187274,154254.35,8.73,36,NC,Education,B,5 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-15,2026-05-17T00:00:00Z,Complete
+LN-00137,BR-03137,Home Equity,2023-05-04,2033-05-04,365858,275569.08,9.84,120,TN,Education,C,10 years,$150k+,Current,0,Harbor Servicing,2026-06-15,2026-04-27T00:00:00Z,Complete
+LN-00138,BR-03138,Auto,2024-09-17,2026-09-18,203623,93945.0,5.17,24,NC,Medical,C,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-15,2026-05-31T00:00:00Z,Complete
+LN-00139,BR-03139,Auto,2023-12-08,2028-12-07,491976,328992.37,6.74,60,CA,Medical,D,7 years,$50k-$75k,Current,0,Summit Financial,2026-06-03,2026-04-22T00:00:00Z,Complete
+LN-00140,BR-03140,Home Equity,2024-09-09,2034-09-10,222480,95314.26,3.63,120,TX,Education,D,3 years,$150k+,Current,0,Harbor Servicing,2026-04-13,2026-04-08T00:00:00Z,Complete
+LN-00141,BR-03141,Mortgage,2022-07-27,2029-07-27,380386,207614.23,5.2,84,MI,Medical,B,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-24,2026-07-10T00:00:00Z,Partial
+LN-00142,BR-03142,Installment,2024-09-24,2044-09-25,133423,75364.28,4.26,240,MI,Medical,B,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-24,2026-05-30T00:00:00Z,Complete
+LN-00143,BR-03143,Installment,2024-07-09,2029-07-09,223202,170048.57,4.68,60,NY,Medical,C,3 years,$50k-$75k,Late,45,Summit Financial,2026-06-23,2026-05-16T00:00:00Z,Complete
+LN-00144,BR-03144,Installment,2023-12-07,2030-12-07,315244,95849.18,7.9,84,FL,Debt consolidation,A,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-04-27,2026-04-21T00:00:00Z,Complete
+LN-00145,BR-03145,Personal,2022-12-01,2024-12-01,99479,37829.06,10.53,24,CA,Debt consolidation,B,10 years,$100k-$150k,Late,90,Northstar Servicing,2026-06-14,2026-07-23T00:00:00Z,Complete
+LN-00146,BR-03146,Auto,2022-11-30,2042-12-01,401498,220391.57,11.13,240,WA,Debt consolidation,D,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-18,2026-04-30T00:00:00Z,Complete
+LN-00147,BR-03147,Student,2023-10-21,2025-10-21,92621,62272.7,11.11,24,TX,Home improvement,A,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-12,2026-06-30T00:00:00Z,Complete
+LN-00148,BR-03148,Home Equity,2024-05-25,2034-05-26,274227,152449.36,12.46,120,MD,Major purchase,A,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-14,2026-07-22T00:00:00Z,Complete
+LN-00149,BR-03149,Student,2023-06-02,2027-06-02,111678,71774.73,7.88,48,MA,Major purchase,C,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-07-28,2026-07-10T00:00:00Z,Complete
+LN-00150,BR-03150,Student,2021-08-04,2024-08-04,225661,122791.91,6.76,36,MN,Major purchase,C,2 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-28,2026-07-14T00:00:00Z,Complete
+LN-00151,BR-03151,Home Equity,2023-09-22,2025-09-22,405391,130199.51,11.37,24,TX,Home improvement,D,5 years,$150k+,Current,0,Atlas Loan Co.,2026-07-07,2026-05-28T00:00:00Z,Complete
+LN-00152,BR-03152,Installment,2021-12-09,2023-12-10,38388,20577.32,7.79,24,PA,Education,C,2 years,$50k-$75k,Current,0,Summit Financial,2026-06-20,2026-05-28T00:00:00Z,Complete
+LN-00153,BR-03153,Installment,2021-09-22,2028-09-22,470879,144292.72,6.34,84,IL,Major purchase,B,7 years,$150k+,Current,0,Summit Financial,2026-07-08,2026-05-27T00:00:00Z,Complete
+LN-00154,BR-03154,Student,2023-04-03,2029-04-03,68407,30868.6,3.71,72,AZ,Home improvement,B,2 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-17,2026-06-16T00:00:00Z,Complete
+LN-00155,BR-03155,Mortgage,2022-11-04,2042-11-05,494045,344416.41,11.47,240,TN,Home improvement,B,12 years,$100k-$150k,Current,0,Summit Financial,2026-06-14,2026-04-12T00:00:00Z,Complete
+LN-00156,BR-03156,Auto,2023-07-03,2038-07-03,406295,0,4.88,180,MN,Medical,D,5 years,$75k-$100k,Closed,0,Northstar Servicing,2026-07-18,2026-05-09T00:00:00Z,Complete
+LN-00157,BR-03157,Home Equity,2023-01-07,2043-01-08,378525,259986.44,12.08,240,NC,Medical,A,3 years,$150k+,Current,0,Summit Financial,2026-06-01,2026-07-11T00:00:00Z,Complete
+LN-00158,BR-03158,Installment,2022-08-11,2024-08-11,479735,254080.87,4.44,24,TN,Home improvement,D,5 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-07,2026-06-21T00:00:00Z,Complete
+LN-00159,BR-03159,Mortgage,2021-07-13,2041-07-14,236914,208395.06,11.05,240,TX,Auto purchase,B,12 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-31,2026-04-09T00:00:00Z,Complete
+LN-00160,BR-03160,Auto,2025-01-13,2029-01-13,204637,98762.69,8.21,48,FL,Debt consolidation,A,7 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-30,2026-06-21T00:00:00Z,Complete
+LN-00161,BR-03161,Mortgage,2022-01-26,2026-01-26,90721,77281.16,5.12,48,AZ,Education,A,7 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-04-15,2026-05-07T00:00:00Z,Complete
+LN-00162,BR-03162,Installment,2022-07-03,2027-07-03,367660,135352.23,4.61,60,TX,Education,D,5 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-21,2026-06-21T00:00:00Z,Complete
+LN-00163,BR-03163,Mortgage,2021-07-06,2023-07-07,450118,257149.93,6.9,24,TN,Home improvement,A,2 years,$50k-$75k,Current,0,Summit Financial,2026-04-13,2026-07-31T00:00:00Z,Complete
+LN-00164,BR-03164,Auto,2021-08-05,2027-08-06,348164,270615.3,9.6,72,TX,Auto purchase,C,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-08,2026-07-28T00:00:00Z,Complete
+LN-00165,BR-03165,Mortgage,2023-12-12,2028-12-11,343955,218397.79,9.82,60,WA,Debt consolidation,B,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-20,2026-05-18T00:00:00Z,Partial
+LN-00166,BR-03166,Student,2021-07-31,2028-07-31,455168,247249.51,9.6,84,FL,Home improvement,B,5 years,$50k-$75k,Late,15,Harbor Servicing,2026-05-10,2026-04-08T00:00:00Z,Complete
+LN-00167,BR-03167,Mortgage,2022-02-24,2025-02-24,114998,39589.53,7.65,36,MN,Auto purchase,A,12 years,$75k-$100k,Current,0,Summit Financial,2026-06-25,2026-05-08T00:00:00Z,Complete
+LN-00168,BR-03168,Auto,2021-04-09,2031-04-10,389437,291116.93,10.4,120,MA,Auto purchase,D,2 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-07,2026-07-08T00:00:00Z,Complete
+LN-00169,BR-03169,Student,2022-05-27,2028-05-27,291913,158542.98,10.4,72,NC,Debt consolidation,D,7 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-30,2026-05-02T00:00:00Z,Complete
+LN-00170,BR-03170,Student,2022-10-21,2025-10-21,321461,0,3.63,36,PA,Debt consolidation,C,7 years,$50k-$75k,Closed,0,Harbor Servicing,2026-07-02,2026-06-05T00:00:00Z,Complete
+LN-00171,BR-03171,Personal,2023-10-27,2030-10-27,106643,50015.42,3.77,84,NY,Home improvement,C,7 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-26,2026-04-16T00:00:00Z,Complete
+LN-00172,BR-03172,Home Equity,2024-05-30,2039-05-31,269702,195693.55,3.86,180,TN,Education,B,2 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-16,2026-05-24T00:00:00Z,Complete
+LN-00173,BR-03173,Installment,2023-05-07,2030-05-07,376244,311071.2,5.58,84,CA,Home improvement,D,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-08,2026-04-05T00:00:00Z,Complete
+LN-00174,BR-03174,Personal,2024-11-06,2034-11-07,339272,157269.32,9.31,120,WA,Major purchase,B,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-30,2026-04-11T00:00:00Z,Partial
+LN-00175,BR-03175,Installment,2023-09-14,2030-09-14,416630,137804.11,10.08,84,MA,Home improvement,A,2 years,$75k-$100k,Current,0,Harbor Servicing,2026-07-26,2026-05-03T00:00:00Z,Complete
+LN-00176,BR-03176,Auto,2024-09-24,2026-09-25,121836,93705.57,4.52,24,GA,Medical,C,12 years,$100k-$150k,Current,0,Summit Financial,2026-06-19,2026-06-02T00:00:00Z,Partial
+LN-00177,BR-03177,Personal,2025-01-31,2040-02-01,197839,175549.9,11.76,180,FL,Education,D,10 years,$150k+,Current,0,Summit Financial,2026-05-29,2026-05-11T00:00:00Z,Complete
+LN-00178,BR-03178,Home Equity,2024-05-11,2028-05-11,180278,158414.71,6.37,48,VA,Auto purchase,A,7 years,$75k-$100k,Delinquent,60,Northstar Servicing,2026-06-13,2026-06-12T00:00:00Z,Complete
+LN-00179,BR-03179,Installment,2022-08-22,2024-08-22,45318,0,11.17,24,MN,Education,C,2 years,$50k-$75k,Closed,0,Atlas Loan Co.,2026-04-30,2026-05-05T00:00:00Z,Complete
+LN-00180,BR-03180,Mortgage,2023-10-01,2025-10-01,90345,40292.09,11.29,24,MI,Medical,B,2 years,$75k-$100k,Late,45,Northstar Servicing,2026-07-17,2026-05-08T00:00:00Z,Complete
+LN-00181,BR-03181,Installment,2021-01-14,2025-01-14,414452,273660.14,6.21,48,NC,Auto purchase,D,10 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-18,2026-05-29T00:00:00Z,Complete
+LN-00182,BR-03182,Personal,2021-04-02,2031-04-03,161760,86984.46,5.01,120,FL,Debt consolidation,C,5 years,$50k-$75k,Late,30,Northstar Servicing,2026-07-01,2026-05-17T00:00:00Z,Complete
+LN-00183,BR-03183,Personal,2022-06-29,2028-06-29,240830,212664.81,5.36,72,PA,Medical,B,7 years,$150k+,Current,0,Harbor Servicing,2026-07-01,2026-04-14T00:00:00Z,Complete
+LN-00184,BR-03184,Installment,2022-04-04,2025-04-04,372506,199725.38,11.45,36,IL,Debt consolidation,D,12 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-06-30,2026-04-12T00:00:00Z,Complete
+LN-00185,BR-03185,Student,2024-06-12,2031-06-13,203143,186334.98,5.11,84,WA,Major purchase,B,3 years,$100k-$150k,Late,15,Summit Financial,2026-05-08,2026-04-14T00:00:00Z,Complete
+LN-00186,BR-03186,Personal,2023-11-01,2053-11-01,407313,0,11.11,360,MN,Education,B,7 years,$50k-$75k,Closed,0,Blue Ridge Servicing,2026-05-16,2026-04-06T00:00:00Z,Complete
+LN-00187,BR-03187,Personal,2021-06-01,2041-06-02,79778,44534.36,8.58,240,PA,Auto purchase,B,5 years,$75k-$100k,Late,90,Summit Financial,2026-07-18,2026-06-17T00:00:00Z,Complete
+LN-00188,BR-03188,Installment,2025-01-07,2055-01-08,410914,255614.04,5.9,360,WA,Auto purchase,D,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-08,2026-06-28T00:00:00Z,Complete
+LN-00189,BR-03189,Auto,2025-01-08,2031-01-09,308268,235233.8,6.95,72,MI,Debt consolidation,B,10 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-13,2026-05-19T00:00:00Z,Complete
+LN-00190,BR-03190,Installment,2022-06-02,2037-06-02,344514,312033.55,6.16,180,CO,Medical,B,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-18,2026-06-15T00:00:00Z,Complete
+LN-00191,BR-03191,Mortgage,2024-05-23,2039-05-24,379650,174531.14,6.99,180,NJ,Medical,D,7 years,$150k+,Late,15,Blue Ridge Servicing,2026-06-11,2026-06-21T00:00:00Z,Complete
+LN-00192,BR-03192,Mortgage,2024-07-23,2026-07-24,218464,98493.7,3.96,24,AZ,Debt consolidation,D,2 years,$50k-$75k,Late,45,Blue Ridge Servicing,2026-04-04,2026-05-05T00:00:00Z,Complete
+LN-00193,BR-03193,Personal,2024-09-24,2039-09-25,272956,137065.93,3.82,180,VA,Education,D,12 years,$100k-$150k,Delinquent,15,Northstar Servicing,2026-05-07,2026-06-26T00:00:00Z,Complete
+LN-00194,BR-03194,Installment,2024-09-11,2029-09-11,239561,133778.35,5.67,60,IL,Medical,B,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-19,2026-05-28T00:00:00Z,Complete
+LN-00195,BR-03195,Auto,2024-04-08,2029-04-08,251690,99621.67,10.53,60,NY,Home improvement,D,7 years,$50k-$75k,Current,0,Summit Financial,2026-06-05,2026-07-27T00:00:00Z,Complete
+LN-00196,BR-03196,Mortgage,2022-03-05,2052-03-05,50343,31867.26,5.57,360,VA,Auto purchase,C,12 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-04-18,2026-04-14T00:00:00Z,Partial
+LN-00197,BR-03197,Auto,2024-10-06,2026-10-07,350235,211032.69,11.21,24,PA,Medical,A,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-14,2026-04-26T00:00:00Z,Complete
+LN-00198,BR-03198,Student,2022-05-22,2028-05-22,443680,214586.74,5.8,72,TX,Major purchase,A,12 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-17,2026-06-20T00:00:00Z,Complete
+LN-00199,BR-03199,Personal,2024-02-08,2027-02-08,147152,48183.07,3.96,36,AZ,Major purchase,A,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-24,2026-06-28T00:00:00Z,Complete
+LN-00200,BR-03200,Student,2022-06-10,2024-06-10,382505,133896.81,12.16,24,NC,Debt consolidation,B,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-27,2026-07-23T00:00:00Z,Complete
+LN-00201,BR-03201,Personal,2021-08-06,2025-08-06,385780,115802.76,8.78,48,TX,Major purchase,C,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-25,2026-07-06T00:00:00Z,Complete
+LN-00202,BR-03202,Mortgage,2024-07-19,2044-07-20,304200,276846.9,9.58,240,IL,Debt consolidation,A,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-04-03,2026-04-08T00:00:00Z,Complete
+LN-00203,BR-03203,Home Equity,2024-01-11,2030-01-11,200278,87960.95,10.98,72,PA,Medical,D,2 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-05,2026-06-15T00:00:00Z,Complete
+LN-00204,BR-03204,Installment,2021-01-04,2024-01-05,268204,195912.42,7.68,36,NC,Medical,B,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-29,2026-04-22T00:00:00Z,Complete
+LN-00205,BR-03205,Personal,2023-09-06,2053-09-06,119875,102191.59,7.11,360,GA,Education,A,2 years,$50k-$75k,Late,45,Blue Ridge Servicing,2026-04-06,2026-04-06T00:00:00Z,Complete
+LN-00206,BR-03206,Student,2024-05-28,2039-05-29,277247,136953.7,3.65,180,MN,Home improvement,C,10 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-06,2026-05-15T00:00:00Z,Complete
+LN-00207,BR-03207,Installment,2023-02-19,2043-02-20,181906,0,5.47,240,GA,Medical,D,2 years,$100k-$150k,Closed,0,Harbor Servicing,2026-07-27,2026-07-21T00:00:00Z,Complete
+LN-00208,BR-03208,Home Equity,2023-10-17,2025-10-17,325692,222781.57,7.54,24,GA,Medical,C,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-27,2026-07-16T00:00:00Z,Complete
+LN-00209,BR-03209,Installment,2021-01-01,2028-01-02,87162,52158.21,7.09,84,CO,Home improvement,A,10 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-26,2026-04-30T00:00:00Z,Complete
+LN-00210,BR-03210,Student,2021-12-11,2041-12-12,217809,56132.51,10.49,240,MD,Major purchase,A,12 years,$150k+,Current,0,Blue Ridge Servicing,2026-05-25,2026-05-25T00:00:00Z,Complete
+LN-00211,BR-03211,Mortgage,2024-09-14,2054-09-15,65981,36976.47,3.59,360,PA,Auto purchase,C,2 years,$150k+,Late,30,Northstar Servicing,2026-07-03,2026-04-03T00:00:00Z,Complete
+LN-00212,BR-03212,Student,2021-10-26,2036-10-26,198409,166514.19,11.0,180,TX,Auto purchase,C,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-01,2026-08-01T00:00:00Z,Complete
+LN-00213,BR-03213,Installment,2025-02-06,2027-02-07,491943,169768.01,5.6,24,GA,Medical,D,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-01,2026-04-08T00:00:00Z,Complete
+LN-00214,BR-03214,Personal,2024-03-06,2029-03-06,203618,151927.7,9.81,60,IL,Medical,D,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-22,2026-07-09T00:00:00Z,Complete
+LN-00215,BR-03215,Mortgage,2023-05-10,2043-05-11,246653,213688.17,7.62,240,NJ,Auto purchase,A,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-26,2026-06-21T00:00:00Z,Complete
+LN-00216,BR-03216,Auto,2022-09-24,2028-09-24,418067,185683.92,10.86,72,OR,Education,D,10 years,$50k-$75k,Current,0,Pioneer Credit,2026-07-07,2026-06-03T00:00:00Z,Complete
+LN-00217,BR-03217,Student,2022-09-06,2032-09-06,389583,107618.2,12.06,120,CO,Education,B,7 years,$150k+,Current,0,Northstar Servicing,2026-04-24,2026-04-13T00:00:00Z,Complete
+LN-00218,BR-03218,Auto,2022-10-25,2032-10-25,142123,129028.56,3.68,120,TX,Education,C,10 years,$150k+,Current,0,Harbor Servicing,2026-06-08,2026-04-22T00:00:00Z,Complete
+LN-00219,BR-03219,Personal,2023-10-05,2028-10-04,339514,258867.91,4.91,60,IL,Auto purchase,A,5 years,$75k-$100k,Current,0,Harbor Servicing,2026-07-03,2026-07-31T00:00:00Z,Complete
+LN-00220,BR-03220,Auto,2022-12-26,2026-12-26,23290,15484.38,4.29,48,AZ,Medical,A,10 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-06-10,2026-07-10T00:00:00Z,Complete
+LN-00221,BR-03221,Personal,2024-12-10,2044-12-11,310523,180725.9,4.47,240,PA,Education,C,2 years,$150k+,Current,0,Summit Financial,2026-07-30,2026-05-02T00:00:00Z,Complete
+LN-00222,BR-03222,Mortgage,2023-08-16,2027-08-16,64510,49230.38,5.01,48,NJ,Medical,C,2 years,$150k+,Current,0,Harbor Servicing,2026-06-14,2026-05-10T00:00:00Z,Complete
+LN-00223,BR-03223,Installment,2021-01-14,2051-01-15,260788,109538.27,10.68,360,MI,Major purchase,C,2 years,$150k+,Current,0,Atlas Loan Co.,2026-07-31,2026-07-27T00:00:00Z,Complete
+LN-00224,BR-03224,Home Equity,2024-12-28,2054-12-29,179795,95957.43,10.99,360,VA,Medical,B,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-04-13,2026-04-09T00:00:00Z,Partial
+LN-00225,BR-03225,Student,2023-09-15,2053-09-15,189849,126154.93,4.12,360,IL,Education,A,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-16,2026-06-13T00:00:00Z,Complete
+LN-00226,BR-03226,Personal,2023-03-06,2043-03-07,354854,255882.6,8.28,240,CA,Major purchase,A,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-30,2026-05-14T00:00:00Z,Complete
+LN-00227,BR-03227,Mortgage,2022-09-04,2052-09-04,411416,345481.99,9.29,360,MN,Auto purchase,B,10 years,$50k-$75k,Delinquent,15,Atlas Loan Co.,2026-04-04,2026-06-21T00:00:00Z,Complete
+LN-00228,BR-03228,Auto,2023-04-09,2043-04-10,303555,233122.53,9.39,240,FL,Medical,A,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-08,2026-06-30T00:00:00Z,Complete
+LN-00229,BR-03229,Mortgage,2024-10-09,2030-10-10,373697,177806.64,9.25,72,CO,Auto purchase,A,2 years,$150k+,Current,0,Summit Financial,2026-07-24,2026-04-16T00:00:00Z,Complete
+LN-00230,BR-03230,Auto,2022-02-07,2026-02-07,315469,135606.96,7.79,48,GA,Debt consolidation,C,12 years,$75k-$100k,Current,0,Summit Financial,2026-05-15,2026-06-17T00:00:00Z,Complete
+LN-00231,BR-03231,Home Equity,2022-06-22,2032-06-22,79442,61380.66,9.77,120,OH,Education,B,7 years,$50k-$75k,Current,0,Summit Financial,2026-07-18,2026-07-10T00:00:00Z,Complete
+LN-00232,BR-03232,Personal,2023-01-01,2027-01-01,249393,72013.12,11.65,48,MD,Education,D,5 years,$100k-$150k,Current,0,Summit Financial,2026-06-03,2026-04-20T00:00:00Z,Complete
+LN-00233,BR-03233,Personal,2022-11-27,2026-11-27,137650,52415.35,4.43,48,TN,Major purchase,A,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-04,2026-04-24T00:00:00Z,Complete
+LN-00234,BR-03234,Personal,2024-05-31,2026-06-01,158723,52924.52,9.88,24,CO,Auto purchase,B,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-25,2026-07-07T00:00:00Z,Missing
+LN-00235,BR-03235,Personal,2021-02-04,2041-02-05,87071,26271.11,11.79,240,AZ,Medical,A,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-07,2026-06-05T00:00:00Z,Complete
+LN-00236,BR-03236,Personal,2022-03-03,2028-03-03,109437,69663.65,11.77,72,CO,Medical,B,3 years,$75k-$100k,Current,0,Summit Financial,2026-06-29,2026-04-27T00:00:00Z,Complete
+LN-00237,BR-03237,Mortgage,2021-11-03,2051-11-04,409024,239759.16,7.76,360,NJ,Medical,A,10 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-15,2026-04-18T00:00:00Z,Complete
+LN-00238,BR-03238,Mortgage,2023-11-07,2028-11-06,436190,351127.35,6.55,60,OH,Education,C,12 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-19,2026-07-17T00:00:00Z,Complete
+LN-00239,BR-03239,Personal,2022-12-10,2026-12-10,243807,92958.03,11.23,48,OR,Education,B,5 years,$75k-$100k,Late,30,Blue Ridge Servicing,2026-04-23,2026-06-04T00:00:00Z,Complete
+LN-00240,BR-03240,Installment,2024-03-09,2034-03-10,452086,124070.41,11.58,120,OR,Medical,C,2 years,$150k+,Current,0,Northstar Servicing,2026-04-30,2026-07-22T00:00:00Z,Complete
+LN-00241,BR-03241,Personal,2024-02-08,2044-02-09,28028,14361.87,5.17,240,PA,Debt consolidation,C,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-07,2026-06-05T00:00:00Z,Complete
+LN-00242,BR-03242,Mortgage,2021-10-22,2026-10-22,185514,86897.04,6.59,60,OR,Major purchase,A,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-03,2026-04-03T00:00:00Z,Partial
+LN-00243,BR-03243,Installment,2022-10-18,2024-10-18,207768,129027.58,4.01,24,PA,Auto purchase,D,2 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-04-25,2026-05-18T00:00:00Z,Complete
+LN-00244,BR-03244,Home Equity,2021-09-10,2051-09-11,388138,307312.36,9.99,360,AZ,Auto purchase,A,10 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-07,2026-06-18T00:00:00Z,Complete
+LN-00245,BR-03245,Auto,2023-01-11,2029-01-11,489391,365211.8,3.72,72,CA,Education,A,3 years,$150k+,Current,0,Harbor Servicing,2026-05-16,2026-05-07T00:00:00Z,Complete
+LN-00246,BR-03246,Auto,2024-05-27,2027-05-28,68293,42744.21,7.69,36,MN,Medical,C,12 years,$150k+,Current,0,Pioneer Credit,2026-07-27,2026-05-16T00:00:00Z,Complete
+LN-00247,BR-03247,Installment,2021-05-23,2031-05-24,155085,112533.3,12.33,120,MA,Home improvement,D,5 years,$150k+,Current,0,Harbor Servicing,2026-04-03,2026-07-10T00:00:00Z,Complete
+LN-00248,BR-03248,Home Equity,2021-06-05,2026-06-05,154490,88313.57,10.94,60,WA,Education,C,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-14,2026-06-16T00:00:00Z,Partial
+LN-00249,BR-03249,Installment,2024-02-02,2039-02-02,431238,370024.69,11.34,180,PA,Education,B,2 years,$50k-$75k,Current,0,Pioneer Credit,2026-07-23,2026-05-07T00:00:00Z,Complete
+LN-00250,BR-03250,Home Equity,2021-07-29,2023-07-30,205136,143374.66,5.51,24,FL,Major purchase,A,7 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-06,2026-05-01T00:00:00Z,Complete
+LN-00251,BR-03251,Home Equity,2022-06-08,2026-06-08,199821,59740.29,7.73,48,WA,Major purchase,D,3 years,$50k-$75k,Late,30,Blue Ridge Servicing,2026-05-30,2026-07-16T00:00:00Z,Complete
+LN-00252,BR-03252,Home Equity,2024-10-21,2027-10-22,192859,108400.73,5.46,36,OR,Major purchase,B,5 years,$75k-$100k,Delinquent,90,Summit Financial,2026-05-12,2026-08-01T00:00:00Z,Complete
+LN-00253,BR-03253,Mortgage,2021-06-04,2026-06-04,229276,158704.06,5.18,60,NC,Auto purchase,B,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-16,2026-06-30T00:00:00Z,Complete
+LN-00254,BR-03254,Mortgage,2021-02-28,2027-03-01,123766,70439.08,3.87,72,NJ,Home improvement,A,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-20,2026-07-07T00:00:00Z,Complete
+LN-00255,BR-03255,Installment,2024-03-30,2039-03-31,319208,119477.9,10.98,180,MI,Education,B,7 years,$100k-$150k,Current,0,Summit Financial,2026-05-04,2026-07-20T00:00:00Z,Complete
+LN-00256,BR-03256,Auto,2021-01-25,2036-01-26,36644,11164.08,11.67,180,GA,Auto purchase,B,5 years,$75k-$100k,Current,0,Harbor Servicing,2026-04-13,2026-05-31T00:00:00Z,Complete
+LN-00257,BR-03257,Mortgage,2021-01-16,2051-01-17,94391,58794.8,8.03,360,MI,Education,B,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-28,2026-05-02T00:00:00Z,Complete
+LN-00258,BR-03258,Installment,2022-11-27,2042-11-28,464189,207685.51,5.18,240,NJ,Auto purchase,C,10 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-24,2026-06-26T00:00:00Z,Complete
+LN-00259,BR-03259,Installment,2021-05-20,2024-05-20,227987,209009.36,12.46,36,FL,Debt consolidation,D,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-06,2026-07-03T00:00:00Z,Complete
+LN-00260,BR-03260,Installment,2023-12-23,2026-12-23,459598,243251.2,9.64,36,NC,Medical,A,5 years,$75k-$100k,Current,0,Summit Financial,2026-06-07,2026-07-31T00:00:00Z,Complete
+LN-00261,BR-03261,Home Equity,2023-02-18,2033-02-18,68780,18320.73,6.46,120,NJ,Education,B,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-02,2026-07-09T00:00:00Z,Complete
+LN-00262,BR-03262,Student,2021-10-29,2031-10-30,77351,66399.49,12.44,120,OH,Major purchase,B,12 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-02,2026-05-25T00:00:00Z,Complete
+LN-00263,BR-03263,Auto,2023-12-28,2027-12-28,64412,38148.52,3.58,48,MI,Education,D,3 years,$100k-$150k,Current,0,Summit Financial,2026-06-25,2026-07-01T00:00:00Z,Complete
+LN-00264,BR-03264,Home Equity,2023-05-13,2053-05-13,283866,254683.19,7.91,360,VA,Education,D,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-04,2026-06-03T00:00:00Z,Complete
+LN-00265,BR-03265,Auto,2022-05-08,2026-05-08,478719,168594.63,5.38,48,PA,Auto purchase,A,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-02,2026-07-21T00:00:00Z,Complete
+LN-00266,BR-03266,Mortgage,2023-12-21,2026-12-21,308790,81345.42,12.2,36,NC,Major purchase,B,7 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-27,2026-06-28T00:00:00Z,Complete
+LN-00267,BR-03267,Personal,2021-02-10,2024-02-11,111116,36734.17,7.54,36,MI,Debt consolidation,D,5 years,$100k-$150k,Delinquent,45,Pioneer Credit,2026-07-18,2026-04-24T00:00:00Z,Complete
+LN-00268,BR-03268,Auto,2022-09-24,2026-09-24,80657,0,9.73,48,NY,Major purchase,D,2 years,$50k-$75k,Closed,0,Pioneer Credit,2026-04-10,2026-05-26T00:00:00Z,Complete
+LN-00269,BR-03269,Auto,2021-11-26,2031-11-27,454110,187267.86,4.73,120,NC,Auto purchase,D,3 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-13,2026-06-09T00:00:00Z,Complete
+LN-00270,BR-03270,Home Equity,2022-09-30,2037-09-30,246642,200204.43,4.23,180,WA,Debt consolidation,A,12 years,$150k+,Current,0,Harbor Servicing,2026-06-05,2026-05-23T00:00:00Z,Complete
+LN-00271,BR-03271,Home Equity,2021-05-21,2026-05-21,127953,38469.14,3.88,60,MN,Home improvement,C,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-07,2026-06-13T00:00:00Z,Complete
+LN-00272,BR-03272,Auto,2024-02-25,2054-02-25,184473,141645.85,5.82,360,PA,Auto purchase,B,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-05,2026-05-11T00:00:00Z,Complete
+LN-00273,BR-03273,Installment,2024-02-23,2030-02-23,47436,31086.26,9.15,72,FL,Education,A,7 years,$75k-$100k,Late,60,Northstar Servicing,2026-07-18,2026-07-12T00:00:00Z,Complete
+LN-00274,BR-03274,Installment,2021-09-30,2024-09-30,306282,0,4.03,36,OH,Debt consolidation,A,12 years,$150k+,Closed,0,Harbor Servicing,2026-04-28,2026-05-01T00:00:00Z,Complete
+LN-00275,BR-03275,Auto,2024-11-06,2044-11-07,308254,228665.56,8.39,240,OR,Debt consolidation,C,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-14,2026-05-21T00:00:00Z,Complete
+LN-00276,BR-03276,Home Equity,2023-05-17,2030-05-17,324596,171964.14,6.76,84,GA,Education,B,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-25,2026-06-28T00:00:00Z,Complete
+LN-00277,BR-03277,Mortgage,2021-12-27,2036-12-27,396234,193457.52,10.78,180,MI,Major purchase,A,10 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-13,2026-05-21T00:00:00Z,Complete
+LN-00278,BR-03278,Personal,2021-05-10,2024-05-10,247188,78302.33,7.85,36,IL,Medical,C,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-17,2026-05-13T00:00:00Z,Complete
+LN-00279,BR-03279,Mortgage,2022-08-09,2037-08-09,71347,63629.53,8.96,180,OR,Education,A,7 years,$100k-$150k,Current,0,Summit Financial,2026-06-29,2026-04-06T00:00:00Z,Complete
+LN-00280,BR-03280,Installment,2021-12-15,2026-12-15,381545,308258.57,5.35,60,MA,Major purchase,C,5 years,$150k+,Current,0,Atlas Loan Co.,2026-07-20,2026-04-06T00:00:00Z,Partial
+LN-00281,BR-03281,Auto,2023-01-25,2043-01-26,348515,237509.12,7.85,240,WA,Debt consolidation,B,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-11,2026-07-03T00:00:00Z,Complete
+LN-00282,BR-03282,Student,2021-05-19,2051-05-20,240465,97916.39,11.53,360,IL,Education,D,7 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-24,2026-04-16T00:00:00Z,Complete
+LN-00283,BR-03283,Mortgage,2023-04-22,2028-04-21,186130,87769.23,11.16,60,AZ,Debt consolidation,B,2 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-23,2026-04-19T00:00:00Z,Complete
+LN-00284,BR-03284,Auto,2023-08-28,2030-08-28,366491,329611.79,8.56,84,NJ,Education,C,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-30,2026-06-08T00:00:00Z,Complete
+LN-00285,BR-03285,Auto,2025-01-27,2035-01-28,353399,218298.79,7.92,120,NY,Auto purchase,D,12 years,$100k-$150k,Current,0,Pioneer Credit,2026-04-16,2026-04-23T00:00:00Z,Partial
+LN-00286,BR-03286,Auto,2024-11-18,2030-11-19,316955,221503.81,6.72,72,WA,Education,D,10 years,$150k+,Current,0,Northstar Servicing,2026-05-05,2026-04-27T00:00:00Z,Complete
+LN-00287,BR-03287,Home Equity,2022-08-28,2052-08-28,339813,203086.8,10.2,360,IL,Auto purchase,B,3 years,$75k-$100k,Late,15,Pioneer Credit,2026-07-19,2026-07-24T00:00:00Z,Complete
+LN-00288,BR-03288,Home Equity,2021-09-05,2031-09-06,328174,257453.36,8.2,120,TX,Education,D,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-29,2026-07-23T00:00:00Z,Complete
+LN-00289,BR-03289,Student,2021-02-19,2026-02-19,112949,84447.49,10.58,60,NY,Home improvement,D,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-21,2026-05-23T00:00:00Z,Complete
+LN-00290,BR-03290,Student,2024-02-11,2031-02-11,17012,8365.55,4.09,84,NJ,Home improvement,B,2 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-22,2026-06-19T00:00:00Z,Complete
+LN-00291,BR-03291,Student,2024-11-15,2029-11-15,26091,12837.0,10.93,60,MA,Education,B,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-06,2026-04-09T00:00:00Z,Complete
+LN-00292,BR-03292,Mortgage,2024-04-17,2044-04-18,448144,0,4.59,240,AZ,Medical,A,12 years,$100k-$150k,Closed,0,Pioneer Credit,2026-05-12,2026-06-29T00:00:00Z,Complete
+LN-00293,BR-03293,Mortgage,2023-02-04,2038-02-04,395910,226154.22,9.65,180,NY,Auto purchase,C,10 years,$100k-$150k,Late,90,Blue Ridge Servicing,2026-04-24,2026-04-19T00:00:00Z,Complete
+LN-00294,BR-03294,Personal,2024-09-09,2054-09-10,171598,92280.81,9.15,360,WA,Home improvement,C,7 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-30,2026-04-28T00:00:00Z,Complete
+LN-00295,BR-03295,Home Equity,2025-01-08,2028-01-09,388949,182443.89,6.1,36,MD,Medical,B,5 years,$50k-$75k,Late,30,Harbor Servicing,2026-07-15,2026-05-24T00:00:00Z,Complete
+LN-00296,BR-03296,Student,2021-06-19,2028-06-19,91916,41932.4,7.85,84,TN,Auto purchase,C,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-20,2026-04-24T00:00:00Z,Complete
+LN-00297,BR-03297,Personal,2023-02-07,2043-02-08,78483,0,8.83,240,CO,Debt consolidation,C,7 years,$75k-$100k,Closed,0,Atlas Loan Co.,2026-05-28,2026-06-22T00:00:00Z,Missing
+LN-00298,BR-03298,Home Equity,2021-07-10,2041-07-11,124374,102782.31,6.82,240,FL,Medical,B,12 years,$50k-$75k,Late,60,Summit Financial,2026-06-04,2026-06-10T00:00:00Z,Complete
+LN-00299,BR-03299,Home Equity,2023-01-06,2033-01-06,480385,267146.9,4.02,120,OH,Home improvement,C,5 years,$50k-$75k,Current,0,Pioneer Credit,2026-04-04,2026-04-05T00:00:00Z,Complete
+LN-00300,BR-03300,Installment,2021-09-01,2051-09-02,198515,120815.83,9.58,360,GA,Debt consolidation,A,10 years,$150k+,Current,0,Pioneer Credit,2026-06-28,2026-04-07T00:00:00Z,Complete
+LN-00301,BR-03301,Installment,2023-10-22,2043-10-23,122846,86325.42,11.62,240,MN,Home improvement,B,10 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-14,2026-07-27T00:00:00Z,Complete
+LN-00302,BR-03302,Student,2021-04-09,2024-04-09,374112,182283.08,12.07,36,MI,Debt consolidation,B,3 years,$150k+,Current,0,Summit Financial,2026-04-16,2026-07-16T00:00:00Z,Complete
+LN-00303,BR-03303,Home Equity,2023-01-14,2029-01-14,33795,18705.76,4.71,72,CO,Medical,C,3 years,$100k-$150k,Current,0,Summit Financial,2026-07-20,2026-06-12T00:00:00Z,Complete
+LN-00304,BR-03304,Auto,2022-12-16,2032-12-16,470174,395360.57,6.66,120,NY,Home improvement,D,5 years,$150k+,Delinquent,90,Atlas Loan Co.,2026-04-18,2026-07-07T00:00:00Z,Complete
+LN-00305,BR-03305,Installment,2022-01-12,2037-01-12,177325,49290.22,12.06,180,CA,Home improvement,B,5 years,$75k-$100k,Current,0,Summit Financial,2026-05-29,2026-07-21T00:00:00Z,Complete
+LN-00306,BR-03306,Student,2023-09-26,2030-09-26,73590,55678.38,10.36,84,CA,Debt consolidation,D,5 years,$150k+,Current,0,Harbor Servicing,2026-06-18,2026-04-24T00:00:00Z,Complete
+LN-00307,BR-03307,Mortgage,2024-09-04,2027-09-05,17232,9132.7,10.65,36,MI,Home improvement,B,3 years,$50k-$75k,Current,0,Northstar Servicing,2026-06-16,2026-04-21T00:00:00Z,Complete
+LN-00308,BR-03308,Mortgage,2024-10-24,2028-10-24,28265,17877.38,5.34,48,NJ,Education,A,2 years,$75k-$100k,Delinquent,60,Blue Ridge Servicing,2026-05-08,2026-07-31T00:00:00Z,Complete
+LN-00309,BR-03309,Home Equity,2021-11-23,2024-11-23,174613,96149.98,8.59,36,TX,Auto purchase,A,3 years,$150k+,Current,0,Atlas Loan Co.,2026-07-04,2026-05-07T00:00:00Z,Complete
+LN-00310,BR-03310,Mortgage,2021-09-11,2051-09-12,368183,97620.0,9.91,360,VA,Major purchase,B,7 years,$150k+,Delinquent,45,Northstar Servicing,2026-04-07,2026-06-28T00:00:00Z,Complete
+LN-00311,BR-03311,Home Equity,2023-01-20,2030-01-20,437631,340173.73,10.5,84,CO,Debt consolidation,C,2 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-11,2026-04-05T00:00:00Z,Complete
+LN-00312,BR-03312,Student,2024-05-02,2028-05-02,461875,123644.65,6.59,48,PA,Auto purchase,C,5 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-24,2026-05-24T00:00:00Z,Complete
+LN-00313,BR-03313,Home Equity,2023-09-10,2026-09-10,248926,172938.01,9.73,36,MI,Education,D,7 years,$75k-$100k,Current,0,Harbor Servicing,2026-06-02,2026-06-01T00:00:00Z,Complete
+LN-00314,BR-03314,Home Equity,2023-05-26,2028-05-25,277967,79575.7,6.43,60,MI,Auto purchase,C,10 years,$150k+,Current,0,Pioneer Credit,2026-06-16,2026-07-15T00:00:00Z,Complete
+LN-00315,BR-03315,Student,2021-11-22,2036-11-22,406043,104072.77,8.74,180,MD,Debt consolidation,A,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-24,2026-06-27T00:00:00Z,Complete
+LN-00316,BR-03316,Home Equity,2023-11-15,2027-11-15,232418,84709.67,4.6,48,MN,Education,B,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-07,2026-07-13T00:00:00Z,Complete
+LN-00317,BR-03317,Home Equity,2024-07-16,2054-07-17,24901,14400.34,10.36,360,MA,Home improvement,A,12 years,$75k-$100k,Late,90,Blue Ridge Servicing,2026-06-30,2026-07-28T00:00:00Z,Complete
+LN-00318,BR-03318,Personal,2023-06-12,2043-06-13,349153,314969.02,6.55,240,IL,Auto purchase,B,5 years,$150k+,Current,0,Harbor Servicing,2026-04-10,2026-06-20T00:00:00Z,Complete
+LN-00319,BR-03319,Student,2023-12-08,2028-12-07,145837,94448.1,8.78,60,PA,Education,B,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-24,2026-06-22T00:00:00Z,Complete
+LN-00320,BR-03320,Student,2024-06-13,2026-06-14,419726,152133.55,6.78,24,PA,Medical,B,5 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-26,2026-04-05T00:00:00Z,Complete
+LN-00321,BR-03321,Home Equity,2024-02-22,2031-02-22,421079,334177.47,7.88,84,TX,Major purchase,C,2 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-19,2026-04-13T00:00:00Z,Complete
+LN-00322,BR-03322,Auto,2023-03-28,2027-03-28,191774,0,7.54,48,CA,Home improvement,D,5 years,$50k-$75k,Closed,0,Summit Financial,2026-06-14,2026-04-17T00:00:00Z,Complete
+LN-00323,BR-03323,Personal,2023-09-11,2038-09-11,92545,40171.57,9.74,180,VA,Auto purchase,B,3 years,$75k-$100k,Current,0,Summit Financial,2026-06-06,2026-05-04T00:00:00Z,Complete
+LN-00324,BR-03324,Personal,2022-03-14,2025-03-14,176211,58470.5,4.25,36,OH,Home improvement,C,12 years,$150k+,Current,0,Pioneer Credit,2026-04-26,2026-07-19T00:00:00Z,Complete
+LN-00325,BR-03325,Student,2021-11-06,2024-11-06,43358,13896.89,5.61,36,NJ,Home improvement,C,5 years,$100k-$150k,Current,0,Summit Financial,2026-07-05,2026-07-04T00:00:00Z,Complete
+LN-00326,BR-03326,Installment,2023-12-27,2043-12-28,205165,188700.81,9.37,240,IL,Education,D,5 years,$150k+,Current,0,Atlas Loan Co.,2026-04-17,2026-07-07T00:00:00Z,Complete
+LN-00327,BR-03327,Auto,2024-08-11,2054-08-12,377404,318021.47,6.55,360,GA,Education,B,7 years,$150k+,Current,0,Summit Financial,2026-04-25,2026-04-11T00:00:00Z,Complete
+LN-00328,BR-03328,Installment,2023-04-28,2043-04-29,329372,299383.69,10.27,240,AZ,Major purchase,A,3 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-24,2026-06-19T00:00:00Z,Complete
+LN-00329,BR-03329,Mortgage,2023-09-15,2030-09-15,78803,63048.89,11.84,84,NC,Education,C,7 years,$100k-$150k,Delinquent,60,Atlas Loan Co.,2026-06-26,2026-07-16T00:00:00Z,Partial
+LN-00330,BR-03330,Installment,2023-08-30,2026-08-30,19692,11039.46,7.92,36,PA,Home improvement,D,3 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-10,2026-06-20T00:00:00Z,Complete
+LN-00331,BR-03331,Personal,2023-04-03,2028-04-02,120893,37628.95,10.02,60,OR,Medical,D,10 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-21,2026-07-29T00:00:00Z,Complete
+LN-00332,BR-03332,Home Equity,2024-01-06,2054-01-06,456182,267851.77,12.14,360,FL,Debt consolidation,A,10 years,$75k-$100k,Current,0,Summit Financial,2026-05-31,2026-04-26T00:00:00Z,Complete
+LN-00333,BR-03333,Mortgage,2022-05-04,2042-05-05,157821,52542.19,9.25,240,NY,Education,B,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-16,2026-05-21T00:00:00Z,Complete
+LN-00334,BR-03334,Student,2023-04-18,2028-04-17,376968,295861.62,5.86,60,OR,Medical,D,7 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-14,2026-04-29T00:00:00Z,Complete
+LN-00335,BR-03335,Student,2022-07-30,2042-07-31,193854,126978.36,4.44,240,VA,Medical,D,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-19,2026-04-18T00:00:00Z,Complete
+LN-00336,BR-03336,Personal,2023-10-17,2030-10-17,170681,147595.71,6.64,84,TX,Education,D,10 years,$50k-$75k,Delinquent,90,Northstar Servicing,2026-05-12,2026-07-05T00:00:00Z,Complete
+LN-00337,BR-03337,Auto,2023-04-24,2027-04-24,224195,61578.88,8.78,48,VA,Medical,A,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-20,2026-07-24T00:00:00Z,Complete
+LN-00338,BR-03338,Mortgage,2024-03-23,2027-03-24,53556,38992.86,5.27,36,AZ,Home improvement,D,10 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-06,2026-05-04T00:00:00Z,Complete
+LN-00339,BR-03339,Student,2023-08-25,2027-08-25,85129,31605.48,8.02,48,VA,Medical,A,5 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-19,2026-06-03T00:00:00Z,Complete
+LN-00340,BR-03340,Installment,2022-05-27,2029-05-27,482786,387327.74,6.34,84,MD,Education,A,2 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-23,2026-06-02T00:00:00Z,Complete
+LN-00341,BR-03341,Auto,2022-11-13,2052-11-13,326333,99531.91,4.1,360,MI,Auto purchase,C,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-30,2026-07-18T00:00:00Z,Complete
+LN-00342,BR-03342,Student,2023-07-27,2053-07-27,417627,229957.33,9.14,360,TN,Auto purchase,B,7 years,$75k-$100k,Late,45,Blue Ridge Servicing,2026-05-06,2026-07-20T00:00:00Z,Complete
+LN-00343,BR-03343,Installment,2024-06-08,2026-06-09,486789,192116.7,12.48,24,CO,Major purchase,C,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-04,2026-07-24T00:00:00Z,Complete
+LN-00344,BR-03344,Mortgage,2021-04-05,2041-04-06,326500,102615.0,9.39,240,WA,Medical,B,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-06,2026-06-01T00:00:00Z,Complete
+LN-00345,BR-03345,Student,2021-12-18,2051-12-19,404347,217177.45,8.91,360,NJ,Education,B,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-07-04,2026-04-29T00:00:00Z,Complete
+LN-00346,BR-03346,Home Equity,2021-12-12,2028-12-12,65082,41512.16,9.29,84,GA,Debt consolidation,B,3 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-21,2026-06-09T00:00:00Z,Complete
+LN-00347,BR-03347,Installment,2023-06-16,2029-06-16,250973,63345.26,12.22,72,AZ,Education,B,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-12,2026-04-17T00:00:00Z,Complete
+LN-00348,BR-03348,Personal,2023-08-27,2043-08-28,57064,0,6.14,240,WA,Education,A,2 years,$50k-$75k,Closed,0,Pioneer Credit,2026-07-24,2026-06-29T00:00:00Z,Complete
+LN-00349,BR-03349,Student,2022-12-26,2029-12-26,116808,96647.91,10.21,84,MN,Auto purchase,A,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-03,2026-07-28T00:00:00Z,Complete
+LN-00350,BR-03350,Personal,2024-11-30,2027-12-01,332713,192098.94,9.21,36,AZ,Education,B,2 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-13,2026-05-03T00:00:00Z,Complete
+LN-00351,BR-03351,Auto,2024-10-23,2028-10-23,21118,10490.37,7.24,48,NY,Medical,C,2 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-07,2026-07-24T00:00:00Z,Complete
+LN-00352,BR-03352,Student,2021-10-07,2031-10-08,352160,282651.37,11.04,120,GA,Medical,D,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-01,2026-05-10T00:00:00Z,Complete
+LN-00353,BR-03353,Home Equity,2021-02-11,2026-02-11,320709,157021.67,5.67,60,GA,Auto purchase,D,10 years,$150k+,Current,0,Summit Financial,2026-05-09,2026-06-20T00:00:00Z,Complete
+LN-00354,BR-03354,Student,2021-09-03,2041-09-04,100236,65154.42,9.49,240,MA,Education,D,5 years,$150k+,Current,0,Northstar Servicing,2026-04-30,2026-05-17T00:00:00Z,Complete
+LN-00355,BR-03355,Personal,2021-11-03,2041-11-04,389466,106311.79,12.25,240,CA,Major purchase,D,2 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-18,2026-07-03T00:00:00Z,Complete
+LN-00356,BR-03356,Auto,2023-04-04,2026-04-04,236314,180700.02,6.93,36,OH,Medical,B,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-06,2026-06-26T00:00:00Z,Complete
+LN-00357,BR-03357,Auto,2021-09-30,2026-09-30,307011,92824.02,11.77,60,WA,Medical,A,2 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-11,2026-05-02T00:00:00Z,Complete
+LN-00358,BR-03358,Installment,2023-03-07,2025-03-07,111722,39754.94,11.03,24,IL,Major purchase,A,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-07,2026-07-19T00:00:00Z,Complete
+LN-00359,BR-03359,Installment,2024-07-15,2034-07-16,320768,237909.62,7.57,120,NY,Debt consolidation,C,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-03,2026-04-22T00:00:00Z,Complete
+LN-00360,BR-03360,Installment,2023-12-23,2030-12-23,191101,77994.26,10.42,84,VA,Debt consolidation,A,2 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-05,2026-05-31T00:00:00Z,Complete
+LN-00361,BR-03361,Mortgage,2021-12-28,2023-12-29,320753,243092.07,4.57,24,MA,Debt consolidation,D,12 years,$75k-$100k,Current,0,Northstar Servicing,2026-04-18,2026-05-03T00:00:00Z,Complete
+LN-00362,BR-03362,Auto,2022-06-17,2042-06-18,158362,97052.86,4.68,240,CO,Debt consolidation,A,3 years,$150k+,Current,0,Northstar Servicing,2026-06-20,2026-06-14T00:00:00Z,Complete
+LN-00363,BR-03363,Student,2022-07-26,2026-07-26,368592,306616.04,12.41,48,PA,Education,C,10 years,$75k-$100k,Current,0,Summit Financial,2026-07-11,2026-06-15T00:00:00Z,Complete
+LN-00364,BR-03364,Personal,2024-10-27,2030-10-28,459581,361900.97,10.73,72,GA,Major purchase,C,12 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-04,2026-05-09T00:00:00Z,Complete
+LN-00365,BR-03365,Mortgage,2023-08-02,2029-08-02,149109,74203.22,4.45,72,NY,Home improvement,D,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-07-13,2026-06-06T00:00:00Z,Complete
+LN-00366,BR-03366,Personal,2023-04-03,2029-04-03,378506,233101.68,10.77,72,AZ,Auto purchase,A,7 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-13,2026-04-30T00:00:00Z,Complete
+LN-00367,BR-03367,Student,2023-06-26,2028-06-25,318778,288043.26,4.89,60,TN,Education,D,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-25,2026-06-11T00:00:00Z,Complete
+LN-00368,BR-03368,Mortgage,2022-02-02,2028-02-03,244123,0,8.26,72,MA,Major purchase,C,10 years,$150k+,Closed,0,Summit Financial,2026-06-21,2026-07-01T00:00:00Z,Complete
+LN-00369,BR-03369,Installment,2021-01-20,2036-01-21,161908,62526.8,4.5,180,MA,Medical,B,5 years,$150k+,Current,0,Pioneer Credit,2026-04-20,2026-07-05T00:00:00Z,Complete
+LN-00370,BR-03370,Installment,2022-11-21,2024-11-21,398918,285245.17,7.14,24,OR,Education,B,5 years,$50k-$75k,Current,0,Harbor Servicing,2026-05-17,2026-05-28T00:00:00Z,Complete
+LN-00371,BR-03371,Personal,2021-08-19,2028-08-19,348625,307681.03,9.75,84,MA,Home improvement,C,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-02,2026-04-24T00:00:00Z,Complete
+LN-00372,BR-03372,Student,2024-11-28,2028-11-28,469605,405180.04,9.67,48,IL,Medical,D,10 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-28,2026-05-21T00:00:00Z,Complete
+LN-00373,BR-03373,Student,2022-03-26,2027-03-26,31504,17670.39,6.5,60,PA,Major purchase,A,10 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-05,2026-07-25T00:00:00Z,Complete
+LN-00374,BR-03374,Home Equity,2021-10-26,2024-10-26,342662,0,5.93,36,NJ,Auto purchase,B,5 years,$100k-$150k,Closed,0,Pioneer Credit,2026-04-12,2026-04-12T00:00:00Z,Complete
+LN-00375,BR-03375,Auto,2024-07-21,2027-07-22,493969,327672.34,7.52,36,GA,Auto purchase,A,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-04-13,2026-04-29T00:00:00Z,Complete
+LN-00376,BR-03376,Auto,2021-03-02,2027-03-03,453226,393774.02,5.09,72,MA,Debt consolidation,C,3 years,$100k-$150k,Current,0,Summit Financial,2026-07-16,2026-05-30T00:00:00Z,Complete
+LN-00377,BR-03377,Auto,2022-07-05,2026-07-05,165400,76098.45,8.19,48,TX,Debt consolidation,D,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-04,2026-07-22T00:00:00Z,Complete
+LN-00378,BR-03378,Student,2025-01-13,2032-01-14,160505,125679.55,4.68,84,VA,Auto purchase,C,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-10,2026-04-19T00:00:00Z,Complete
+LN-00379,BR-03379,Personal,2024-01-25,2034-01-25,461887,365838.72,11.21,120,TX,Education,D,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-19,2026-07-25T00:00:00Z,Complete
+LN-00380,BR-03380,Mortgage,2021-01-15,2023-01-16,211841,144639.44,6.66,24,TX,Major purchase,D,3 years,$50k-$75k,Current,0,Pioneer Credit,2026-05-28,2026-07-13T00:00:00Z,Complete
+LN-00381,BR-03381,Mortgage,2023-02-28,2053-02-28,468291,144046.47,9.47,360,OR,Debt consolidation,C,10 years,$100k-$150k,Delinquent,90,Harbor Servicing,2026-06-16,2026-04-30T00:00:00Z,Missing
+LN-00382,BR-03382,Personal,2022-10-17,2028-10-17,54074,18885.91,7.36,72,IL,Education,C,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-13,2026-07-02T00:00:00Z,Complete
+LN-00383,BR-03383,Auto,2024-03-28,2039-03-29,425807,199774.89,4.83,180,TX,Education,C,2 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-04-03,2026-04-12T00:00:00Z,Complete
+LN-00384,BR-03384,Student,2024-10-11,2044-10-12,112698,32816.23,6.22,240,MA,Debt consolidation,C,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-22,2026-06-07T00:00:00Z,Complete
+LN-00385,BR-03385,Mortgage,2021-10-13,2051-10-14,326997,286531.69,11.26,360,FL,Debt consolidation,D,12 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-17,2026-07-24T00:00:00Z,Complete
+LN-00386,BR-03386,Student,2021-04-10,2028-04-10,494486,193200.83,8.41,84,TX,Major purchase,A,7 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-26,2026-05-25T00:00:00Z,Complete
+LN-00387,BR-03387,Auto,2022-04-09,2024-04-09,231677,76417.42,5.29,24,MA,Debt consolidation,C,7 years,$100k-$150k,Current,0,Summit Financial,2026-07-12,2026-04-13T00:00:00Z,Complete
+LN-00388,BR-03388,Auto,2024-10-08,2026-10-09,427305,389326.85,10.66,24,TN,Auto purchase,A,7 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-12,2026-07-19T00:00:00Z,Partial
+LN-00389,BR-03389,Auto,2021-08-27,2026-08-27,41533,17852.44,12.1,60,NC,Medical,D,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-20,2026-07-10T00:00:00Z,Complete
+LN-00390,BR-03390,Auto,2023-11-07,2026-11-07,486026,379495.5,11.37,36,NJ,Home improvement,C,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-02,2026-06-22T00:00:00Z,Complete
+LN-00391,BR-03391,Installment,2023-08-02,2028-08-01,36910,22075.36,6.8,60,MD,Medical,B,7 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-24,2026-06-14T00:00:00Z,Complete
+LN-00392,BR-03392,Personal,2024-03-25,2027-03-26,276746,181099.11,10.26,36,PA,Education,D,7 years,$150k+,Current,0,Harbor Servicing,2026-06-11,2026-06-25T00:00:00Z,Complete
+LN-00393,BR-03393,Mortgage,2023-10-23,2043-10-24,362962,131176.65,11.86,240,IL,Major purchase,C,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-12,2026-06-04T00:00:00Z,Complete
+LN-00394,BR-03394,Personal,2021-04-12,2031-04-13,395228,105408.29,10.48,120,MN,Home improvement,B,2 years,$150k+,Current,0,Pioneer Credit,2026-07-29,2026-07-15T00:00:00Z,Complete
+LN-00395,BR-03395,Installment,2022-04-11,2027-04-11,112673,88637.0,6.13,60,NY,Home improvement,C,12 years,$50k-$75k,Current,0,Pioneer Credit,2026-04-22,2026-07-28T00:00:00Z,Complete
+LN-00396,BR-03396,Installment,2022-09-06,2029-09-06,402059,277766.73,10.87,84,TX,Major purchase,A,5 years,$50k-$75k,Current,0,Summit Financial,2026-06-04,2026-05-28T00:00:00Z,Complete
+LN-00397,BR-03397,Home Equity,2024-09-23,2044-09-24,368496,207793.87,9.77,240,FL,Major purchase,C,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-15,2026-07-18T00:00:00Z,Complete
+LN-00398,BR-03398,Mortgage,2023-08-19,2030-08-19,98047,86966.95,8.12,84,AZ,Home improvement,D,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-20,2026-06-18T00:00:00Z,Complete
+LN-00399,BR-03399,Mortgage,2023-10-19,2043-10-20,232513,174089.75,8.53,240,WA,Education,A,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-21,2026-06-14T00:00:00Z,Complete
+LN-00400,BR-03400,Auto,2024-09-24,2027-09-25,227021,0,8.6,36,TN,Education,D,5 years,$100k-$150k,Closed,0,Harbor Servicing,2026-05-13,2026-06-24T00:00:00Z,Complete
+LN-00401,BR-03401,Home Equity,2022-07-29,2025-07-29,198643,148690.93,8.59,36,OH,Auto purchase,A,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-20,2026-07-18T00:00:00Z,Complete
+LN-00402,BR-03402,Mortgage,2024-05-20,2028-05-20,370660,319416.4,11.81,48,OR,Home improvement,B,5 years,$100k-$150k,Delinquent,15,Atlas Loan Co.,2026-04-23,2026-07-02T00:00:00Z,Complete
+LN-00403,BR-03403,Auto,2025-01-06,2031-01-07,119001,58271.62,8.89,72,CO,Auto purchase,A,10 years,$100k-$150k,Current,0,Summit Financial,2026-07-24,2026-07-15T00:00:00Z,Complete
+LN-00404,BR-03404,Auto,2024-03-08,2029-03-08,463876,366414.89,7.84,60,NY,Auto purchase,B,5 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-27,2026-07-12T00:00:00Z,Complete
+LN-00405,BR-03405,Mortgage,2022-03-15,2042-03-16,308619,128648.87,11.84,240,CO,Debt consolidation,D,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-13,2026-07-14T00:00:00Z,Partial
+LN-00406,BR-03406,Personal,2021-07-26,2028-07-26,288063,189859.38,11.04,84,CA,Home improvement,C,3 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-19,2026-05-20T00:00:00Z,Complete
+LN-00407,BR-03407,Student,2023-07-24,2030-07-24,40868,32981.58,6.66,84,PA,Auto purchase,A,12 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-09,2026-07-13T00:00:00Z,Complete
+LN-00408,BR-03408,Auto,2022-02-16,2042-02-17,201223,123376.2,9.46,240,IL,Major purchase,A,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-11,2026-06-23T00:00:00Z,Complete
+LN-00409,BR-03409,Installment,2024-10-26,2030-10-27,394215,138158.68,8.03,72,IL,Home improvement,C,3 years,$50k-$75k,Current,0,Summit Financial,2026-07-11,2026-05-12T00:00:00Z,Complete
+LN-00410,BR-03410,Installment,2022-10-11,2052-10-11,15990,7999.18,10.7,360,GA,Education,C,5 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-31,2026-05-24T00:00:00Z,Complete
+LN-00411,BR-03411,Installment,2021-08-25,2028-08-25,364695,178185.63,7.77,84,CO,Home improvement,A,10 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-26,2026-04-14T00:00:00Z,Complete
+LN-00412,BR-03412,Mortgage,2024-07-13,2044-07-14,64714,53472.66,7.87,240,IL,Home improvement,B,3 years,$150k+,Current,0,Summit Financial,2026-05-31,2026-07-30T00:00:00Z,Complete
+LN-00413,BR-03413,Auto,2022-11-30,2024-11-30,333405,200574.55,9.31,24,MI,Education,B,7 years,$50k-$75k,Current,0,Summit Financial,2026-07-15,2026-07-31T00:00:00Z,Complete
+LN-00414,BR-03414,Student,2024-06-22,2027-06-23,74638,59427.91,4.13,36,FL,Home improvement,C,7 years,$150k+,Current,0,Northstar Servicing,2026-05-11,2026-05-11T00:00:00Z,Complete
+LN-00415,BR-03415,Auto,2022-04-13,2032-04-13,91643,80219.0,10.26,120,TX,Auto purchase,B,2 years,$100k-$150k,Current,0,Summit Financial,2026-07-22,2026-05-02T00:00:00Z,Complete
+LN-00416,BR-03416,Student,2022-12-15,2026-12-15,429510,292131.95,10.07,48,OR,Education,C,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-28,2026-06-03T00:00:00Z,Partial
+LN-00417,BR-03417,Auto,2021-11-06,2041-11-07,256775,220382.4,7.77,240,GA,Medical,D,12 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-14,2026-05-23T00:00:00Z,Complete
+LN-00418,BR-03418,Personal,2022-05-21,2042-05-22,131702,101764.06,8.75,240,CO,Home improvement,C,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-26,2026-06-23T00:00:00Z,Complete
+LN-00419,BR-03419,Student,2022-09-04,2024-09-04,480027,0,6.87,24,MA,Medical,D,10 years,$150k+,Closed,0,Pioneer Credit,2026-04-17,2026-05-18T00:00:00Z,Complete
+LN-00420,BR-03420,Student,2021-04-09,2028-04-09,107030,92578.41,5.43,84,WA,Home improvement,B,5 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-04,2026-06-15T00:00:00Z,Complete
+LN-00421,BR-03421,Mortgage,2025-01-23,2028-01-24,198810,109634.15,9.84,36,WA,Medical,B,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-15,2026-06-28T00:00:00Z,Complete
+LN-00422,BR-03422,Installment,2021-04-12,2024-04-12,202424,126217.53,7.87,36,TX,Major purchase,C,12 years,$150k+,Current,0,Atlas Loan Co.,2026-04-17,2026-04-21T00:00:00Z,Complete
+LN-00423,BR-03423,Home Equity,2022-10-17,2052-10-17,68302,39590.28,7.13,360,TX,Auto purchase,A,10 years,$150k+,Current,0,Harbor Servicing,2026-05-02,2026-05-29T00:00:00Z,Complete
+LN-00424,BR-03424,Personal,2023-07-10,2030-07-10,381059,309361.67,9.18,84,VA,Medical,C,10 years,$100k-$150k,Late,90,Atlas Loan Co.,2026-04-10,2026-05-19T00:00:00Z,Complete
+LN-00425,BR-03425,Personal,2024-11-22,2028-11-22,443086,291051.25,7.85,48,MI,Auto purchase,D,10 years,$100k-$150k,Current,0,Summit Financial,2026-07-17,2026-06-08T00:00:00Z,Complete
+LN-00426,BR-03426,Personal,2021-10-19,2028-10-19,164446,147610.96,7.8,84,IL,Auto purchase,C,7 years,$75k-$100k,Late,30,Atlas Loan Co.,2026-05-12,2026-06-25T00:00:00Z,Complete
+LN-00427,BR-03427,Mortgage,2023-03-02,2029-03-02,403615,281421.09,8.4,72,IL,Major purchase,D,5 years,$150k+,Current,0,Summit Financial,2026-06-29,2026-04-17T00:00:00Z,Missing
+LN-00428,BR-03428,Student,2024-04-10,2028-04-10,202897,134674.71,11.95,48,AZ,Medical,A,12 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-16,2026-04-19T00:00:00Z,Complete
+LN-00429,BR-03429,Installment,2024-03-25,2044-03-26,495918,314135.76,3.94,240,OR,Debt consolidation,B,2 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-24,2026-05-15T00:00:00Z,Complete
+LN-00430,BR-03430,Installment,2022-07-27,2037-07-27,61889,40668.6,4.65,180,PA,Debt consolidation,B,7 years,$50k-$75k,Current,0,Pioneer Credit,2026-07-31,2026-04-25T00:00:00Z,Complete
+LN-00431,BR-03431,Home Equity,2024-06-05,2030-06-06,352769,313551.21,7.12,72,OR,Medical,D,12 years,$150k+,Current,0,Pioneer Credit,2026-06-05,2026-04-25T00:00:00Z,Complete
+LN-00432,BR-03432,Installment,2022-03-02,2052-03-02,105877,93002.27,5.36,360,MN,Education,B,12 years,$150k+,Current,0,Atlas Loan Co.,2026-04-05,2026-07-04T00:00:00Z,Complete
+LN-00433,BR-03433,Mortgage,2025-01-19,2029-01-19,387444,346114.78,6.35,48,NJ,Education,B,3 years,$75k-$100k,Current,0,Harbor Servicing,2026-04-29,2026-04-09T00:00:00Z,Complete
+LN-00434,BR-03434,Installment,2023-07-25,2029-07-25,349885,0,12.38,72,OH,Major purchase,A,10 years,$50k-$75k,Closed,0,Summit Financial,2026-06-10,2026-06-10T00:00:00Z,Complete
+LN-00435,BR-03435,Personal,2024-02-06,2054-02-06,377721,138558.2,11.51,360,OH,Major purchase,B,7 years,$50k-$75k,Late,90,Northstar Servicing,2026-07-13,2026-06-18T00:00:00Z,Complete
+LN-00436,BR-03436,Personal,2024-03-12,2026-03-13,256947,217541.84,8.12,24,GA,Auto purchase,D,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-21,2026-05-31T00:00:00Z,Complete
+LN-00437,BR-03437,Auto,2021-11-25,2028-11-25,321015,100388.13,11.14,84,NY,Auto purchase,B,12 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-19,2026-05-24T00:00:00Z,Complete
+LN-00438,BR-03438,Auto,2022-08-15,2025-08-15,388554,161466.07,8.35,36,OH,Auto purchase,D,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-05-19,2026-07-04T00:00:00Z,Complete
+LN-00439,BR-03439,Installment,2021-04-13,2026-04-13,440538,269132.57,7.81,60,MD,Home improvement,B,10 years,$150k+,Current,0,Blue Ridge Servicing,2026-05-21,2026-06-27T00:00:00Z,Complete
+LN-00440,BR-03440,Installment,2024-01-29,2031-01-29,292445,155844.9,8.17,84,VA,Debt consolidation,B,2 years,$50k-$75k,Delinquent,15,Atlas Loan Co.,2026-07-04,2026-05-29T00:00:00Z,Complete
+LN-00441,BR-03441,Student,2021-12-17,2031-12-18,408432,199685.24,5.58,120,VA,Auto purchase,C,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-27,2026-06-13T00:00:00Z,Partial
+LN-00442,BR-03442,Personal,2022-05-15,2028-05-15,349206,181484.58,11.67,72,MN,Major purchase,A,5 years,$100k-$150k,Late,30,Atlas Loan Co.,2026-05-25,2026-04-27T00:00:00Z,Complete
+LN-00443,BR-03443,Installment,2024-04-13,2034-04-14,258296,106023.89,12.47,120,VA,Debt consolidation,D,7 years,$50k-$75k,Current,0,Summit Financial,2026-06-26,2026-06-22T00:00:00Z,Complete
+LN-00444,BR-03444,Home Equity,2021-08-25,2028-08-25,323398,0,3.5,84,NC,Auto purchase,C,2 years,$50k-$75k,Closed,0,Northstar Servicing,2026-04-12,2026-06-08T00:00:00Z,Complete
+LN-00445,BR-03445,Student,2022-02-09,2025-02-09,99382,39907.17,12.12,36,CA,Medical,B,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-26,2026-06-18T00:00:00Z,Complete
+LN-00446,BR-03446,Installment,2021-06-24,2023-06-25,343898,132735.64,8.11,24,TN,Major purchase,D,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-14,2026-04-09T00:00:00Z,Complete
+LN-00447,BR-03447,Mortgage,2022-12-19,2025-12-19,334367,279612.01,3.57,36,GA,Medical,D,12 years,$150k+,Current,0,Atlas Loan Co.,2026-06-23,2026-05-31T00:00:00Z,Complete
+LN-00448,BR-03448,Personal,2023-04-22,2038-04-22,286327,0,10.47,180,IL,Education,A,3 years,$100k-$150k,Closed,0,Northstar Servicing,2026-06-22,2026-04-30T00:00:00Z,Complete
+LN-00449,BR-03449,Installment,2021-06-08,2024-06-08,19038,8786.54,8.2,36,TN,Education,B,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-17,2026-06-27T00:00:00Z,Complete
+LN-00450,BR-03450,Student,2021-06-19,2025-06-19,264115,172597.59,10.55,48,GA,Education,B,5 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-07,2026-05-26T00:00:00Z,Complete
+LN-00451,BR-03451,Auto,2021-08-20,2041-08-21,386993,338481.01,11.68,240,NJ,Home improvement,C,5 years,$50k-$75k,Current,0,Summit Financial,2026-04-23,2026-05-21T00:00:00Z,Complete
+LN-00452,BR-03452,Installment,2021-05-13,2025-05-13,89345,62316.87,10.63,48,NY,Education,D,3 years,$50k-$75k,Current,0,Northstar Servicing,2026-04-08,2026-07-30T00:00:00Z,Complete
+LN-00453,BR-03453,Auto,2022-09-10,2032-09-10,182424,80052.19,5.14,120,VA,Major purchase,C,10 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-02,2026-07-31T00:00:00Z,Complete
+LN-00454,BR-03454,Personal,2024-05-03,2034-05-04,125555,79873.55,11.67,120,PA,Medical,D,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-18,2026-04-12T00:00:00Z,Complete
+LN-00455,BR-03455,Student,2021-05-09,2051-05-10,348421,211610.89,10.73,360,NJ,Auto purchase,A,3 years,$150k+,Current,0,Harbor Servicing,2026-04-06,2026-07-18T00:00:00Z,Complete
+LN-00456,BR-03456,Home Equity,2022-05-12,2027-05-12,456018,143682.25,11.86,60,OH,Medical,B,2 years,$75k-$100k,Late,90,Northstar Servicing,2026-04-09,2026-07-26T00:00:00Z,Complete
+LN-00457,BR-03457,Home Equity,2023-11-16,2033-11-16,388923,309129.87,10.31,120,CA,Auto purchase,B,5 years,$50k-$75k,Current,0,Summit Financial,2026-04-14,2026-05-02T00:00:00Z,Missing
+LN-00458,BR-03458,Student,2021-12-20,2023-12-21,329349,211485.56,3.78,24,CO,Major purchase,C,12 years,$150k+,Current,0,Northstar Servicing,2026-07-23,2026-07-28T00:00:00Z,Complete
+LN-00459,BR-03459,Student,2021-03-22,2051-03-23,473908,0,8.91,360,OH,Major purchase,B,3 years,$100k-$150k,Closed,0,Pioneer Credit,2026-05-09,2026-07-01T00:00:00Z,Complete
+LN-00460,BR-03460,Installment,2023-07-06,2029-07-06,274268,192443.8,11.44,72,VA,Auto purchase,B,2 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-16,2026-04-25T00:00:00Z,Complete
+LN-00461,BR-03461,Personal,2021-08-23,2036-08-23,276430,102830.88,6.33,180,AZ,Debt consolidation,A,12 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-19,2026-05-31T00:00:00Z,Complete
+LN-00462,BR-03462,Home Equity,2022-05-22,2042-05-23,203179,67621.84,4.83,240,VA,Home improvement,B,5 years,$150k+,Current,0,Atlas Loan Co.,2026-07-25,2026-05-25T00:00:00Z,Complete
+LN-00463,BR-03463,Installment,2025-01-22,2028-01-23,283624,132480.89,11.03,36,MD,Medical,D,12 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-10,2026-06-20T00:00:00Z,Complete
+LN-00464,BR-03464,Home Equity,2023-02-04,2053-02-04,484762,218109.93,11.18,360,TX,Home improvement,C,10 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-11,2026-04-03T00:00:00Z,Partial
+LN-00465,BR-03465,Mortgage,2024-12-11,2034-12-12,108050,89520.51,10.36,120,WA,Debt consolidation,D,5 years,$150k+,Current,0,Harbor Servicing,2026-07-04,2026-05-17T00:00:00Z,Complete
+LN-00466,BR-03466,Mortgage,2024-04-11,2026-04-12,306180,265516.24,3.66,24,WA,Major purchase,D,2 years,$150k+,Delinquent,90,Blue Ridge Servicing,2026-07-26,2026-07-11T00:00:00Z,Complete
+LN-00467,BR-03467,Auto,2024-12-09,2026-12-10,212993,0,7.34,24,NC,Education,C,2 years,$100k-$150k,Closed,0,Pioneer Credit,2026-06-25,2026-05-12T00:00:00Z,Complete
+LN-00468,BR-03468,Home Equity,2024-11-13,2026-11-14,83356,39143.61,11.93,24,NY,Medical,B,12 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-02,2026-06-12T00:00:00Z,Missing
+LN-00469,BR-03469,Home Equity,2023-11-26,2038-11-26,271776,0,12.05,180,MN,Auto purchase,A,10 years,$50k-$75k,Closed,0,Atlas Loan Co.,2026-06-25,2026-07-28T00:00:00Z,Complete
+LN-00470,BR-03470,Auto,2024-01-05,2029-01-04,79258,32913.24,12.04,60,OH,Auto purchase,C,12 years,$150k+,Current,0,Summit Financial,2026-07-24,2026-04-18T00:00:00Z,Complete
+LN-00471,BR-03471,Personal,2021-03-14,2025-03-14,105867,81967.01,10.43,48,TN,Auto purchase,C,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-25,2026-07-07T00:00:00Z,Complete
+LN-00472,BR-03472,Home Equity,2024-07-07,2028-07-07,74249,34828.89,10.05,48,CA,Debt consolidation,C,10 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-14,2026-07-30T00:00:00Z,Complete
+LN-00473,BR-03473,Mortgage,2022-06-21,2025-06-21,218554,103981.09,8.72,36,MI,Debt consolidation,B,12 years,$50k-$75k,Delinquent,60,Atlas Loan Co.,2026-05-13,2026-08-01T00:00:00Z,Complete
+LN-00474,BR-03474,Installment,2021-09-10,2024-09-10,495302,339108.35,11.62,36,TX,Major purchase,A,3 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-16,2026-04-06T00:00:00Z,Complete
+LN-00475,BR-03475,Personal,2021-08-26,2027-08-27,29880,14957.77,6.8,72,GA,Education,C,10 years,$100k-$150k,Current,0,Summit Financial,2026-06-12,2026-04-10T00:00:00Z,Complete
+LN-00476,BR-03476,Installment,2024-04-05,2044-04-06,368359,145142.16,9.5,240,NY,Education,C,3 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-06,2026-07-30T00:00:00Z,Complete
+LN-00477,BR-03477,Home Equity,2023-05-13,2053-05-13,342006,164938.61,10.07,360,IL,Debt consolidation,C,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-04-26,2026-04-12T00:00:00Z,Complete
+LN-00478,BR-03478,Mortgage,2021-02-08,2028-02-09,53481,44557.32,10.63,84,AZ,Debt consolidation,D,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-14,2026-06-02T00:00:00Z,Complete
+LN-00479,BR-03479,Student,2024-06-29,2034-06-30,383743,238349.73,6.02,120,OH,Auto purchase,D,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-16,2026-05-20T00:00:00Z,Complete
+LN-00480,BR-03480,Home Equity,2023-02-01,2027-02-01,271501,0,9.78,48,WA,Auto purchase,A,5 years,$75k-$100k,Closed,0,Atlas Loan Co.,2026-07-04,2026-07-29T00:00:00Z,Partial
+LN-00481,BR-03481,Installment,2022-06-12,2026-06-12,497191,137099.93,7.49,48,NY,Home improvement,D,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-25,2026-05-09T00:00:00Z,Complete
+LN-00482,BR-03482,Mortgage,2023-11-30,2029-11-30,80648,55809.55,10.04,72,GA,Medical,D,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-30,2026-07-28T00:00:00Z,Complete
+LN-00483,BR-03483,Installment,2021-09-21,2051-09-22,270562,195671.97,7.24,360,MD,Medical,C,2 years,$150k+,Delinquent,45,Atlas Loan Co.,2026-07-31,2026-06-21T00:00:00Z,Complete
+LN-00484,BR-03484,Installment,2022-08-30,2032-08-30,439586,134580.45,12.21,120,PA,Auto purchase,D,10 years,$150k+,Current,0,Pioneer Credit,2026-06-28,2026-07-07T00:00:00Z,Complete
+LN-00485,BR-03485,Auto,2024-05-11,2031-05-12,264597,236451.64,12.16,84,GA,Home improvement,B,7 years,$150k+,Current,0,Harbor Servicing,2026-05-26,2026-06-26T00:00:00Z,Complete
+LN-00486,BR-03486,Student,2022-12-22,2037-12-22,104542,92311.3,4.03,180,VA,Major purchase,C,5 years,$150k+,Current,0,Pioneer Credit,2026-05-27,2026-06-20T00:00:00Z,Partial
+LN-00487,BR-03487,Personal,2023-03-25,2029-03-25,316859,193976.84,9.62,72,OH,Debt consolidation,C,3 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-15,2026-06-13T00:00:00Z,Complete
+LN-00488,BR-03488,Student,2024-11-19,2054-11-20,242588,105827.21,6.28,360,MI,Debt consolidation,D,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-18,2026-05-10T00:00:00Z,Partial
+LN-00489,BR-03489,Installment,2021-07-20,2027-07-21,290184,202815.65,6.14,72,MN,Debt consolidation,A,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-03,2026-07-21T00:00:00Z,Complete
+LN-00490,BR-03490,Student,2022-12-11,2024-12-11,257411,87025.34,5.92,24,AZ,Auto purchase,A,5 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-27,2026-07-06T00:00:00Z,Complete
+LN-00491,BR-03491,Mortgage,2024-12-27,2039-12-28,40025,21288.74,8.32,180,NJ,Auto purchase,B,12 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-08,2026-05-10T00:00:00Z,Complete
+LN-00492,BR-03492,Personal,2022-02-06,2052-02-07,374782,274409.64,4.46,360,TN,Education,C,10 years,$150k+,Current,0,Harbor Servicing,2026-05-02,2026-05-26T00:00:00Z,Complete
+LN-00493,BR-03493,Mortgage,2023-07-22,2028-07-21,455134,385971.92,5.7,60,NY,Medical,D,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-04,2026-05-14T00:00:00Z,Complete
+LN-00494,BR-03494,Student,2023-02-22,2030-02-22,77819,53426.35,4.01,84,MD,Debt consolidation,A,2 years,$150k+,Late,30,Northstar Servicing,2026-04-07,2026-06-16T00:00:00Z,Complete
+LN-00495,BR-03495,Student,2024-02-28,2030-02-28,267660,93114.99,4.39,72,MA,Home improvement,A,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-26,2026-06-19T00:00:00Z,Complete
+LN-00496,BR-03496,Home Equity,2023-09-16,2030-09-16,226045,87065.22,9.81,84,CA,Debt consolidation,C,5 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-09,2026-05-13T00:00:00Z,Complete
+LN-00497,BR-03497,Personal,2024-11-07,2031-11-08,132171,92352.77,12.06,84,MD,Medical,D,10 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-19,2026-07-26T00:00:00Z,Complete
+LN-00498,BR-03498,Student,2024-04-20,2044-04-21,228544,67722.99,6.73,240,MA,Medical,B,7 years,$75k-$100k,Current,0,Summit Financial,2026-05-21,2026-05-15T00:00:00Z,Complete
+LN-00499,BR-03499,Auto,2022-04-19,2028-04-19,227168,72667.96,9.46,72,OR,Medical,A,5 years,$100k-$150k,Delinquent,15,Atlas Loan Co.,2026-06-21,2026-04-20T00:00:00Z,Complete
+LN-00500,BR-03500,Auto,2023-01-07,2030-01-07,109547,85498.73,8.88,84,NC,Medical,D,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-21,2026-05-16T00:00:00Z,Complete
+LN-00501,BR-03501,Auto,2021-04-03,2027-04-04,245730,212490.29,6.64,72,PA,Medical,C,3 years,$75k-$100k,Late,90,Summit Financial,2026-04-26,2026-06-01T00:00:00Z,Partial
+LN-00502,BR-03502,Mortgage,2022-08-18,2029-08-18,100449,63572.99,7.19,84,NC,Education,C,5 years,$75k-$100k,Current,0,Harbor Servicing,2026-06-21,2026-06-09T00:00:00Z,Complete
+LN-00503,BR-03503,Student,2021-06-11,2031-06-12,131191,118809.25,6.83,120,AZ,Auto purchase,D,12 years,$150k+,Current,0,Summit Financial,2026-06-08,2026-05-28T00:00:00Z,Complete
+LN-00504,BR-03504,Personal,2024-06-05,2044-06-06,159982,91133.96,7.46,240,FL,Home improvement,C,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-27,2026-05-26T00:00:00Z,Complete
+LN-00505,BR-03505,Home Equity,2022-01-02,2052-01-03,438632,285239.66,6.4,360,WA,Major purchase,C,7 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-10,2026-06-21T00:00:00Z,Complete
+LN-00506,BR-03506,Personal,2022-03-31,2027-03-31,471013,277825.01,6.09,60,NJ,Education,C,3 years,$100k-$150k,Current,0,Summit Financial,2026-05-17,2026-06-01T00:00:00Z,Complete
+LN-00507,BR-03507,Auto,2024-12-15,2039-12-16,78616,69889.74,11.4,180,PA,Debt consolidation,D,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-26,2026-07-22T00:00:00Z,Complete
+LN-00508,BR-03508,Auto,2022-02-01,2032-02-02,102172,93622.98,10.81,120,MD,Debt consolidation,A,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-22,2026-05-10T00:00:00Z,Complete
+LN-00509,BR-03509,Auto,2023-10-04,2027-10-04,459499,352217.29,11.79,48,MI,Debt consolidation,B,12 years,$50k-$75k,Late,45,Northstar Servicing,2026-04-25,2026-04-15T00:00:00Z,Complete
+LN-00510,BR-03510,Home Equity,2021-07-12,2027-07-13,478864,416096.06,4.8,72,PA,Debt consolidation,C,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-10,2026-07-31T00:00:00Z,Complete
+LN-00511,BR-03511,Student,2022-05-20,2029-05-20,404324,285799.41,10.08,84,WA,Major purchase,A,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-11,2026-04-08T00:00:00Z,Complete
+LN-00512,BR-03512,Home Equity,2023-05-21,2025-05-21,164665,87919.19,6.65,24,VA,Education,C,2 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-03,2026-05-15T00:00:00Z,Complete
+LN-00513,BR-03513,Student,2024-07-05,2027-07-06,472105,0,10.04,36,CO,Home improvement,D,5 years,$50k-$75k,Closed,0,Pioneer Credit,2026-04-16,2026-04-06T00:00:00Z,Complete
+LN-00514,BR-03514,Home Equity,2024-10-01,2034-10-02,221188,140396.51,4.88,120,VA,Home improvement,D,12 years,$150k+,Delinquent,60,Harbor Servicing,2026-07-07,2026-06-17T00:00:00Z,Complete
+LN-00515,BR-03515,Home Equity,2021-12-11,2036-12-11,148342,53377.37,4.73,180,MI,Auto purchase,B,10 years,$150k+,Current,0,Summit Financial,2026-04-16,2026-05-23T00:00:00Z,Complete
+LN-00516,BR-03516,Personal,2024-12-07,2044-12-08,231893,68170.75,8.58,240,OH,Medical,B,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-16,2026-06-14T00:00:00Z,Complete
+LN-00517,BR-03517,Student,2024-12-09,2034-12-10,21458,12900.42,9.68,120,CO,Auto purchase,D,2 years,$150k+,Current,0,Pioneer Credit,2026-06-21,2026-07-26T00:00:00Z,Complete
+LN-00518,BR-03518,Student,2022-09-15,2026-09-15,321554,283262.62,10.81,48,PA,Major purchase,B,10 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-07,2026-07-12T00:00:00Z,Complete
+LN-00519,BR-03519,Home Equity,2025-01-27,2029-01-27,81098,29609.46,6.76,48,OH,Auto purchase,A,2 years,$100k-$150k,Current,0,Summit Financial,2026-08-01,2026-05-14T00:00:00Z,Complete
+LN-00520,BR-03520,Personal,2022-04-01,2025-04-01,305080,230942.26,8.32,36,WA,Debt consolidation,B,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-04-17,2026-07-19T00:00:00Z,Complete
+LN-00521,BR-03521,Personal,2021-02-19,2041-02-20,427644,379871.78,8.95,240,AZ,Education,C,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-31,2026-05-23T00:00:00Z,Partial
+LN-00522,BR-03522,Auto,2024-11-08,2034-11-09,192626,87792.09,8.02,120,IL,Home improvement,D,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-06,2026-04-16T00:00:00Z,Complete
+LN-00523,BR-03523,Auto,2024-08-10,2027-08-11,449829,237012.01,8.81,36,NJ,Major purchase,D,2 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-14,2026-07-07T00:00:00Z,Complete
+LN-00524,BR-03524,Installment,2023-01-29,2038-01-29,491654,448836.36,9.44,180,IL,Education,C,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-06,2026-07-07T00:00:00Z,Complete
+LN-00525,BR-03525,Student,2022-09-26,2026-09-26,200054,180786.12,11.99,48,FL,Education,B,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-21,2026-04-17T00:00:00Z,Complete
+LN-00526,BR-03526,Home Equity,2023-10-20,2038-10-20,331838,169197.66,5.87,180,VA,Medical,A,10 years,$150k+,Current,0,Summit Financial,2026-07-15,2026-04-28T00:00:00Z,Complete
+LN-00527,BR-03527,Home Equity,2022-10-14,2025-10-14,183247,108065.95,9.26,36,IL,Auto purchase,A,2 years,$100k-$150k,Current,0,Summit Financial,2026-05-03,2026-04-22T00:00:00Z,Complete
+LN-00528,BR-03528,Home Equity,2023-02-20,2029-02-20,154726,78685.78,12.32,72,PA,Education,C,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-21,2026-07-07T00:00:00Z,Complete
+LN-00529,BR-03529,Student,2024-09-16,2026-09-17,15997,9565.19,7.17,24,MN,Debt consolidation,A,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-08,2026-06-19T00:00:00Z,Complete
+LN-00530,BR-03530,Home Equity,2024-11-11,2039-11-12,347748,265291.25,7.64,180,OR,Debt consolidation,C,3 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-06,2026-04-05T00:00:00Z,Complete
+LN-00531,BR-03531,Mortgage,2024-09-19,2028-09-19,133185,58116.7,10.0,48,NY,Home improvement,A,7 years,$150k+,Current,0,Harbor Servicing,2026-06-08,2026-04-23T00:00:00Z,Complete
+LN-00532,BR-03532,Home Equity,2024-03-07,2031-03-08,248687,185996.28,8.98,84,MA,Auto purchase,B,3 years,$150k+,Current,0,Atlas Loan Co.,2026-07-24,2026-05-01T00:00:00Z,Complete
+LN-00533,BR-03533,Auto,2021-03-01,2051-03-02,272293,212529.52,9.96,360,TX,Auto purchase,A,12 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-26,2026-05-04T00:00:00Z,Complete
+LN-00534,BR-03534,Student,2021-07-02,2027-07-03,228761,59731.28,10.31,72,VA,Medical,D,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-14,2026-06-01T00:00:00Z,Complete
+LN-00535,BR-03535,Student,2024-03-09,2044-03-10,98152,65296.45,6.35,240,NJ,Education,A,2 years,$150k+,Current,0,Summit Financial,2026-07-26,2026-05-06T00:00:00Z,Complete
+LN-00536,BR-03536,Student,2024-04-18,2034-04-19,368278,241074.33,6.62,120,IL,Auto purchase,A,12 years,$150k+,Current,0,Harbor Servicing,2026-07-12,2026-06-27T00:00:00Z,Complete
+LN-00537,BR-03537,Auto,2023-07-09,2030-07-09,477242,296410.63,10.29,84,GA,Home improvement,B,12 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-02,2026-07-27T00:00:00Z,Complete
+LN-00538,BR-03538,Mortgage,2024-09-21,2034-09-22,235315,180753.35,11.07,120,NY,Education,A,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-29,2026-05-02T00:00:00Z,Complete
+LN-00539,BR-03539,Student,2021-06-03,2028-06-03,348930,0,10.31,84,PA,Major purchase,A,5 years,$75k-$100k,Closed,0,Atlas Loan Co.,2026-04-14,2026-07-01T00:00:00Z,Complete
+LN-00540,BR-03540,Auto,2022-04-30,2025-04-30,98422,82282.41,11.04,36,MD,Home improvement,C,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-05,2026-06-25T00:00:00Z,Complete
+LN-00541,BR-03541,Auto,2021-09-28,2031-09-29,274245,234645.24,8.42,120,TN,Education,A,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-20,2026-07-26T00:00:00Z,Complete
+LN-00542,BR-03542,Installment,2024-05-30,2026-05-31,168271,91890.12,7.38,24,NJ,Major purchase,C,10 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-18,2026-04-14T00:00:00Z,Complete
+LN-00543,BR-03543,Student,2022-10-24,2042-10-25,108101,55846.89,5.52,240,WA,Medical,A,12 years,$75k-$100k,Late,15,Blue Ridge Servicing,2026-05-26,2026-04-27T00:00:00Z,Complete
+LN-00544,BR-03544,Auto,2021-01-20,2041-01-21,295367,267282.69,12.17,240,MD,Education,A,3 years,$50k-$75k,Current,0,Summit Financial,2026-06-29,2026-07-12T00:00:00Z,Complete
+LN-00545,BR-03545,Personal,2024-07-10,2028-07-10,160171,104203.08,10.45,48,NY,Home improvement,B,2 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-01,2026-06-16T00:00:00Z,Complete
+LN-00546,BR-03546,Home Equity,2023-09-16,2028-09-15,61021,15625.52,9.33,60,WA,Debt consolidation,A,10 years,$150k+,Current,0,Northstar Servicing,2026-06-27,2026-05-14T00:00:00Z,Complete
+LN-00547,BR-03547,Mortgage,2022-05-02,2026-05-02,440765,226464.39,3.51,48,FL,Major purchase,A,2 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-04,2026-06-19T00:00:00Z,Complete
+LN-00548,BR-03548,Personal,2023-01-08,2028-01-08,412908,215266.1,7.57,60,PA,Auto purchase,C,5 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-08,2026-06-09T00:00:00Z,Complete
+LN-00549,BR-03549,Installment,2024-04-30,2034-05-01,102454,36642.68,7.34,120,MD,Major purchase,B,5 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-04-14,2026-07-06T00:00:00Z,Complete
+LN-00550,BR-03550,Auto,2022-04-09,2028-04-09,313037,282674.34,3.69,72,OH,Medical,C,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-01,2026-04-03T00:00:00Z,Complete
+LN-00551,BR-03551,Installment,2024-01-24,2039-01-24,175595,101751.13,8.19,180,WA,Medical,D,5 years,$75k-$100k,Current,0,Summit Financial,2026-07-22,2026-06-09T00:00:00Z,Complete
+LN-00552,BR-03552,Mortgage,2021-08-24,2023-08-25,34972,27555.26,8.25,24,OR,Debt consolidation,C,5 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-13,2026-06-16T00:00:00Z,Complete
+LN-00553,BR-03553,Home Equity,2023-10-24,2043-10-25,192208,56116.46,6.86,240,GA,Home improvement,A,10 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-03,2026-07-14T00:00:00Z,Complete
+LN-00554,BR-03554,Installment,2022-04-19,2027-04-19,239494,172386.34,10.12,60,CO,Medical,D,7 years,$50k-$75k,Current,0,Summit Financial,2026-07-13,2026-05-02T00:00:00Z,Complete
+LN-00555,BR-03555,Mortgage,2024-02-26,2044-02-27,418532,125359.98,7.47,240,TX,Major purchase,D,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-25,2026-06-14T00:00:00Z,Complete
+LN-00556,BR-03556,Installment,2022-08-13,2028-08-13,261396,212736.64,12.24,72,CA,Medical,A,12 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-31,2026-07-07T00:00:00Z,Complete
+LN-00557,BR-03557,Student,2021-03-19,2023-03-20,219572,172888.71,4.99,24,CO,Debt consolidation,C,12 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-16,2026-05-20T00:00:00Z,Complete
+LN-00558,BR-03558,Personal,2021-06-30,2036-06-30,464643,356749.26,7.44,180,FL,Home improvement,D,5 years,$50k-$75k,Current,0,Summit Financial,2026-04-13,2026-06-23T00:00:00Z,Complete
+LN-00559,BR-03559,Student,2022-08-26,2029-08-26,479164,337534.48,4.22,84,OR,Major purchase,C,10 years,$50k-$75k,Delinquent,15,Harbor Servicing,2026-04-23,2026-05-14T00:00:00Z,Complete
+LN-00560,BR-03560,Installment,2022-07-17,2029-07-17,245099,0,3.96,84,AZ,Debt consolidation,B,10 years,$150k+,Closed,0,Summit Financial,2026-07-25,2026-07-28T00:00:00Z,Complete
+LN-00561,BR-03561,Home Equity,2025-01-22,2030-01-22,63351,30634.66,12.16,60,NC,Education,C,10 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-17,2026-06-28T00:00:00Z,Complete
+LN-00562,BR-03562,Auto,2023-08-13,2038-08-13,72590,23644.73,4.67,180,IL,Debt consolidation,C,5 years,$100k-$150k,Delinquent,30,Northstar Servicing,2026-07-04,2026-05-22T00:00:00Z,Complete
+LN-00563,BR-03563,Auto,2024-04-25,2034-04-26,64706,37141.04,9.21,120,OH,Major purchase,D,7 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-09,2026-06-19T00:00:00Z,Complete
+LN-00564,BR-03564,Mortgage,2022-04-30,2026-04-30,460832,121314.27,12.15,48,TX,Medical,B,12 years,$150k+,Current,0,Harbor Servicing,2026-06-22,2026-07-31T00:00:00Z,Complete
+LN-00565,BR-03565,Auto,2023-06-08,2026-06-08,34641,9790.54,9.97,36,IL,Medical,A,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-03,2026-07-27T00:00:00Z,Complete
+LN-00566,BR-03566,Auto,2022-12-21,2025-12-21,53616,29931.72,7.74,36,VA,Home improvement,A,10 years,$150k+,Current,0,Atlas Loan Co.,2026-04-12,2026-06-16T00:00:00Z,Complete
+LN-00567,BR-03567,Student,2022-11-13,2037-11-13,188768,50960.48,6.06,180,WA,Education,B,5 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-15,2026-04-09T00:00:00Z,Complete
+LN-00568,BR-03568,Student,2023-12-14,2030-12-14,482739,343378.16,4.78,84,IL,Medical,C,7 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-05,2026-04-22T00:00:00Z,Complete
+LN-00569,BR-03569,Auto,2021-11-30,2023-12-01,386180,163391.33,10.88,24,CA,Debt consolidation,C,2 years,$75k-$100k,Delinquent,45,Summit Financial,2026-06-03,2026-05-08T00:00:00Z,Complete
+LN-00570,BR-03570,Installment,2021-12-08,2024-12-08,217446,132006.63,9.32,36,CO,Debt consolidation,B,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-21,2026-06-01T00:00:00Z,Complete
+LN-00571,BR-03571,Personal,2024-07-18,2028-07-18,379920,174560.39,4.24,48,NC,Education,A,10 years,$150k+,Current,0,Pioneer Credit,2026-04-12,2026-05-17T00:00:00Z,Complete
+LN-00572,BR-03572,Home Equity,2021-09-30,2041-10-01,336730,98667.95,3.72,240,IL,Home improvement,C,5 years,$100k-$150k,Current,0,Summit Financial,2026-04-15,2026-05-01T00:00:00Z,Complete
+LN-00573,BR-03573,Student,2021-02-23,2025-02-23,49827,41967.46,9.15,48,IL,Auto purchase,D,2 years,$150k+,Current,0,Pioneer Credit,2026-07-27,2026-06-20T00:00:00Z,Complete
+LN-00574,BR-03574,Auto,2022-04-07,2024-04-07,333829,204970.55,5.72,24,AZ,Education,C,10 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-14,2026-07-29T00:00:00Z,Complete
+LN-00575,BR-03575,Personal,2021-01-09,2026-01-09,438764,142991.13,6.34,60,CA,Major purchase,A,3 years,$150k+,Delinquent,30,Summit Financial,2026-04-23,2026-06-02T00:00:00Z,Complete
+LN-00576,BR-03576,Personal,2021-02-05,2027-02-06,342192,95967.14,9.08,72,IL,Education,D,5 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-25,2026-07-04T00:00:00Z,Complete
+LN-00577,BR-03577,Auto,2021-10-24,2025-10-24,193964,82646.33,7.75,48,MD,Home improvement,D,2 years,$100k-$150k,Current,0,Summit Financial,2026-04-14,2026-06-25T00:00:00Z,Complete
+LN-00578,BR-03578,Home Equity,2022-08-04,2052-08-04,303292,0,4.07,360,WA,Debt consolidation,C,3 years,$50k-$75k,Closed,0,Summit Financial,2026-05-10,2026-04-25T00:00:00Z,Complete
+LN-00579,BR-03579,Installment,2023-11-21,2027-11-21,100709,32354.89,6.85,48,MN,Debt consolidation,C,7 years,$150k+,Delinquent,15,Harbor Servicing,2026-07-06,2026-04-30T00:00:00Z,Complete
+LN-00580,BR-03580,Home Equity,2021-05-01,2036-05-01,495518,144589.02,6.62,180,CO,Debt consolidation,D,7 years,$75k-$100k,Late,45,Summit Financial,2026-05-15,2026-04-11T00:00:00Z,Complete
+LN-00581,BR-03581,Student,2023-05-28,2025-05-28,21645,8518.16,12.46,24,GA,Home improvement,A,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-21,2026-05-09T00:00:00Z,Complete
+LN-00582,BR-03582,Student,2024-10-31,2034-11-01,127831,92599.36,7.87,120,MA,Debt consolidation,A,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-07,2026-04-07T00:00:00Z,Complete
+LN-00583,BR-03583,Personal,2023-03-08,2053-03-08,180120,153007.51,5.55,360,NY,Education,C,7 years,$100k-$150k,Current,0,Pioneer Credit,2026-07-02,2026-07-19T00:00:00Z,Complete
+LN-00584,BR-03584,Student,2023-07-10,2026-07-10,61767,50161.33,7.35,36,FL,Medical,A,7 years,$50k-$75k,Late,45,Atlas Loan Co.,2026-06-17,2026-04-10T00:00:00Z,Complete
+LN-00585,BR-03585,Home Equity,2021-07-04,2036-07-04,406010,251572.02,4.97,180,OH,Education,D,10 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-14,2026-05-28T00:00:00Z,Complete
+LN-00586,BR-03586,Auto,2024-11-30,2030-12-01,359434,103629.09,4.19,72,MI,Education,C,10 years,$75k-$100k,Late,60,Summit Financial,2026-05-13,2026-07-16T00:00:00Z,Complete
+LN-00587,BR-03587,Student,2022-10-19,2028-10-19,278135,88561.74,7.3,72,CO,Medical,B,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-24,2026-06-20T00:00:00Z,Complete
+LN-00588,BR-03588,Home Equity,2024-11-30,2028-11-30,174630,0,8.12,48,TN,Education,D,12 years,$75k-$100k,Closed,0,Summit Financial,2026-07-29,2026-04-13T00:00:00Z,Complete
+LN-00589,BR-03589,Home Equity,2021-08-22,2024-08-22,257572,196197.49,9.73,36,OH,Major purchase,C,5 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-22,2026-05-28T00:00:00Z,Complete
+LN-00590,BR-03590,Auto,2025-01-31,2055-02-01,63674,56825.91,7.25,360,FL,Major purchase,A,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-21,2026-04-30T00:00:00Z,Complete
+LN-00591,BR-03591,Personal,2024-03-14,2044-03-15,181165,134482.44,10.48,240,PA,Home improvement,B,10 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-08-01,2026-04-03T00:00:00Z,Complete
+LN-00592,BR-03592,Home Equity,2021-06-14,2031-06-15,392973,165456.16,5.91,120,NC,Education,A,12 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-19,2026-07-05T00:00:00Z,Complete
+LN-00593,BR-03593,Mortgage,2023-03-12,2033-03-12,345101,275059.47,12.05,120,OH,Auto purchase,C,3 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-17,2026-07-25T00:00:00Z,Complete
+LN-00594,BR-03594,Home Equity,2022-11-12,2026-11-12,95160,86900.85,12.26,48,CA,Debt consolidation,B,3 years,$150k+,Current,0,Northstar Servicing,2026-04-21,2026-05-05T00:00:00Z,Complete
+LN-00595,BR-03595,Personal,2023-04-09,2053-04-09,329092,197408.74,8.89,360,CO,Debt consolidation,C,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-23,2026-04-10T00:00:00Z,Complete
+LN-00596,BR-03596,Personal,2021-12-05,2028-12-05,477611,349863.41,9.45,84,VA,Debt consolidation,A,7 years,$100k-$150k,Current,0,Summit Financial,2026-06-27,2026-06-07T00:00:00Z,Partial
+LN-00597,BR-03597,Auto,2022-04-26,2052-04-26,403463,325179.4,11.09,360,TX,Medical,A,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-17,2026-07-24T00:00:00Z,Complete
+LN-00598,BR-03598,Mortgage,2023-12-06,2025-12-06,104293,59064.7,4.58,24,NJ,Education,A,10 years,$50k-$75k,Current,0,Northstar Servicing,2026-06-10,2026-05-09T00:00:00Z,Complete
+LN-00599,BR-03599,Auto,2022-09-25,2024-09-25,235134,150489.21,4.82,24,PA,Debt consolidation,D,3 years,$100k-$150k,Late,30,Blue Ridge Servicing,2026-05-09,2026-05-05T00:00:00Z,Complete
+LN-00600,BR-03600,Auto,2023-11-26,2053-11-26,52907,29143.79,12.44,360,GA,Major purchase,A,5 years,$75k-$100k,Current,0,Summit Financial,2026-04-07,2026-06-11T00:00:00Z,Complete
+LN-00601,BR-03601,Home Equity,2024-11-25,2054-11-26,286378,205702.22,7.23,360,PA,Home improvement,C,7 years,$150k+,Current,0,Harbor Servicing,2026-06-04,2026-07-11T00:00:00Z,Complete
+LN-00602,BR-03602,Mortgage,2022-03-28,2029-03-28,425878,381752.89,10.62,84,FL,Education,A,12 years,$50k-$75k,Current,0,Northstar Servicing,2026-07-12,2026-06-10T00:00:00Z,Complete
+LN-00603,BR-03603,Student,2023-09-07,2028-09-06,393997,210136.37,10.08,60,TN,Education,B,10 years,$100k-$150k,Current,0,Summit Financial,2026-07-19,2026-05-30T00:00:00Z,Complete
+LN-00604,BR-03604,Student,2023-04-29,2038-04-29,374741,268696.81,6.69,180,NY,Debt consolidation,A,12 years,$50k-$75k,Current,0,Northstar Servicing,2026-06-25,2026-07-28T00:00:00Z,Complete
+LN-00605,BR-03605,Home Equity,2024-07-03,2029-07-03,125448,34407.37,11.08,60,CO,Education,C,12 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-24,2026-05-18T00:00:00Z,Complete
+LN-00606,BR-03606,Student,2021-03-12,2036-03-12,369297,296601.81,7.26,180,IL,Debt consolidation,A,12 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-11,2026-07-02T00:00:00Z,Complete
+LN-00607,BR-03607,Home Equity,2024-10-07,2030-10-08,310585,151838.84,3.8,72,NY,Debt consolidation,C,12 years,$50k-$75k,Current,0,Summit Financial,2026-05-09,2026-07-01T00:00:00Z,Complete
+LN-00608,BR-03608,Mortgage,2022-02-15,2024-02-16,214594,117090.02,5.09,24,NY,Auto purchase,A,3 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-07,2026-04-13T00:00:00Z,Complete
+LN-00609,BR-03609,Auto,2024-02-14,2027-02-14,395123,115499.93,5.08,36,OR,Education,B,7 years,$150k+,Current,0,Blue Ridge Servicing,2026-05-10,2026-04-11T00:00:00Z,Complete
+LN-00610,BR-03610,Mortgage,2023-03-09,2029-03-09,39291,27556.37,11.3,72,CO,Auto purchase,A,2 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-18,2026-06-24T00:00:00Z,Complete
+LN-00611,BR-03611,Installment,2021-11-02,2024-11-02,153776,105774.4,4.06,36,CO,Home improvement,B,2 years,$50k-$75k,Current,0,Pioneer Credit,2026-07-11,2026-07-24T00:00:00Z,Complete
+LN-00612,BR-03612,Installment,2022-08-07,2026-08-07,484166,207709.14,6.25,48,CO,Major purchase,A,3 years,$100k-$150k,Current,0,Summit Financial,2026-06-17,2026-04-20T00:00:00Z,Complete
+LN-00613,BR-03613,Auto,2022-02-18,2026-02-18,477967,267401.43,6.17,48,MI,Auto purchase,C,3 years,$50k-$75k,Late,45,Atlas Loan Co.,2026-06-19,2026-04-03T00:00:00Z,Complete
+LN-00614,BR-03614,Installment,2022-07-25,2037-07-25,445116,116709.46,10.4,180,GA,Auto purchase,B,2 years,$75k-$100k,Late,60,Blue Ridge Servicing,2026-06-15,2026-05-27T00:00:00Z,Complete
+LN-00615,BR-03615,Student,2022-02-02,2027-02-02,423884,155071.11,11.33,60,MD,Medical,B,12 years,$150k+,Current,0,Atlas Loan Co.,2026-06-29,2026-07-23T00:00:00Z,Complete
+LN-00616,BR-03616,Auto,2022-02-27,2027-02-27,303322,158018.99,7.29,60,CO,Major purchase,C,10 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-06,2026-07-21T00:00:00Z,Complete
+LN-00617,BR-03617,Student,2022-09-14,2037-09-14,381628,118157.72,10.39,180,MD,Medical,C,3 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-12,2026-04-16T00:00:00Z,Complete
+LN-00618,BR-03618,Personal,2021-10-28,2051-10-29,435772,328867.74,9.76,360,TN,Debt consolidation,D,12 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-11,2026-04-06T00:00:00Z,Complete
+LN-00619,BR-03619,Personal,2023-12-12,2030-12-12,56414,40844.74,11.9,84,MD,Major purchase,D,7 years,$50k-$75k,Current,0,Summit Financial,2026-04-30,2026-06-21T00:00:00Z,Complete
+LN-00620,BR-03620,Mortgage,2023-10-03,2030-10-03,222949,191661.83,10.23,84,OR,Debt consolidation,B,7 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-31,2026-05-10T00:00:00Z,Complete
+LN-00621,BR-03621,Mortgage,2024-07-16,2031-07-17,427552,237295.8,9.24,84,MA,Medical,C,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-01,2026-07-02T00:00:00Z,Complete
+LN-00622,BR-03622,Home Equity,2021-05-25,2028-05-25,119078,91680.46,11.1,84,MI,Debt consolidation,D,2 years,$50k-$75k,Current,0,Northstar Servicing,2026-06-25,2026-06-28T00:00:00Z,Complete
+LN-00623,BR-03623,Mortgage,2023-04-13,2029-04-13,443062,202294.0,11.7,72,NY,Medical,B,7 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-04-22,2026-05-15T00:00:00Z,Complete
+LN-00624,BR-03624,Home Equity,2024-01-09,2029-01-08,463208,320311.93,9.06,60,TX,Debt consolidation,A,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-06,2026-07-16T00:00:00Z,Complete
+LN-00625,BR-03625,Student,2021-08-12,2024-08-12,319259,243704.54,5.47,36,VA,Auto purchase,D,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-22,2026-06-18T00:00:00Z,Complete
+LN-00626,BR-03626,Student,2022-03-19,2027-03-19,278203,144270.57,4.47,60,IL,Education,C,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-19,2026-07-30T00:00:00Z,Complete
+LN-00627,BR-03627,Installment,2021-11-23,2025-11-23,440607,116647.02,11.03,48,TN,Auto purchase,C,10 years,$150k+,Current,0,Summit Financial,2026-05-21,2026-06-12T00:00:00Z,Complete
+LN-00628,BR-03628,Installment,2023-09-29,2038-09-29,229568,122829.45,9.16,180,FL,Debt consolidation,B,12 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-01,2026-04-07T00:00:00Z,Complete
+LN-00629,BR-03629,Student,2023-04-29,2029-04-29,471890,161488.22,12.31,72,MA,Auto purchase,D,10 years,$150k+,Current,0,Harbor Servicing,2026-07-22,2026-05-24T00:00:00Z,Complete
+LN-00630,BR-03630,Installment,2024-10-03,2028-10-03,496083,230303.03,3.56,48,MA,Home improvement,D,7 years,$75k-$100k,Late,45,Blue Ridge Servicing,2026-06-29,2026-07-24T00:00:00Z,Complete
+LN-00631,BR-03631,Installment,2023-10-05,2025-10-05,225903,95336.05,4.5,24,CO,Major purchase,C,5 years,$150k+,Current,0,Harbor Servicing,2026-05-21,2026-07-11T00:00:00Z,Complete
+LN-00632,BR-03632,Home Equity,2024-05-18,2027-05-19,451163,225762.67,11.73,36,OH,Auto purchase,A,7 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-23,2026-04-14T00:00:00Z,Complete
+LN-00633,BR-03633,Mortgage,2023-03-14,2025-03-14,83317,47239.05,4.53,24,OR,Debt consolidation,B,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-05,2026-05-28T00:00:00Z,Complete
+LN-00634,BR-03634,Mortgage,2021-03-06,2041-03-07,326607,125827.04,8.96,240,OH,Education,C,5 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-21,2026-05-21T00:00:00Z,Complete
+LN-00635,BR-03635,Mortgage,2024-12-19,2039-12-20,370003,224204.19,7.69,180,CO,Auto purchase,B,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-27,2026-04-26T00:00:00Z,Complete
+LN-00636,BR-03636,Mortgage,2024-03-23,2029-03-23,74595,60234.5,11.54,60,MD,Education,D,2 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-08,2026-05-10T00:00:00Z,Complete
+LN-00637,BR-03637,Personal,2024-05-04,2028-05-04,336469,304837.85,7.44,48,OR,Major purchase,A,10 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-19,2026-05-01T00:00:00Z,Complete
+LN-00638,BR-03638,Student,2022-02-15,2024-02-16,460924,156461.55,8.59,24,OR,Medical,C,7 years,$150k+,Current,0,Northstar Servicing,2026-05-22,2026-07-05T00:00:00Z,Complete
+LN-00639,BR-03639,Mortgage,2022-11-19,2025-11-19,414009,177084.69,11.75,36,IL,Medical,B,12 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-13,2026-05-22T00:00:00Z,Partial
+LN-00640,BR-03640,Auto,2021-11-12,2041-11-13,332348,91363.86,5.19,240,VA,Home improvement,C,3 years,$75k-$100k,Delinquent,30,Pioneer Credit,2026-07-26,2026-04-11T00:00:00Z,Complete
+LN-00641,BR-03641,Mortgage,2021-09-02,2028-09-02,485447,431326.8,11.47,84,WA,Education,D,2 years,$150k+,Current,0,Atlas Loan Co.,2026-05-20,2026-06-03T00:00:00Z,Complete
+LN-00642,BR-03642,Student,2022-06-20,2037-06-20,316234,179077.26,4.1,180,IL,Home improvement,C,7 years,$75k-$100k,Late,45,Harbor Servicing,2026-05-30,2026-06-11T00:00:00Z,Complete
+LN-00643,BR-03643,Auto,2024-12-14,2039-12-15,289940,252356.53,7.64,180,MA,Auto purchase,D,12 years,$150k+,Current,0,Northstar Servicing,2026-07-22,2026-04-23T00:00:00Z,Complete
+LN-00644,BR-03644,Auto,2023-02-01,2027-02-01,176638,45072.78,11.97,48,NY,Medical,C,3 years,$75k-$100k,Delinquent,30,Northstar Servicing,2026-06-19,2026-04-24T00:00:00Z,Complete
+LN-00645,BR-03645,Personal,2024-12-01,2027-12-02,430199,0,11.34,36,TX,Debt consolidation,C,7 years,$150k+,Closed,0,Atlas Loan Co.,2026-07-21,2026-05-21T00:00:00Z,Complete
+LN-00646,BR-03646,Personal,2024-09-19,2028-09-19,386054,348881.2,3.66,48,MA,Home improvement,A,3 years,$75k-$100k,Current,0,Northstar Servicing,2026-04-15,2026-06-24T00:00:00Z,Complete
+LN-00647,BR-03647,Home Equity,2021-09-18,2026-09-18,50821,20808.8,3.68,60,NC,Debt consolidation,B,12 years,$50k-$75k,Delinquent,15,Blue Ridge Servicing,2026-07-10,2026-07-06T00:00:00Z,Complete
+LN-00648,BR-03648,Mortgage,2022-09-11,2042-09-12,138876,76681.52,12.4,240,MN,Debt consolidation,B,3 years,$100k-$150k,Current,0,Summit Financial,2026-07-28,2026-07-28T00:00:00Z,Complete
+LN-00649,BR-03649,Home Equity,2023-02-23,2043-02-24,462162,400121.14,8.6,240,NC,Home improvement,A,3 years,$50k-$75k,Delinquent,30,Atlas Loan Co.,2026-04-27,2026-06-28T00:00:00Z,Complete
+LN-00650,BR-03650,Mortgage,2024-04-14,2039-04-15,17756,9133.67,4.15,180,VA,Major purchase,B,2 years,$100k-$150k,Delinquent,30,Atlas Loan Co.,2026-05-30,2026-05-12T00:00:00Z,Complete
+LN-00651,BR-03651,Installment,2021-12-09,2041-12-10,99926,73128.37,5.37,240,MD,Home improvement,B,12 years,$100k-$150k,Late,90,Summit Financial,2026-04-22,2026-07-07T00:00:00Z,Complete
+LN-00652,BR-03652,Installment,2023-01-13,2027-01-13,28933,20368.57,10.3,48,OH,Medical,B,12 years,$50k-$75k,Delinquent,30,Atlas Loan Co.,2026-07-08,2026-04-15T00:00:00Z,Complete
+LN-00653,BR-03653,Installment,2023-01-13,2033-01-13,103758,65415.8,6.16,120,TX,Debt consolidation,C,3 years,$75k-$100k,Current,0,Summit Financial,2026-07-29,2026-07-13T00:00:00Z,Complete
+LN-00654,BR-03654,Personal,2022-04-19,2029-04-19,396057,0,8.93,84,OR,Education,B,12 years,$150k+,Closed,0,Pioneer Credit,2026-07-20,2026-05-07T00:00:00Z,Complete
+LN-00655,BR-03655,Installment,2023-05-08,2028-05-07,76273,51017.37,12.08,60,GA,Medical,C,12 years,$150k+,Current,0,Harbor Servicing,2026-04-12,2026-07-29T00:00:00Z,Complete
+LN-00656,BR-03656,Personal,2021-11-04,2028-11-04,208277,125748.55,12.24,84,MI,Major purchase,A,10 years,$50k-$75k,Late,45,Harbor Servicing,2026-08-01,2026-05-04T00:00:00Z,Complete
+LN-00657,BR-03657,Home Equity,2021-07-26,2036-07-26,291725,159490.46,9.71,180,MA,Education,A,2 years,$150k+,Delinquent,15,Pioneer Credit,2026-07-10,2026-06-11T00:00:00Z,Complete
+LN-00658,BR-03658,Mortgage,2023-11-18,2033-11-18,76046,56374.15,11.4,120,TN,Medical,D,2 years,$75k-$100k,Current,0,Summit Financial,2026-06-27,2026-05-18T00:00:00Z,Complete
+LN-00659,BR-03659,Home Equity,2022-10-13,2052-10-13,133823,85503.55,10.83,360,NJ,Home improvement,A,10 years,$150k+,Current,0,Harbor Servicing,2026-07-08,2026-06-10T00:00:00Z,Complete
+LN-00660,BR-03660,Installment,2023-11-25,2033-11-25,455145,194556.87,10.12,120,GA,Auto purchase,B,10 years,$150k+,Current,0,Pioneer Credit,2026-04-25,2026-07-09T00:00:00Z,Complete
+LN-00661,BR-03661,Auto,2024-10-20,2031-10-21,143536,71003.82,3.74,84,CO,Home improvement,C,12 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-02,2026-07-28T00:00:00Z,Complete
+LN-00662,BR-03662,Installment,2024-12-01,2029-12-01,67858,38365.66,10.33,60,TN,Major purchase,D,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-05-14,2026-05-11T00:00:00Z,Complete
+LN-00663,BR-03663,Mortgage,2021-06-29,2036-06-29,427636,168865.28,12.16,180,VA,Medical,B,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-13,2026-06-28T00:00:00Z,Complete
+LN-00664,BR-03664,Mortgage,2021-02-02,2041-02-03,44792,14337.23,7.6,240,FL,Medical,A,3 years,$50k-$75k,Current,0,Northstar Servicing,2026-04-06,2026-06-19T00:00:00Z,Complete
+LN-00665,BR-03665,Auto,2022-04-07,2026-04-07,248029,220896.17,9.19,48,WA,Medical,D,12 years,$150k+,Current,0,Northstar Servicing,2026-04-17,2026-05-18T00:00:00Z,Complete
+LN-00666,BR-03666,Auto,2022-12-05,2027-12-05,270054,76619.17,4.37,60,TX,Debt consolidation,C,5 years,$150k+,Current,0,Harbor Servicing,2026-05-20,2026-08-01T00:00:00Z,Complete
+LN-00667,BR-03667,Auto,2024-07-03,2028-07-03,168943,73802.15,11.12,48,CA,Debt consolidation,A,7 years,$100k-$150k,Late,45,Pioneer Credit,2026-04-04,2026-04-06T00:00:00Z,Complete
+LN-00668,BR-03668,Student,2021-11-09,2031-11-10,162621,127154.19,7.11,120,NC,Major purchase,D,12 years,$150k+,Delinquent,15,Northstar Servicing,2026-05-27,2026-07-12T00:00:00Z,Complete
+LN-00669,BR-03669,Mortgage,2021-10-25,2024-10-25,480434,192696.87,3.69,36,MA,Auto purchase,D,2 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-07,2026-05-23T00:00:00Z,Complete
+LN-00670,BR-03670,Installment,2024-03-24,2029-03-24,80167,56773.25,8.12,60,VA,Auto purchase,D,2 years,$50k-$75k,Current,0,Summit Financial,2026-05-06,2026-05-05T00:00:00Z,Partial
+LN-00671,BR-03671,Installment,2023-10-31,2027-10-31,99563,75939.81,8.33,48,NC,Medical,D,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-18,2026-04-27T00:00:00Z,Complete
+LN-00672,BR-03672,Home Equity,2024-05-07,2029-05-07,211627,133353.02,11.6,60,MD,Auto purchase,C,3 years,$50k-$75k,Current,0,Summit Financial,2026-06-03,2026-07-31T00:00:00Z,Complete
+LN-00673,BR-03673,Auto,2023-03-07,2030-03-07,356095,325048.72,5.22,84,MA,Medical,D,2 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-07,2026-06-20T00:00:00Z,Complete
+LN-00674,BR-03674,Auto,2021-07-07,2041-07-08,57312,37084.87,12.3,240,FL,Major purchase,A,12 years,$150k+,Current,0,Summit Financial,2026-04-20,2026-06-17T00:00:00Z,Complete
+LN-00675,BR-03675,Mortgage,2023-02-01,2028-02-01,423301,255918.92,12.25,60,OR,Medical,A,7 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-27,2026-06-17T00:00:00Z,Partial
+LN-00676,BR-03676,Mortgage,2023-03-04,2038-03-04,341571,258935.74,8.37,180,TN,Education,D,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-04-14,2026-07-07T00:00:00Z,Complete
+LN-00677,BR-03677,Home Equity,2024-05-30,2031-05-31,312840,185116.56,8.65,84,OR,Auto purchase,D,2 years,$150k+,Late,60,Blue Ridge Servicing,2026-04-14,2026-06-02T00:00:00Z,Complete
+LN-00678,BR-03678,Student,2023-10-03,2053-10-03,114656,97468.83,10.21,360,NC,Debt consolidation,B,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-08,2026-07-27T00:00:00Z,Partial
+LN-00679,BR-03679,Mortgage,2023-08-11,2026-08-11,203171,105166.82,12.17,36,GA,Auto purchase,B,2 years,$100k-$150k,Current,0,Summit Financial,2026-04-16,2026-07-13T00:00:00Z,Complete
+LN-00680,BR-03680,Auto,2024-07-20,2030-07-21,348729,227561.08,12.05,72,AZ,Education,A,10 years,$75k-$100k,Current,0,Pioneer Credit,2026-05-31,2026-04-23T00:00:00Z,Complete
+LN-00681,BR-03681,Personal,2023-10-04,2025-10-04,39867,35360.49,4.39,24,IL,Major purchase,D,7 years,$150k+,Current,0,Atlas Loan Co.,2026-05-26,2026-07-01T00:00:00Z,Complete
+LN-00682,BR-03682,Mortgage,2023-05-22,2033-05-22,349528,289124.76,7.16,120,WA,Home improvement,B,3 years,$150k+,Current,0,Northstar Servicing,2026-05-09,2026-04-30T00:00:00Z,Complete
+LN-00683,BR-03683,Auto,2024-06-01,2054-06-02,234250,0,10.01,360,WA,Major purchase,C,12 years,$50k-$75k,Closed,0,Harbor Servicing,2026-07-21,2026-05-25T00:00:00Z,Complete
+LN-00684,BR-03684,Auto,2024-01-14,2029-01-13,378230,295579.0,4.13,60,NJ,Medical,A,12 years,$100k-$150k,Current,0,Summit Financial,2026-04-11,2026-07-28T00:00:00Z,Complete
+LN-00685,BR-03685,Home Equity,2021-08-17,2026-08-17,29231,9617.79,10.78,60,VA,Education,B,12 years,$100k-$150k,Current,0,Summit Financial,2026-07-09,2026-04-04T00:00:00Z,Complete
+LN-00686,BR-03686,Installment,2022-01-10,2032-01-11,118051,49361.17,7.9,120,FL,Education,B,2 years,$100k-$150k,Late,45,Summit Financial,2026-04-12,2026-06-18T00:00:00Z,Complete
+LN-00687,BR-03687,Personal,2024-04-08,2026-04-09,210641,82597.01,6.44,24,WA,Debt consolidation,A,12 years,$150k+,Current,0,Harbor Servicing,2026-06-17,2026-04-13T00:00:00Z,Partial
+LN-00688,BR-03688,Personal,2023-04-14,2027-04-14,340951,282928.28,7.52,48,OH,Debt consolidation,B,2 years,$50k-$75k,Late,15,Northstar Servicing,2026-05-24,2026-07-12T00:00:00Z,Complete
+LN-00689,BR-03689,Auto,2023-10-19,2053-10-19,262108,187470.51,7.97,360,OH,Home improvement,A,2 years,$150k+,Current,0,Pioneer Credit,2026-06-13,2026-07-19T00:00:00Z,Complete
+LN-00690,BR-03690,Personal,2021-04-23,2023-04-24,72087,60846.67,8.65,24,WA,Medical,A,10 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-10,2026-07-22T00:00:00Z,Complete
+LN-00691,BR-03691,Student,2024-09-12,2034-09-13,434186,286010.86,5.56,120,NY,Education,D,10 years,$100k-$150k,Current,0,Summit Financial,2026-04-23,2026-06-13T00:00:00Z,Complete
+LN-00692,BR-03692,Home Equity,2024-05-19,2030-05-20,150890,104529.44,9.62,72,WA,Medical,C,2 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-23,2026-07-16T00:00:00Z,Complete
+LN-00693,BR-03693,Home Equity,2024-08-02,2031-08-03,191063,99767.82,12.33,84,OR,Major purchase,D,7 years,$50k-$75k,Late,90,Pioneer Credit,2026-04-09,2026-04-22T00:00:00Z,Complete
+LN-00694,BR-03694,Auto,2022-07-25,2028-07-25,397288,0,7.44,72,CA,Debt consolidation,C,2 years,$50k-$75k,Closed,0,Atlas Loan Co.,2026-06-10,2026-07-28T00:00:00Z,Complete
+LN-00695,BR-03695,Installment,2022-08-16,2024-08-16,39780,19970.05,4.82,24,PA,Home improvement,A,5 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-29,2026-04-14T00:00:00Z,Complete
+LN-00696,BR-03696,Auto,2022-10-22,2024-10-22,439540,199649.25,4.39,24,MA,Medical,D,5 years,$150k+,Current,0,Summit Financial,2026-07-11,2026-06-28T00:00:00Z,Complete
+LN-00697,BR-03697,Auto,2022-09-22,2027-09-22,294889,130358.48,11.48,60,OR,Debt consolidation,A,10 years,$75k-$100k,Current,0,Summit Financial,2026-05-20,2026-05-31T00:00:00Z,Complete
+LN-00698,BR-03698,Student,2021-01-21,2041-01-22,18198,5342.42,12.13,240,TN,Auto purchase,D,7 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-04,2026-06-19T00:00:00Z,Complete
+LN-00699,BR-03699,Auto,2022-06-04,2042-06-05,213460,162480.59,10.57,240,NJ,Major purchase,C,7 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-02,2026-06-26T00:00:00Z,Complete
+LN-00700,BR-03700,Installment,2023-01-29,2027-01-29,180406,99557.35,10.38,48,MA,Auto purchase,D,7 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-03,2026-04-15T00:00:00Z,Complete
+LN-00701,BR-03701,Installment,2022-12-15,2026-12-15,98052,86512.32,7.54,48,WA,Home improvement,A,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-07,2026-06-11T00:00:00Z,Complete
+LN-00702,BR-03702,Personal,2024-12-17,2027-12-18,244501,138872.16,4.42,36,OR,Home improvement,C,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-28,2026-04-12T00:00:00Z,Complete
+LN-00703,BR-03703,Mortgage,2021-07-08,2025-07-08,449976,204754.27,7.1,48,VA,Debt consolidation,C,7 years,$150k+,Late,30,Northstar Servicing,2026-04-23,2026-07-03T00:00:00Z,Complete
+LN-00704,BR-03704,Auto,2022-09-17,2027-09-17,44544,35503.31,9.48,60,FL,Debt consolidation,A,7 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-27,2026-07-15T00:00:00Z,Complete
+LN-00705,BR-03705,Auto,2022-01-28,2024-01-29,245151,153271.52,11.81,24,NY,Home improvement,C,3 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-30,2026-04-17T00:00:00Z,Complete
+LN-00706,BR-03706,Student,2024-06-27,2031-06-28,416651,334590.25,10.41,84,IL,Auto purchase,D,5 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-02,2026-05-24T00:00:00Z,Complete
+LN-00707,BR-03707,Home Equity,2022-09-18,2032-09-18,294841,204147.73,11.12,120,MI,Major purchase,C,10 years,$50k-$75k,Current,0,Northstar Servicing,2026-04-17,2026-04-06T00:00:00Z,Complete
+LN-00708,BR-03708,Auto,2024-05-05,2034-05-06,447696,162956.69,10.98,120,OR,Debt consolidation,B,12 years,$100k-$150k,Current,0,Summit Financial,2026-04-27,2026-07-22T00:00:00Z,Complete
+LN-00709,BR-03709,Home Equity,2024-04-19,2034-04-20,339956,172806.64,11.81,120,MD,Major purchase,C,2 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-07,2026-06-30T00:00:00Z,Complete
+LN-00710,BR-03710,Home Equity,2023-08-19,2028-08-18,382401,144146.03,4.9,60,MD,Auto purchase,D,7 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-08,2026-07-10T00:00:00Z,Missing
+LN-00711,BR-03711,Home Equity,2021-03-10,2031-03-11,487387,278403.12,10.22,120,FL,Auto purchase,B,7 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-08,2026-06-02T00:00:00Z,Complete
+LN-00712,BR-03712,Auto,2023-07-28,2053-07-28,419104,376863.87,5.96,360,MN,Debt consolidation,A,5 years,$50k-$75k,Late,15,Blue Ridge Servicing,2026-07-09,2026-04-23T00:00:00Z,Complete
+LN-00713,BR-03713,Student,2021-02-13,2027-02-14,474357,324807.59,6.79,72,IL,Education,C,2 years,$100k-$150k,Current,0,Summit Financial,2026-05-21,2026-08-01T00:00:00Z,Complete
+LN-00714,BR-03714,Installment,2025-02-06,2028-02-07,483739,202262.78,6.73,36,PA,Home improvement,D,3 years,$150k+,Current,0,Summit Financial,2026-06-17,2026-06-25T00:00:00Z,Complete
+LN-00715,BR-03715,Installment,2023-01-05,2033-01-05,392475,324406.13,3.67,120,AZ,Major purchase,D,5 years,$150k+,Current,0,Atlas Loan Co.,2026-05-26,2026-07-29T00:00:00Z,Complete
+LN-00716,BR-03716,Home Equity,2023-08-29,2029-08-29,78848,35973.74,11.03,72,CO,Home improvement,D,12 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-06,2026-05-12T00:00:00Z,Missing
+LN-00717,BR-03717,Student,2022-04-30,2025-04-30,18393,12766.46,3.71,36,VA,Auto purchase,C,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-02,2026-04-19T00:00:00Z,Complete
+LN-00718,BR-03718,Student,2023-10-21,2030-10-21,326964,292299.79,7.69,84,OH,Medical,B,3 years,$75k-$100k,Current,0,Summit Financial,2026-07-14,2026-04-28T00:00:00Z,Complete
+LN-00719,BR-03719,Auto,2022-11-22,2028-11-22,163581,76241.65,6.36,72,IL,Medical,B,2 years,$75k-$100k,Late,90,Atlas Loan Co.,2026-05-21,2026-05-21T00:00:00Z,Complete
+LN-00720,BR-03720,Home Equity,2021-02-19,2026-02-19,148697,64180.69,10.78,60,WA,Medical,D,7 years,$75k-$100k,Current,0,Harbor Servicing,2026-04-16,2026-05-27T00:00:00Z,Complete
+LN-00721,BR-03721,Mortgage,2023-11-17,2043-11-18,104129,45644.42,7.85,240,MI,Auto purchase,C,5 years,$50k-$75k,Delinquent,45,Northstar Servicing,2026-07-23,2026-06-30T00:00:00Z,Complete
+LN-00722,BR-03722,Mortgage,2021-11-03,2031-11-04,305758,252562.38,9.53,120,MD,Medical,A,2 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-28,2026-06-17T00:00:00Z,Complete
+LN-00723,BR-03723,Installment,2024-09-02,2031-09-03,343316,122146.78,9.2,84,NJ,Major purchase,D,10 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-06-12,2026-04-21T00:00:00Z,Missing
+LN-00724,BR-03724,Auto,2021-10-23,2051-10-24,191020,118250.81,8.76,360,OH,Major purchase,C,12 years,$100k-$150k,Late,15,Northstar Servicing,2026-05-11,2026-06-16T00:00:00Z,Complete
+LN-00725,BR-03725,Mortgage,2023-07-12,2038-07-12,298108,208702.54,11.22,180,MI,Medical,C,5 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-07,2026-06-27T00:00:00Z,Complete
+LN-00726,BR-03726,Installment,2022-08-07,2024-08-07,470752,292036.0,8.01,24,TN,Debt consolidation,B,12 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-05-19,2026-06-27T00:00:00Z,Complete
+LN-00727,BR-03727,Auto,2021-02-05,2027-02-06,478562,369324.52,8.9,72,MD,Education,B,2 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-25,2026-06-14T00:00:00Z,Complete
+LN-00728,BR-03728,Auto,2022-07-01,2028-07-01,43966,11286.32,5.88,72,NC,Major purchase,B,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-15,2026-07-18T00:00:00Z,Complete
+LN-00729,BR-03729,Auto,2023-05-19,2026-05-19,53807,48874.75,8.11,36,CO,Home improvement,B,10 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-17,2026-04-22T00:00:00Z,Complete
+LN-00730,BR-03730,Student,2022-12-01,2025-12-01,457144,329745.26,4.85,36,NJ,Auto purchase,B,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-24,2026-05-13T00:00:00Z,Complete
+LN-00731,BR-03731,Personal,2021-07-31,2024-07-31,27089,22684.88,12.49,36,MA,Major purchase,C,3 years,$150k+,Current,0,Atlas Loan Co.,2026-07-02,2026-07-11T00:00:00Z,Complete
+LN-00732,BR-03732,Home Equity,2024-07-11,2031-07-12,173913,91245.94,5.52,84,NY,Education,A,5 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-09,2026-04-18T00:00:00Z,Complete
+LN-00733,BR-03733,Home Equity,2022-08-03,2025-08-03,168948,96584.52,9.98,36,IL,Home improvement,C,2 years,$75k-$100k,Current,0,Summit Financial,2026-04-28,2026-07-16T00:00:00Z,Complete
+LN-00734,BR-03734,Personal,2023-06-06,2038-06-06,358510,275739.54,11.55,180,AZ,Home improvement,B,10 years,$50k-$75k,Delinquent,15,Blue Ridge Servicing,2026-07-16,2026-07-22T00:00:00Z,Partial
+LN-00735,BR-03735,Auto,2023-06-16,2027-06-16,418354,167295.67,5.85,48,PA,Medical,C,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-15,2026-04-05T00:00:00Z,Complete
+LN-00736,BR-03736,Mortgage,2022-10-21,2032-10-21,479028,286152.7,11.71,120,CO,Medical,D,5 years,$150k+,Current,0,Northstar Servicing,2026-07-10,2026-04-04T00:00:00Z,Complete
+LN-00737,BR-03737,Installment,2023-12-16,2030-12-16,269627,218048.07,11.44,84,MI,Education,D,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-08,2026-04-19T00:00:00Z,Complete
+LN-00738,BR-03738,Student,2022-08-16,2028-08-16,123913,108402.97,4.31,72,GA,Debt consolidation,A,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-05,2026-05-08T00:00:00Z,Complete
+LN-00739,BR-03739,Auto,2021-08-13,2023-08-14,60060,51587.73,12.04,24,MI,Medical,A,2 years,$150k+,Current,0,Northstar Servicing,2026-07-17,2026-05-27T00:00:00Z,Complete
+LN-00740,BR-03740,Auto,2023-06-18,2043-06-19,490525,137197.91,3.83,240,PA,Education,C,3 years,$150k+,Current,0,Atlas Loan Co.,2026-06-26,2026-05-09T00:00:00Z,Complete
+LN-00741,BR-03741,Installment,2021-08-28,2024-08-28,286431,185216.2,12.26,36,MD,Medical,A,12 years,$150k+,Delinquent,15,Northstar Servicing,2026-05-24,2026-04-26T00:00:00Z,Complete
+LN-00742,BR-03742,Auto,2022-04-12,2042-04-13,408649,269312.83,7.67,240,PA,Major purchase,D,5 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-06,2026-06-21T00:00:00Z,Complete
+LN-00743,BR-03743,Home Equity,2024-04-29,2039-04-30,471868,424407.27,5.25,180,CA,Education,B,5 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-08,2026-07-20T00:00:00Z,Complete
+LN-00744,BR-03744,Auto,2022-11-29,2028-11-29,266935,167631.52,4.29,72,WA,Debt consolidation,D,7 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-06-28,2026-04-29T00:00:00Z,Complete
+LN-00745,BR-03745,Personal,2021-05-03,2024-05-03,372947,224190.99,7.31,36,VA,Home improvement,B,2 years,$75k-$100k,Late,60,Harbor Servicing,2026-07-06,2026-06-20T00:00:00Z,Complete
+LN-00746,BR-03746,Mortgage,2025-02-06,2035-02-07,309782,168196.76,10.98,120,OR,Home improvement,B,7 years,$50k-$75k,Delinquent,15,Harbor Servicing,2026-05-28,2026-04-09T00:00:00Z,Complete
+LN-00747,BR-03747,Student,2023-02-04,2027-02-04,489334,283128.55,12.49,48,MA,Medical,A,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-01,2026-06-20T00:00:00Z,Complete
+LN-00748,BR-03748,Home Equity,2022-03-20,2032-03-20,477600,245121.83,12.28,120,NJ,Auto purchase,B,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-04-06,2026-05-19T00:00:00Z,Complete
+LN-00749,BR-03749,Installment,2024-06-05,2034-06-06,46911,34264.23,6.44,120,PA,Home improvement,C,7 years,$75k-$100k,Current,0,Harbor Servicing,2026-05-07,2026-07-22T00:00:00Z,Complete
+LN-00750,BR-03750,Student,2022-12-04,2052-12-04,68454,47935.36,11.46,360,NY,Debt consolidation,D,3 years,$150k+,Current,0,Northstar Servicing,2026-05-09,2026-08-01T00:00:00Z,Complete
+LN-00751,BR-03751,Auto,2024-08-26,2039-08-27,207522,174373.8,4.76,180,NJ,Medical,B,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-06-08,2026-05-03T00:00:00Z,Complete
+LN-00752,BR-03752,Home Equity,2022-09-18,2037-09-18,452093,213055.87,7.74,180,TN,Major purchase,D,5 years,$150k+,Current,0,Blue Ridge Servicing,2026-04-12,2026-05-02T00:00:00Z,Partial
+LN-00753,BR-03753,Home Equity,2023-05-03,2025-05-03,101775,91178.68,7.08,24,TN,Auto purchase,C,10 years,$100k-$150k,Current,0,Summit Financial,2026-05-05,2026-06-26T00:00:00Z,Complete
+LN-00754,BR-03754,Student,2024-12-08,2044-12-09,431633,269082.21,8.85,240,MA,Education,B,10 years,$150k+,Current,0,Harbor Servicing,2026-04-22,2026-07-15T00:00:00Z,Complete
+LN-00755,BR-03755,Mortgage,2021-05-08,2028-05-08,319776,260956.14,3.69,84,MA,Medical,A,3 years,$50k-$75k,Delinquent,30,Harbor Servicing,2026-06-26,2026-06-10T00:00:00Z,Complete
+LN-00756,BR-03756,Installment,2021-11-23,2023-11-24,339495,0,5.37,24,MI,Major purchase,C,10 years,$150k+,Closed,0,Northstar Servicing,2026-05-09,2026-05-01T00:00:00Z,Complete
+LN-00757,BR-03757,Mortgage,2022-12-30,2037-12-30,358929,198047.19,5.09,180,VA,Major purchase,B,2 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-04-17,2026-05-09T00:00:00Z,Complete
+LN-00758,BR-03758,Auto,2025-01-04,2031-01-05,273075,225756.87,10.74,72,OR,Major purchase,D,12 years,$150k+,Current,0,Summit Financial,2026-06-26,2026-06-25T00:00:00Z,Complete
+LN-00759,BR-03759,Installment,2021-12-30,2025-12-30,216662,160020.9,11.17,48,VA,Education,C,2 years,$50k-$75k,Current,0,Northstar Servicing,2026-06-13,2026-07-06T00:00:00Z,Complete
+LN-00760,BR-03760,Student,2021-06-29,2023-06-30,165498,58184.0,5.61,24,TN,Medical,B,7 years,$150k+,Current,0,Summit Financial,2026-07-27,2026-05-15T00:00:00Z,Complete
+LN-00761,BR-03761,Auto,2024-12-20,2044-12-21,474945,170454.66,3.86,240,MA,Debt consolidation,C,10 years,$150k+,Current,0,Atlas Loan Co.,2026-07-17,2026-07-21T00:00:00Z,Complete
+LN-00762,BR-03762,Mortgage,2022-11-04,2028-11-04,372956,164529.18,8.83,72,OR,Major purchase,B,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-23,2026-04-17T00:00:00Z,Complete
+LN-00763,BR-03763,Home Equity,2024-07-20,2027-07-21,270882,225002.33,8.29,36,IL,Major purchase,B,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-27,2026-07-12T00:00:00Z,Complete
+LN-00764,BR-03764,Personal,2021-07-07,2041-07-08,342967,189643.1,6.29,240,MN,Education,B,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-28,2026-07-06T00:00:00Z,Complete
+LN-00765,BR-03765,Installment,2024-10-29,2034-10-30,445731,361345.13,7.99,120,NY,Auto purchase,D,2 years,$75k-$100k,Current,0,Summit Financial,2026-07-18,2026-07-07T00:00:00Z,Complete
+LN-00766,BR-03766,Student,2021-01-11,2024-01-12,134692,49511.3,4.3,36,PA,Medical,B,12 years,$50k-$75k,Current,0,Harbor Servicing,2026-07-03,2026-06-08T00:00:00Z,Complete
+LN-00767,BR-03767,Personal,2022-11-02,2032-11-02,484389,406658.99,9.54,120,AZ,Education,D,2 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-18,2026-06-01T00:00:00Z,Complete
+LN-00768,BR-03768,Personal,2021-05-19,2041-05-20,399925,328009.42,5.96,240,GA,Auto purchase,A,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-22,2026-07-07T00:00:00Z,Complete
+LN-00769,BR-03769,Student,2022-03-17,2028-03-17,467059,123577.13,11.0,72,FL,Medical,D,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-04-08,2026-07-01T00:00:00Z,Complete
+LN-00770,BR-03770,Student,2023-10-26,2033-10-26,360517,298149.35,10.34,120,MN,Debt consolidation,A,10 years,$150k+,Current,0,Northstar Servicing,2026-05-13,2026-04-13T00:00:00Z,Complete
+LN-00771,BR-03771,Student,2021-05-09,2028-05-09,342050,0,11.27,84,GA,Medical,C,12 years,$75k-$100k,Closed,0,Summit Financial,2026-05-13,2026-04-20T00:00:00Z,Complete
+LN-00772,BR-03772,Installment,2022-04-23,2052-04-23,261541,211648.54,10.81,360,NY,Auto purchase,C,3 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-03,2026-07-22T00:00:00Z,Complete
+LN-00773,BR-03773,Mortgage,2022-01-08,2026-01-08,320247,0,7.05,48,MA,Debt consolidation,A,10 years,$150k+,Closed,0,Summit Financial,2026-07-06,2026-05-08T00:00:00Z,Complete
+LN-00774,BR-03774,Mortgage,2025-02-02,2055-02-03,352303,235622.79,6.01,360,NY,Medical,D,7 years,$150k+,Late,30,Atlas Loan Co.,2026-04-16,2026-07-12T00:00:00Z,Complete
+LN-00775,BR-03775,Installment,2024-05-23,2044-05-24,148000,0,8.16,240,PA,Auto purchase,A,2 years,$50k-$75k,Closed,0,Blue Ridge Servicing,2026-07-20,2026-05-14T00:00:00Z,Complete
+LN-00776,BR-03776,Student,2021-02-03,2028-02-04,32566,0,7.29,84,OR,Auto purchase,D,5 years,$75k-$100k,Closed,0,Harbor Servicing,2026-06-27,2026-04-17T00:00:00Z,Complete
+LN-00777,BR-03777,Mortgage,2023-03-03,2028-03-02,387505,202671.87,5.46,60,MA,Auto purchase,A,3 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-04-16,2026-07-14T00:00:00Z,Complete
+LN-00778,BR-03778,Auto,2024-08-14,2034-08-15,442583,141446.19,7.2,120,GA,Auto purchase,B,2 years,$150k+,Current,0,Northstar Servicing,2026-05-21,2026-07-20T00:00:00Z,Complete
+LN-00779,BR-03779,Home Equity,2021-06-01,2028-06-01,447739,315138.68,9.59,84,NY,Medical,A,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-07-07,2026-05-29T00:00:00Z,Complete
+LN-00780,BR-03780,Mortgage,2024-09-25,2044-09-26,461014,337108.36,8.49,240,NJ,Major purchase,A,5 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-05,2026-04-19T00:00:00Z,Partial
+LN-00781,BR-03781,Student,2022-05-08,2025-05-08,129042,66406.81,11.19,36,MN,Debt consolidation,C,5 years,$150k+,Current,0,Summit Financial,2026-06-05,2026-04-08T00:00:00Z,Complete
+LN-00782,BR-03782,Personal,2023-08-05,2027-08-05,425155,195764.85,10.56,48,NC,Home improvement,D,10 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-15,2026-04-19T00:00:00Z,Complete
+LN-00783,BR-03783,Student,2024-12-11,2031-12-12,196413,119144.77,9.52,84,FL,Education,B,2 years,$75k-$100k,Current,0,Summit Financial,2026-07-03,2026-07-08T00:00:00Z,Complete
+LN-00784,BR-03784,Personal,2022-11-26,2027-11-26,396083,274801.76,10.21,60,GA,Auto purchase,D,5 years,$50k-$75k,Current,0,Pioneer Credit,2026-07-30,2026-07-25T00:00:00Z,Complete
+LN-00785,BR-03785,Auto,2024-11-01,2031-11-02,330748,210202.69,5.86,84,TX,Major purchase,A,5 years,$50k-$75k,Delinquent,90,Harbor Servicing,2026-05-02,2026-04-11T00:00:00Z,Complete
+LN-00786,BR-03786,Auto,2022-09-08,2026-09-08,297555,221782.13,9.81,48,CO,Medical,A,7 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-14,2026-06-13T00:00:00Z,Complete
+LN-00787,BR-03787,Mortgage,2022-12-24,2032-12-24,275826,199174.8,11.72,120,CA,Major purchase,C,10 years,$100k-$150k,Late,60,Harbor Servicing,2026-05-03,2026-05-27T00:00:00Z,Complete
+LN-00788,BR-03788,Auto,2021-07-19,2051-07-20,421945,115599.35,11.28,360,TN,Auto purchase,B,10 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-25,2026-04-12T00:00:00Z,Complete
+LN-00789,BR-03789,Auto,2024-07-07,2026-07-08,98586,54561.65,7.45,24,NY,Major purchase,D,5 years,$100k-$150k,Delinquent,15,Blue Ridge Servicing,2026-05-19,2026-06-30T00:00:00Z,Complete
+LN-00790,BR-03790,Student,2023-09-06,2033-09-06,54101,35995.71,6.92,120,TN,Debt consolidation,D,12 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-21,2026-07-12T00:00:00Z,Complete
+LN-00791,BR-03791,Personal,2024-05-29,2034-05-30,39741,0,11.18,120,WA,Auto purchase,B,10 years,$75k-$100k,Closed,0,Pioneer Credit,2026-06-26,2026-04-29T00:00:00Z,Complete
+LN-00792,BR-03792,Personal,2022-07-13,2026-07-13,389330,245940.66,12.49,48,FL,Debt consolidation,A,5 years,$75k-$100k,Late,60,Summit Financial,2026-06-26,2026-07-04T00:00:00Z,Complete
+LN-00793,BR-03793,Auto,2021-07-15,2051-07-16,38337,32430.28,10.29,360,CO,Major purchase,A,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-11,2026-05-24T00:00:00Z,Complete
+LN-00794,BR-03794,Student,2022-11-08,2037-11-08,201635,151070.02,6.31,180,AZ,Medical,D,7 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-17,2026-07-31T00:00:00Z,Complete
+LN-00795,BR-03795,Student,2024-04-23,2026-04-24,372311,131200.92,4.0,24,VA,Auto purchase,C,7 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-15,2026-04-11T00:00:00Z,Complete
+LN-00796,BR-03796,Installment,2024-07-09,2044-07-10,328618,193063.02,10.42,240,TX,Major purchase,D,7 years,$150k+,Current,0,Harbor Servicing,2026-07-01,2026-07-10T00:00:00Z,Complete
+LN-00797,BR-03797,Installment,2023-08-24,2026-08-24,194540,132592.62,11.59,36,TN,Auto purchase,C,2 years,$150k+,Current,0,Atlas Loan Co.,2026-07-15,2026-04-25T00:00:00Z,Complete
+LN-00798,BR-03798,Auto,2024-11-18,2044-11-19,47058,38579.6,4.77,240,AZ,Education,B,2 years,$150k+,Current,0,Pioneer Credit,2026-05-17,2026-04-14T00:00:00Z,Complete
+LN-00799,BR-03799,Auto,2025-01-13,2045-01-14,16519,10175.96,7.08,240,WA,Major purchase,D,10 years,$150k+,Current,0,Northstar Servicing,2026-07-08,2026-07-17T00:00:00Z,Complete
+LN-00800,BR-03800,Mortgage,2024-04-28,2029-04-28,77359,48137.13,7.77,60,OH,Medical,B,2 years,$100k-$150k,Current,0,Pioneer Credit,2026-06-26,2026-07-18T00:00:00Z,Complete
+LN-00801,BR-03801,Auto,2024-04-01,2054-04-02,446951,262911.72,11.81,360,WA,Education,B,7 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-11,2026-07-03T00:00:00Z,Complete
+LN-00802,BR-03802,Personal,2023-12-26,2025-12-26,239577,114709.77,9.59,24,GA,Education,B,7 years,$150k+,Current,0,Pioneer Credit,2026-04-17,2026-06-25T00:00:00Z,Missing
+LN-00803,BR-03803,Mortgage,2023-08-11,2033-08-11,452169,0,12.25,120,NC,Major purchase,A,10 years,$100k-$150k,Closed,0,Harbor Servicing,2026-04-19,2026-05-02T00:00:00Z,Complete
+LN-00804,BR-03804,Mortgage,2023-09-29,2038-09-29,342352,0,8.27,180,GA,Auto purchase,C,7 years,$50k-$75k,Closed,0,Atlas Loan Co.,2026-04-08,2026-06-15T00:00:00Z,Complete
+LN-00805,BR-03805,Student,2022-06-27,2032-06-27,16633,7010.68,8.18,120,MD,Education,B,7 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-23,2026-07-02T00:00:00Z,Complete
+LN-00806,BR-03806,Installment,2021-08-08,2025-08-08,425679,223955.06,12.09,48,PA,Education,D,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-28,2026-06-14T00:00:00Z,Complete
+LN-00807,BR-03807,Installment,2024-08-24,2027-08-25,469395,302319.73,4.15,36,OH,Auto purchase,D,2 years,$100k-$150k,Delinquent,30,Northstar Servicing,2026-05-02,2026-05-17T00:00:00Z,Complete
+LN-00808,BR-03808,Personal,2022-08-13,2052-08-13,398829,292963.17,10.27,360,MN,Education,B,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-10,2026-05-26T00:00:00Z,Complete
+LN-00809,BR-03809,Mortgage,2024-07-01,2030-07-02,113591,85157.59,10.65,72,TX,Debt consolidation,C,2 years,$100k-$150k,Current,0,Summit Financial,2026-07-06,2026-04-19T00:00:00Z,Complete
+LN-00810,BR-03810,Auto,2023-01-01,2038-01-01,29241,22553.95,5.2,180,AZ,Debt consolidation,A,7 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-09,2026-04-08T00:00:00Z,Complete
+LN-00811,BR-03811,Installment,2023-12-14,2033-12-14,160456,65105.91,8.13,120,VA,Debt consolidation,A,3 years,$100k-$150k,Current,0,Summit Financial,2026-07-01,2026-05-11T00:00:00Z,Complete
+LN-00812,BR-03812,Personal,2022-11-01,2032-11-01,111054,87831.1,5.1,120,NC,Auto purchase,C,2 years,$50k-$75k,Late,30,Atlas Loan Co.,2026-05-27,2026-07-30T00:00:00Z,Complete
+LN-00813,BR-03813,Mortgage,2022-10-01,2024-10-01,26609,7909.8,4.9,24,FL,Medical,D,5 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-06-10,2026-06-15T00:00:00Z,Complete
+LN-00814,BR-03814,Mortgage,2021-04-25,2036-04-25,53876,41202.53,6.63,180,GA,Home improvement,B,7 years,$75k-$100k,Current,0,Summit Financial,2026-06-13,2026-05-16T00:00:00Z,Complete
+LN-00815,BR-03815,Auto,2021-12-09,2025-12-09,428490,267534.56,7.99,48,TN,Auto purchase,A,12 years,$75k-$100k,Current,0,Harbor Servicing,2026-07-25,2026-05-05T00:00:00Z,Complete
+LN-00816,BR-03816,Home Equity,2024-09-26,2026-09-27,56815,0,9.7,24,OH,Education,B,7 years,$150k+,Closed,0,Pioneer Credit,2026-05-15,2026-05-21T00:00:00Z,Complete
+LN-00817,BR-03817,Student,2022-01-06,2024-01-07,456888,161652.89,6.92,24,MA,Education,A,5 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-22,2026-07-28T00:00:00Z,Complete
+LN-00818,BR-03818,Installment,2022-08-15,2025-08-15,138172,97523.93,9.26,36,GA,Auto purchase,A,5 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-01,2026-07-03T00:00:00Z,Complete
+LN-00819,BR-03819,Mortgage,2021-03-15,2026-03-15,176680,141637.68,9.0,60,MD,Auto purchase,D,10 years,$50k-$75k,Late,45,Harbor Servicing,2026-06-07,2026-07-25T00:00:00Z,Partial
+LN-00820,BR-03820,Home Equity,2024-11-10,2027-11-11,251866,0,4.04,36,WA,Auto purchase,C,10 years,$150k+,Closed,0,Harbor Servicing,2026-04-14,2026-04-25T00:00:00Z,Complete
+LN-00821,BR-03821,Student,2023-08-28,2038-08-28,163756,0,6.52,180,OR,Major purchase,C,5 years,$100k-$150k,Closed,0,Blue Ridge Servicing,2026-04-07,2026-06-11T00:00:00Z,Complete
+LN-00822,BR-03822,Auto,2024-09-17,2029-09-17,300180,115766.31,4.74,60,MD,Auto purchase,C,2 years,$75k-$100k,Current,0,Summit Financial,2026-06-11,2026-06-17T00:00:00Z,Complete
+LN-00823,BR-03823,Installment,2022-11-23,2026-11-23,294628,213052.86,5.43,48,FL,Medical,D,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-21,2026-05-20T00:00:00Z,Complete
+LN-00824,BR-03824,Personal,2021-07-25,2025-07-25,230228,87883.65,4.23,48,NY,Education,D,10 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-01,2026-07-01T00:00:00Z,Partial
+LN-00825,BR-03825,Student,2024-08-25,2039-08-26,319783,137257.71,6.47,180,PA,Education,B,10 years,$75k-$100k,Late,15,Atlas Loan Co.,2026-07-15,2026-06-18T00:00:00Z,Complete
+LN-00826,BR-03826,Home Equity,2024-08-02,2030-08-03,42604,13684.4,6.27,72,MN,Debt consolidation,C,10 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-16,2026-04-24T00:00:00Z,Complete
+LN-00827,BR-03827,Auto,2025-01-18,2045-01-19,181239,121399.65,4.65,240,AZ,Education,C,10 years,$75k-$100k,Late,15,Blue Ridge Servicing,2026-04-23,2026-04-16T00:00:00Z,Complete
+LN-00828,BR-03828,Home Equity,2022-12-16,2032-12-16,136286,108343.19,3.84,120,GA,Education,B,10 years,$50k-$75k,Current,0,Summit Financial,2026-05-31,2026-04-18T00:00:00Z,Complete
+LN-00829,BR-03829,Mortgage,2024-06-09,2027-06-10,111663,56593.13,4.86,36,CO,Education,B,12 years,$100k-$150k,Late,30,Northstar Servicing,2026-06-27,2026-07-25T00:00:00Z,Complete
+LN-00830,BR-03830,Personal,2022-04-26,2026-04-26,233313,94773.52,3.95,48,NY,Debt consolidation,B,7 years,$50k-$75k,Late,90,Pioneer Credit,2026-07-03,2026-07-07T00:00:00Z,Complete
+LN-00831,BR-03831,Home Equity,2022-08-28,2052-08-28,193519,58242.34,11.88,360,CO,Medical,D,5 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-04-30,2026-05-23T00:00:00Z,Complete
+LN-00832,BR-03832,Mortgage,2022-05-11,2024-05-11,276832,214221.81,9.45,24,NJ,Home improvement,A,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-01,2026-04-24T00:00:00Z,Complete
+LN-00833,BR-03833,Mortgage,2022-12-27,2024-12-27,70991,32156.48,12.34,24,MA,Home improvement,A,12 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-23,2026-06-01T00:00:00Z,Complete
+LN-00834,BR-03834,Installment,2024-03-14,2031-03-15,84918,24992.62,5.78,84,MI,Medical,C,2 years,$150k+,Late,30,Pioneer Credit,2026-07-08,2026-06-16T00:00:00Z,Complete
+LN-00835,BR-03835,Personal,2021-08-11,2024-08-11,362327,165965.63,5.72,36,MN,Education,C,12 years,$50k-$75k,Current,0,Summit Financial,2026-05-23,2026-07-02T00:00:00Z,Complete
+LN-00836,BR-03836,Installment,2024-10-11,2029-10-11,161536,0,6.37,60,OR,Auto purchase,B,3 years,$50k-$75k,Closed,0,Summit Financial,2026-06-25,2026-06-11T00:00:00Z,Complete
+LN-00837,BR-03837,Mortgage,2025-01-14,2035-01-15,87094,51482.48,11.98,120,MI,Education,D,2 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-27,2026-05-22T00:00:00Z,Complete
+LN-00838,BR-03838,Auto,2024-07-10,2054-07-11,213680,155574.22,5.24,360,NY,Debt consolidation,B,5 years,$150k+,Current,0,Atlas Loan Co.,2026-07-07,2026-04-19T00:00:00Z,Complete
+LN-00839,BR-03839,Home Equity,2024-03-28,2026-03-29,499344,320382.62,12.49,24,MD,Education,B,7 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-21,2026-07-25T00:00:00Z,Complete
+LN-00840,BR-03840,Installment,2022-01-12,2037-01-12,34092,0,5.93,180,TN,Education,C,5 years,$50k-$75k,Closed,0,Harbor Servicing,2026-07-10,2026-06-15T00:00:00Z,Complete
+LN-00841,BR-03841,Home Equity,2021-01-26,2031-01-27,491443,311584.34,10.83,120,OR,Debt consolidation,A,3 years,$75k-$100k,Late,45,Atlas Loan Co.,2026-07-29,2026-06-14T00:00:00Z,Complete
+LN-00842,BR-03842,Auto,2022-02-24,2024-02-25,129333,93269.47,4.23,24,CO,Medical,D,3 years,$50k-$75k,Current,0,Pioneer Credit,2026-05-04,2026-04-18T00:00:00Z,Missing
+LN-00843,BR-03843,Student,2024-11-15,2028-11-15,271350,241362.81,10.82,48,AZ,Auto purchase,C,2 years,$50k-$75k,Current,0,Pioneer Credit,2026-04-17,2026-05-12T00:00:00Z,Complete
+LN-00844,BR-03844,Personal,2023-02-13,2028-02-13,484124,441287.69,6.29,60,NC,Education,A,3 years,$150k+,Late,15,Summit Financial,2026-06-29,2026-06-04T00:00:00Z,Complete
+LN-00845,BR-03845,Installment,2023-01-09,2043-01-10,247363,205784.48,5.69,240,MA,Home improvement,B,12 years,$150k+,Current,0,Harbor Servicing,2026-05-06,2026-07-01T00:00:00Z,Complete
+LN-00846,BR-03846,Student,2024-02-10,2034-02-10,429989,284858.84,7.19,120,CA,Major purchase,D,12 years,$100k-$150k,Delinquent,30,Atlas Loan Co.,2026-04-25,2026-07-25T00:00:00Z,Missing
+LN-00847,BR-03847,Installment,2024-11-09,2044-11-10,259740,227182.7,9.41,240,OH,Auto purchase,B,7 years,$150k+,Current,0,Summit Financial,2026-04-11,2026-04-24T00:00:00Z,Complete
+LN-00848,BR-03848,Student,2024-07-27,2028-07-27,458270,356489.55,7.26,48,CO,Major purchase,B,2 years,$150k+,Late,90,Summit Financial,2026-07-21,2026-05-04T00:00:00Z,Complete
+LN-00849,BR-03849,Auto,2022-05-30,2052-05-30,377740,115302.5,10.99,360,MN,Home improvement,D,7 years,$150k+,Current,0,Northstar Servicing,2026-05-26,2026-04-12T00:00:00Z,Complete
+LN-00850,BR-03850,Mortgage,2023-03-30,2038-03-30,169235,51353.04,8.4,180,MN,Home improvement,D,2 years,$50k-$75k,Current,0,Pioneer Credit,2026-05-16,2026-05-09T00:00:00Z,Complete
+LN-00851,BR-03851,Installment,2023-11-23,2027-11-23,364939,248594.53,7.1,48,IL,Medical,B,7 years,$150k+,Current,0,Northstar Servicing,2026-05-17,2026-05-05T00:00:00Z,Complete
+LN-00852,BR-03852,Student,2024-06-05,2029-06-05,20192,7388.88,12.12,60,IL,Debt consolidation,A,2 years,$150k+,Current,0,Harbor Servicing,2026-04-30,2026-05-24T00:00:00Z,Complete
+LN-00853,BR-03853,Installment,2021-07-13,2041-07-14,170447,127369.01,12.04,240,NC,Home improvement,C,12 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-02,2026-07-22T00:00:00Z,Complete
+LN-00854,BR-03854,Home Equity,2023-02-03,2030-02-03,375346,102422.54,9.05,84,OH,Education,B,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-11,2026-06-21T00:00:00Z,Complete
+LN-00855,BR-03855,Home Equity,2022-11-15,2024-11-15,367856,229947.62,6.2,24,TN,Debt consolidation,C,3 years,$150k+,Current,0,Harbor Servicing,2026-07-01,2026-07-13T00:00:00Z,Complete
+LN-00856,BR-03856,Mortgage,2023-08-15,2025-08-15,252678,151870.45,9.62,24,FL,Education,D,2 years,$150k+,Current,0,Atlas Loan Co.,2026-04-06,2026-06-25T00:00:00Z,Complete
+LN-00857,BR-03857,Student,2021-12-05,2028-12-05,403475,287670.95,9.2,84,IL,Major purchase,C,2 years,$150k+,Late,60,Summit Financial,2026-04-13,2026-06-20T00:00:00Z,Complete
+LN-00858,BR-03858,Student,2021-05-18,2024-05-18,318774,209261.89,5.4,36,MA,Education,D,2 years,$50k-$75k,Late,45,Harbor Servicing,2026-06-01,2026-07-16T00:00:00Z,Complete
+LN-00859,BR-03859,Home Equity,2021-02-13,2031-02-14,57852,30075.13,9.28,120,TX,Home improvement,D,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-10,2026-05-30T00:00:00Z,Complete
+LN-00860,BR-03860,Installment,2021-10-31,2027-11-01,62319,51518.92,7.37,72,VA,Auto purchase,B,5 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-04-14,2026-07-12T00:00:00Z,Complete
+LN-00861,BR-03861,Student,2021-08-23,2031-08-24,497050,409115.22,11.91,120,TX,Auto purchase,B,7 years,$75k-$100k,Current,0,Summit Financial,2026-07-07,2026-06-18T00:00:00Z,Complete
+LN-00862,BR-03862,Personal,2023-03-03,2025-03-03,453884,0,9.44,24,OR,Major purchase,C,7 years,$100k-$150k,Closed,0,Blue Ridge Servicing,2026-06-24,2026-07-25T00:00:00Z,Complete
+LN-00863,BR-03863,Mortgage,2024-02-18,2030-02-18,180832,126273.9,3.85,72,NC,Debt consolidation,D,2 years,$150k+,Current,0,Atlas Loan Co.,2026-07-08,2026-04-25T00:00:00Z,Complete
+LN-00864,BR-03864,Home Equity,2024-11-16,2027-11-17,95119,79610.69,4.16,36,IL,Auto purchase,D,10 years,$50k-$75k,Current,0,Pioneer Credit,2026-04-03,2026-04-11T00:00:00Z,Complete
+LN-00865,BR-03865,Personal,2021-04-27,2027-04-28,461826,0,3.62,72,WA,Auto purchase,D,10 years,$100k-$150k,Closed,0,Summit Financial,2026-04-12,2026-04-30T00:00:00Z,Complete
+LN-00866,BR-03866,Home Equity,2024-08-24,2028-08-24,475328,154527.52,11.11,48,NC,Education,C,2 years,$50k-$75k,Current,0,Pioneer Credit,2026-05-15,2026-05-16T00:00:00Z,Partial
+LN-00867,BR-03867,Home Equity,2024-12-09,2039-12-10,170135,51538.73,7.97,180,MI,Major purchase,B,2 years,$50k-$75k,Current,0,Harbor Servicing,2026-06-10,2026-06-10T00:00:00Z,Missing
+LN-00868,BR-03868,Auto,2025-01-12,2030-01-12,211383,149570.14,11.99,60,WA,Auto purchase,B,12 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-15,2026-06-06T00:00:00Z,Partial
+LN-00869,BR-03869,Personal,2023-12-06,2030-12-06,159585,0,3.67,84,FL,Auto purchase,A,2 years,$75k-$100k,Closed,0,Summit Financial,2026-07-24,2026-04-26T00:00:00Z,Complete
+LN-00870,BR-03870,Mortgage,2024-05-11,2039-05-12,78792,56694.57,5.74,180,GA,Major purchase,B,5 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-22,2026-08-01T00:00:00Z,Complete
+LN-00871,BR-03871,Home Equity,2021-10-23,2041-10-24,175998,76131.22,7.56,240,MI,Auto purchase,A,12 years,$150k+,Delinquent,60,Harbor Servicing,2026-06-19,2026-04-23T00:00:00Z,Complete
+LN-00872,BR-03872,Mortgage,2024-07-13,2026-07-14,150069,130039.76,8.52,24,MN,Major purchase,A,5 years,$100k-$150k,Current,0,Harbor Servicing,2026-06-21,2026-05-29T00:00:00Z,Complete
+LN-00873,BR-03873,Auto,2022-07-17,2026-07-17,446022,178949.45,8.84,48,OH,Auto purchase,C,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-07-04,2026-05-27T00:00:00Z,Complete
+LN-00874,BR-03874,Home Equity,2022-03-07,2042-03-08,385436,210687.6,9.57,240,MI,Home improvement,B,5 years,$50k-$75k,Current,0,Summit Financial,2026-07-20,2026-05-14T00:00:00Z,Complete
+LN-00875,BR-03875,Home Equity,2024-07-20,2030-07-21,51032,24800.37,4.68,72,TX,Auto purchase,C,5 years,$100k-$150k,Delinquent,60,Summit Financial,2026-07-28,2026-07-02T00:00:00Z,Complete
+LN-00876,BR-03876,Mortgage,2024-03-04,2054-03-05,463324,377476.47,10.65,360,OR,Auto purchase,D,5 years,$150k+,Current,0,Harbor Servicing,2026-06-11,2026-05-15T00:00:00Z,Complete
+LN-00877,BR-03877,Mortgage,2025-01-14,2055-01-15,37815,22799.54,11.93,360,CO,Home improvement,B,2 years,$75k-$100k,Late,45,Pioneer Credit,2026-06-10,2026-07-31T00:00:00Z,Complete
+LN-00878,BR-03878,Student,2023-03-08,2025-03-08,198543,132499.35,6.85,24,OH,Major purchase,D,7 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-27,2026-07-10T00:00:00Z,Complete
+LN-00879,BR-03879,Auto,2022-10-19,2026-10-19,108190,29074.45,3.62,48,MD,Debt consolidation,B,2 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-05,2026-06-10T00:00:00Z,Partial
+LN-00880,BR-03880,Mortgage,2024-10-03,2039-10-04,114319,35610.02,8.79,180,CO,Medical,B,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-05-03,2026-07-22T00:00:00Z,Complete
+LN-00881,BR-03881,Home Equity,2023-10-01,2033-10-01,489767,319236.66,8.35,120,CA,Medical,C,5 years,$75k-$100k,Late,45,Summit Financial,2026-05-03,2026-05-13T00:00:00Z,Missing
+LN-00882,BR-03882,Home Equity,2023-01-21,2026-01-21,179470,50100.6,8.87,36,TN,Major purchase,D,12 years,$150k+,Current,0,Harbor Servicing,2026-05-12,2026-07-12T00:00:00Z,Complete
+LN-00883,BR-03883,Student,2024-06-25,2039-06-26,414367,145980.37,12.38,180,OH,Major purchase,A,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-19,2026-06-19T00:00:00Z,Partial
+LN-00884,BR-03884,Auto,2024-10-01,2030-10-02,406459,168439.74,3.62,72,NJ,Major purchase,B,10 years,$150k+,Current,0,Atlas Loan Co.,2026-06-01,2026-04-22T00:00:00Z,Complete
+LN-00885,BR-03885,Auto,2023-11-28,2028-11-27,99645,78638.06,6.69,60,IL,Medical,D,2 years,$75k-$100k,Current,0,Harbor Servicing,2026-06-29,2026-07-19T00:00:00Z,Complete
+LN-00886,BR-03886,Installment,2022-05-30,2042-05-31,301214,145319.49,6.92,240,NJ,Home improvement,A,10 years,$100k-$150k,Current,0,Summit Financial,2026-05-06,2026-04-14T00:00:00Z,Complete
+LN-00887,BR-03887,Student,2023-05-01,2038-05-01,247295,69145.8,5.06,180,AZ,Medical,A,10 years,$50k-$75k,Current,0,Pioneer Credit,2026-06-25,2026-06-12T00:00:00Z,Complete
+LN-00888,BR-03888,Mortgage,2023-04-17,2033-04-17,33366,10688.88,7.31,120,CO,Auto purchase,C,12 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-05,2026-06-25T00:00:00Z,Complete
+LN-00889,BR-03889,Personal,2024-09-16,2030-09-17,156027,102597.24,6.25,72,FL,Home improvement,D,10 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-06,2026-05-26T00:00:00Z,Missing
+LN-00890,BR-03890,Home Equity,2023-01-17,2025-01-17,275516,188260.69,12.15,24,GA,Major purchase,C,3 years,$100k-$150k,Current,0,Pioneer Credit,2026-04-10,2026-06-10T00:00:00Z,Complete
+LN-00891,BR-03891,Home Equity,2021-04-18,2041-04-19,418554,166849.8,5.14,240,NC,Auto purchase,A,12 years,$50k-$75k,Current,0,Pioneer Credit,2026-05-31,2026-05-15T00:00:00Z,Complete
+LN-00892,BR-03892,Home Equity,2022-10-18,2026-10-18,155174,69568.84,10.88,48,WA,Auto purchase,B,5 years,$100k-$150k,Late,90,Northstar Servicing,2026-05-23,2026-06-20T00:00:00Z,Complete
+LN-00893,BR-03893,Installment,2024-08-01,2031-08-02,335085,0,5.56,84,VA,Home improvement,C,5 years,$150k+,Closed,0,Harbor Servicing,2026-07-14,2026-06-19T00:00:00Z,Complete
+LN-00894,BR-03894,Auto,2021-12-20,2036-12-20,111538,44301.77,10.27,180,TN,Auto purchase,C,12 years,$150k+,Current,0,Northstar Servicing,2026-06-10,2026-06-04T00:00:00Z,Complete
+LN-00895,BR-03895,Home Equity,2023-09-21,2033-09-21,485089,204464.51,9.33,120,CO,Medical,B,7 years,$150k+,Current,0,Pioneer Credit,2026-07-09,2026-07-20T00:00:00Z,Complete
+LN-00896,BR-03896,Student,2023-07-05,2027-07-05,80912,31868.9,9.21,48,IL,Home improvement,B,2 years,$50k-$75k,Current,0,Summit Financial,2026-06-19,2026-06-07T00:00:00Z,Complete
+LN-00897,BR-03897,Student,2024-02-28,2044-02-29,315649,135259.48,11.73,240,MI,Debt consolidation,B,10 years,$50k-$75k,Late,60,Pioneer Credit,2026-05-09,2026-04-22T00:00:00Z,Complete
+LN-00898,BR-03898,Auto,2021-09-29,2026-09-29,255525,229948.97,9.94,60,WA,Medical,C,3 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-13,2026-07-29T00:00:00Z,Complete
+LN-00899,BR-03899,Home Equity,2025-01-02,2030-01-02,196431,147076.1,11.57,60,NJ,Home improvement,D,3 years,$150k+,Current,0,Northstar Servicing,2026-07-10,2026-06-25T00:00:00Z,Partial
+LN-00900,BR-03900,Mortgage,2023-07-15,2027-07-15,18819,12933.1,4.81,48,TX,Education,A,3 years,$75k-$100k,Current,0,Summit Financial,2026-07-13,2026-07-09T00:00:00Z,Complete
+LN-00901,BR-03901,Auto,2024-01-13,2029-01-12,176941,56683.88,8.36,60,AZ,Debt consolidation,B,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-07-20,2026-06-07T00:00:00Z,Complete
+LN-00902,BR-03902,Auto,2022-01-11,2037-01-11,189229,157747.81,12.3,180,CO,Medical,A,12 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-04-23,2026-05-01T00:00:00Z,Complete
+LN-00903,BR-03903,Auto,2021-10-23,2031-10-24,282100,128151.25,11.92,120,MI,Major purchase,C,2 years,$75k-$100k,Current,0,Pioneer Credit,2026-06-16,2026-07-07T00:00:00Z,Complete
+LN-00904,BR-03904,Home Equity,2022-11-04,2042-11-05,263308,129308.46,6.63,240,TN,Medical,C,7 years,$150k+,Current,0,Pioneer Credit,2026-07-25,2026-05-12T00:00:00Z,Complete
+LN-00905,BR-03905,Personal,2024-12-13,2029-12-13,465727,0,8.12,60,MI,Home improvement,A,3 years,$75k-$100k,Closed,0,Harbor Servicing,2026-07-22,2026-05-12T00:00:00Z,Complete
+LN-00906,BR-03906,Personal,2021-03-04,2041-03-05,35343,24660.2,12.24,240,CA,Home improvement,B,12 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-18,2026-04-21T00:00:00Z,Partial
+LN-00907,BR-03907,Installment,2024-10-10,2054-10-11,300385,0,4.54,360,CO,Education,D,7 years,$75k-$100k,Closed,0,Pioneer Credit,2026-06-07,2026-04-24T00:00:00Z,Complete
+LN-00908,BR-03908,Mortgage,2021-02-07,2041-02-08,201851,61088.25,9.93,240,CO,Education,A,7 years,$50k-$75k,Late,15,Summit Financial,2026-06-03,2026-06-08T00:00:00Z,Complete
+LN-00909,BR-03909,Student,2024-09-06,2026-09-07,323862,0,6.46,24,NJ,Home improvement,B,2 years,$100k-$150k,Closed,0,Pioneer Credit,2026-06-27,2026-07-24T00:00:00Z,Complete
+LN-00910,BR-03910,Auto,2024-02-27,2034-02-27,461468,350962.23,7.3,120,PA,Major purchase,A,12 years,$50k-$75k,Late,60,Blue Ridge Servicing,2026-04-23,2026-07-15T00:00:00Z,Complete
+LN-00911,BR-03911,Auto,2021-11-20,2024-11-20,45912,22704.3,9.11,36,FL,Debt consolidation,A,7 years,$75k-$100k,Delinquent,60,Summit Financial,2026-04-04,2026-06-16T00:00:00Z,Complete
+LN-00912,BR-03912,Personal,2021-04-23,2025-04-23,410145,248082.72,8.77,48,OR,Medical,B,7 years,$75k-$100k,Delinquent,60,Blue Ridge Servicing,2026-07-30,2026-04-30T00:00:00Z,Complete
+LN-00913,BR-03913,Auto,2024-12-10,2031-12-11,242119,156163.22,7.45,84,OH,Medical,A,12 years,$150k+,Current,0,Blue Ridge Servicing,2026-06-06,2026-04-03T00:00:00Z,Complete
+LN-00914,BR-03914,Mortgage,2022-03-22,2029-03-22,175692,85438.48,5.63,84,AZ,Medical,D,10 years,$150k+,Current,0,Pioneer Credit,2026-05-24,2026-04-25T00:00:00Z,Missing
+LN-00915,BR-03915,Auto,2024-04-12,2029-04-12,155405,38928.43,4.34,60,MA,Medical,D,10 years,$150k+,Current,0,Blue Ridge Servicing,2026-05-11,2026-05-29T00:00:00Z,Complete
+LN-00916,BR-03916,Mortgage,2024-06-05,2030-06-06,294518,97539.01,6.55,72,OH,Auto purchase,B,7 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-07-24,2026-05-07T00:00:00Z,Complete
+LN-00917,BR-03917,Installment,2021-12-24,2023-12-25,310398,122352.4,6.84,24,OH,Auto purchase,C,12 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-16,2026-06-03T00:00:00Z,Complete
+LN-00918,BR-03918,Home Equity,2024-05-04,2028-05-04,225296,197333.75,9.44,48,TX,Home improvement,C,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-05-10,2026-04-27T00:00:00Z,Complete
+LN-00919,BR-03919,Installment,2023-04-04,2033-04-04,105320,87269.27,7.67,120,FL,Auto purchase,A,7 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-06-25,2026-06-10T00:00:00Z,Complete
+LN-00920,BR-03920,Mortgage,2022-08-31,2029-08-31,444363,231809.02,11.66,84,FL,Major purchase,B,12 years,$150k+,Current,0,Summit Financial,2026-04-26,2026-06-25T00:00:00Z,Complete
+LN-00921,BR-03921,Home Equity,2023-12-19,2030-12-19,293659,197949.31,10.69,84,OR,Medical,C,10 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-21,2026-06-28T00:00:00Z,Complete
+LN-00922,BR-03922,Home Equity,2021-05-18,2051-05-19,384642,227531.32,10.15,360,IL,Auto purchase,B,5 years,$75k-$100k,Current,0,Harbor Servicing,2026-04-19,2026-04-22T00:00:00Z,Complete
+LN-00923,BR-03923,Personal,2022-12-07,2042-12-08,278500,237272.51,3.53,240,OR,Medical,C,7 years,$50k-$75k,Current,0,Summit Financial,2026-06-12,2026-05-12T00:00:00Z,Complete
+LN-00924,BR-03924,Personal,2022-11-17,2029-11-17,80009,38863.11,7.48,84,PA,Auto purchase,C,2 years,$100k-$150k,Current,0,Summit Financial,2026-07-02,2026-06-07T00:00:00Z,Complete
+LN-00925,BR-03925,Installment,2021-08-22,2028-08-22,273886,0,8.61,84,GA,Auto purchase,C,5 years,$75k-$100k,Closed,0,Summit Financial,2026-05-30,2026-05-18T00:00:00Z,Complete
+LN-00926,BR-03926,Personal,2021-10-04,2051-10-05,76983,25676.26,10.54,360,VA,Medical,C,2 years,$150k+,Current,0,Summit Financial,2026-05-04,2026-06-26T00:00:00Z,Partial
+LN-00927,BR-03927,Installment,2022-02-22,2042-02-23,289913,89853.73,6.45,240,OR,Education,A,2 years,$150k+,Current,0,Northstar Servicing,2026-05-04,2026-05-25T00:00:00Z,Complete
+LN-00928,BR-03928,Student,2023-05-09,2029-05-09,208572,132182.19,3.67,72,NC,Education,D,3 years,$100k-$150k,Current,0,Pioneer Credit,2026-05-26,2026-05-09T00:00:00Z,Complete
+LN-00929,BR-03929,Installment,2023-02-03,2029-02-03,315213,182536.38,11.24,72,OR,Education,A,7 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-07-08,2026-05-02T00:00:00Z,Complete
+LN-00930,BR-03930,Auto,2024-12-15,2044-12-16,496081,441864.54,12.17,240,NY,Auto purchase,A,7 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-06-27,2026-06-09T00:00:00Z,Complete
+LN-00931,BR-03931,Student,2022-07-27,2032-07-27,325287,0,4.42,120,FL,Debt consolidation,B,5 years,$150k+,Closed,0,Harbor Servicing,2026-07-23,2026-06-07T00:00:00Z,Complete
+LN-00932,BR-03932,Mortgage,2024-01-16,2029-01-15,32639,10159.01,9.0,60,TN,Home improvement,D,10 years,$150k+,Current,0,Harbor Servicing,2026-04-15,2026-05-03T00:00:00Z,Complete
+LN-00933,BR-03933,Mortgage,2021-04-20,2023-04-21,400259,269541.02,8.83,24,MN,Auto purchase,D,10 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-05-21,2026-07-03T00:00:00Z,Complete
+LN-00934,BR-03934,Installment,2024-03-11,2054-03-12,149976,42230.98,3.62,360,OR,Auto purchase,B,12 years,$50k-$75k,Current,0,Northstar Servicing,2026-05-05,2026-06-25T00:00:00Z,Complete
+LN-00935,BR-03935,Mortgage,2022-08-28,2027-08-28,224954,106899.75,11.97,60,VA,Home improvement,B,12 years,$150k+,Current,0,Summit Financial,2026-04-08,2026-07-10T00:00:00Z,Partial
+LN-00936,BR-03936,Student,2024-09-17,2029-09-17,309916,173896.93,8.37,60,MA,Debt consolidation,B,3 years,$75k-$100k,Current,0,Northstar Servicing,2026-06-13,2026-07-06T00:00:00Z,Complete
+LN-00937,BR-03937,Installment,2021-01-22,2036-01-23,303753,0,11.79,180,NJ,Auto purchase,D,2 years,$150k+,Closed,0,Northstar Servicing,2026-07-15,2026-04-09T00:00:00Z,Complete
+LN-00938,BR-03938,Personal,2021-02-11,2041-02-12,334023,198090.41,7.05,240,OH,Debt consolidation,C,7 years,$100k-$150k,Late,45,Pioneer Credit,2026-04-12,2026-07-27T00:00:00Z,Complete
+LN-00939,BR-03939,Personal,2023-11-21,2028-11-20,287047,128246.19,12.29,60,MA,Home improvement,D,2 years,$150k+,Delinquent,90,Northstar Servicing,2026-04-21,2026-07-05T00:00:00Z,Complete
+LN-00940,BR-03940,Mortgage,2023-08-13,2033-08-13,144304,41201.26,4.98,120,TN,Medical,B,5 years,$100k-$150k,Late,15,Pioneer Credit,2026-04-30,2026-05-22T00:00:00Z,Complete
+LN-00941,BR-03941,Home Equity,2022-02-04,2027-02-04,168543,143070.24,12.06,60,NJ,Debt consolidation,D,3 years,$150k+,Current,0,Northstar Servicing,2026-06-04,2026-04-04T00:00:00Z,Complete
+LN-00942,BR-03942,Personal,2024-04-23,2034-04-24,434794,241632.43,12.12,120,MD,Debt consolidation,C,7 years,$75k-$100k,Current,0,Pioneer Credit,2026-04-15,2026-07-07T00:00:00Z,Complete
+LN-00943,BR-03943,Auto,2021-09-21,2026-09-21,384547,266210.35,7.12,60,NJ,Medical,D,3 years,$100k-$150k,Current,0,Pioneer Credit,2026-04-08,2026-04-09T00:00:00Z,Complete
+LN-00944,BR-03944,Student,2022-11-27,2037-11-27,344216,126035.41,9.63,180,OH,Major purchase,A,3 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-04-16,2026-06-01T00:00:00Z,Complete
+LN-00945,BR-03945,Auto,2023-08-09,2029-08-09,334881,205901.51,10.21,72,VA,Home improvement,A,7 years,$50k-$75k,Delinquent,45,Pioneer Credit,2026-05-19,2026-07-07T00:00:00Z,Complete
+LN-00946,BR-03946,Home Equity,2024-05-14,2034-05-15,59422,44346.17,3.69,120,VA,Medical,B,7 years,$100k-$150k,Current,0,Harbor Servicing,2026-04-24,2026-05-24T00:00:00Z,Complete
+LN-00947,BR-03947,Personal,2022-11-20,2052-11-20,404432,123177.55,4.78,360,GA,Debt consolidation,B,10 years,$150k+,Current,0,Harbor Servicing,2026-06-02,2026-07-09T00:00:00Z,Complete
+LN-00948,BR-03948,Home Equity,2024-09-25,2034-09-26,55130,43818.92,10.89,120,OR,Medical,A,10 years,$150k+,Current,0,Atlas Loan Co.,2026-04-03,2026-06-03T00:00:00Z,Complete
+LN-00949,BR-03949,Auto,2024-09-13,2031-09-14,122300,83750.18,9.7,84,CO,Education,D,7 years,$150k+,Current,0,Northstar Servicing,2026-07-26,2026-05-28T00:00:00Z,Complete
+LN-00950,BR-03950,Student,2022-06-03,2027-06-03,404608,156706.81,10.31,60,AZ,Major purchase,D,2 years,$100k-$150k,Current,0,Harbor Servicing,2026-07-05,2026-07-02T00:00:00Z,Complete
+LN-00951,BR-03951,Home Equity,2022-03-23,2042-03-24,417400,376783.73,11.51,240,MA,Medical,A,10 years,$150k+,Current,0,Pioneer Credit,2026-04-03,2026-06-13T00:00:00Z,Complete
+LN-00952,BR-03952,Auto,2022-07-17,2042-07-18,231854,90833.92,10.23,240,CA,Auto purchase,A,7 years,$50k-$75k,Delinquent,45,Atlas Loan Co.,2026-05-05,2026-05-28T00:00:00Z,Complete
+LN-00953,BR-03953,Auto,2023-08-03,2027-08-03,352336,254030.12,4.51,48,NY,Auto purchase,A,3 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-06-19,2026-06-05T00:00:00Z,Complete
+LN-00954,BR-03954,Home Equity,2024-09-07,2029-09-07,469665,398181.01,9.31,60,FL,Debt consolidation,A,3 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-06-16,2026-07-03T00:00:00Z,Complete
+LN-00955,BR-03955,Student,2023-03-19,2053-03-19,319380,202056.27,11.47,360,CO,Education,D,3 years,$50k-$75k,Late,30,Atlas Loan Co.,2026-05-05,2026-06-05T00:00:00Z,Complete
+LN-00956,BR-03956,Auto,2022-05-06,2052-05-06,360141,119921.91,6.66,360,AZ,Major purchase,D,10 years,$100k-$150k,Current,0,Summit Financial,2026-07-12,2026-06-25T00:00:00Z,Complete
+LN-00957,BR-03957,Personal,2021-01-29,2024-01-30,446787,359845.31,11.36,36,IL,Debt consolidation,D,7 years,$75k-$100k,Current,0,Northstar Servicing,2026-04-05,2026-04-14T00:00:00Z,Complete
+LN-00958,BR-03958,Mortgage,2021-09-21,2024-09-21,487746,389297.99,6.14,36,FL,Major purchase,D,12 years,$150k+,Current,0,Harbor Servicing,2026-06-11,2026-06-25T00:00:00Z,Complete
+LN-00959,BR-03959,Installment,2021-12-23,2026-12-23,153674,101116.93,9.88,60,GA,Medical,A,10 years,$100k-$150k,Current,0,Northstar Servicing,2026-05-03,2026-06-10T00:00:00Z,Complete
+LN-00960,BR-03960,Home Equity,2023-06-14,2033-06-14,403465,363933.42,11.0,120,NJ,Auto purchase,D,5 years,$150k+,Current,0,Summit Financial,2026-04-19,2026-05-09T00:00:00Z,Complete
+LN-00961,BR-03961,Mortgage,2021-09-18,2026-09-18,317758,127916.45,8.99,60,VA,Home improvement,B,2 years,$150k+,Current,0,Northstar Servicing,2026-06-28,2026-06-25T00:00:00Z,Complete
+LN-00962,BR-03962,Installment,2022-08-29,2032-08-29,426947,180617.74,4.61,120,TN,Medical,A,10 years,$50k-$75k,Current,0,Harbor Servicing,2026-05-29,2026-07-14T00:00:00Z,Complete
+LN-00963,BR-03963,Auto,2021-05-10,2036-05-10,221043,68970.58,12.03,180,OH,Home improvement,A,5 years,$50k-$75k,Current,0,Pioneer Credit,2026-04-14,2026-04-08T00:00:00Z,Complete
+LN-00964,BR-03964,Student,2021-01-01,2026-01-01,84872,26839.77,5.73,60,NJ,Home improvement,A,3 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-08,2026-07-22T00:00:00Z,Complete
+LN-00965,BR-03965,Mortgage,2023-02-26,2053-02-26,344568,118141.22,8.14,360,NY,Medical,D,3 years,$150k+,Delinquent,30,Harbor Servicing,2026-05-25,2026-06-06T00:00:00Z,Complete
+LN-00966,BR-03966,Student,2022-04-28,2032-04-28,244003,172048.87,11.69,120,IL,Home improvement,D,7 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-05-01,2026-04-09T00:00:00Z,Complete
+LN-00967,BR-03967,Installment,2021-09-12,2024-09-12,191272,0,10.29,36,FL,Medical,D,7 years,$75k-$100k,Closed,0,Summit Financial,2026-07-02,2026-04-12T00:00:00Z,Complete
+LN-00968,BR-03968,Personal,2022-04-23,2042-04-24,410325,293923.11,12.25,240,IL,Debt consolidation,D,3 years,$100k-$150k,Current,0,Northstar Servicing,2026-04-24,2026-04-25T00:00:00Z,Complete
+LN-00969,BR-03969,Installment,2024-11-01,2039-11-02,192331,172636.47,8.4,180,TX,Major purchase,C,2 years,$150k+,Current,0,Summit Financial,2026-05-26,2026-06-06T00:00:00Z,Complete
+LN-00970,BR-03970,Personal,2021-09-07,2051-09-08,267566,100666.81,8.19,360,IL,Home improvement,A,2 years,$150k+,Current,0,Northstar Servicing,2026-05-08,2026-07-16T00:00:00Z,Complete
+LN-00971,BR-03971,Home Equity,2023-11-21,2043-11-22,352682,308545.6,11.48,240,VA,Major purchase,A,2 years,$75k-$100k,Current,0,Northstar Servicing,2026-05-23,2026-05-31T00:00:00Z,Complete
+LN-00972,BR-03972,Mortgage,2023-03-22,2033-03-22,458772,323540.94,4.31,120,NJ,Debt consolidation,A,12 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-27,2026-07-10T00:00:00Z,Complete
+LN-00973,BR-03973,Personal,2021-02-24,2027-02-25,191971,69543.09,6.09,72,OR,Medical,B,2 years,$50k-$75k,Delinquent,30,Blue Ridge Servicing,2026-06-23,2026-04-30T00:00:00Z,Complete
+LN-00974,BR-03974,Mortgage,2021-09-09,2027-09-10,300757,209191.18,12.23,72,TX,Education,C,2 years,$50k-$75k,Current,0,Summit Financial,2026-07-29,2026-04-17T00:00:00Z,Complete
+LN-00975,BR-03975,Mortgage,2022-01-02,2032-01-03,330348,296731.47,11.91,120,NC,Medical,D,12 years,$100k-$150k,Current,0,Northstar Servicing,2026-06-30,2026-05-24T00:00:00Z,Complete
+LN-00976,BR-03976,Student,2023-07-28,2053-07-28,55606,28348.92,12.08,360,VA,Education,C,2 years,$75k-$100k,Current,0,Atlas Loan Co.,2026-05-03,2026-05-22T00:00:00Z,Complete
+LN-00977,BR-03977,Home Equity,2024-10-04,2031-10-05,60050,36514.6,6.29,84,WA,Debt consolidation,D,5 years,$150k+,Late,30,Atlas Loan Co.,2026-04-22,2026-07-13T00:00:00Z,Complete
+LN-00978,BR-03978,Auto,2024-03-23,2028-03-23,295036,205391.8,10.21,48,MI,Major purchase,C,12 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-04-22,2026-06-25T00:00:00Z,Complete
+LN-00979,BR-03979,Student,2021-05-27,2051-05-28,276881,83612.15,7.43,360,WA,Auto purchase,C,10 years,$75k-$100k,Current,0,Blue Ridge Servicing,2026-07-23,2026-04-13T00:00:00Z,Complete
+LN-00980,BR-03980,Personal,2024-06-19,2030-06-20,371109,117978.12,11.68,72,CA,Debt consolidation,D,5 years,$100k-$150k,Late,60,Atlas Loan Co.,2026-06-30,2026-06-09T00:00:00Z,Complete
+LN-00981,BR-03981,Home Equity,2022-01-12,2026-01-12,80513,38668.82,7.02,48,NC,Major purchase,C,3 years,$50k-$75k,Current,0,Atlas Loan Co.,2026-07-26,2026-04-08T00:00:00Z,Complete
+LN-00982,BR-03982,Auto,2022-10-18,2026-10-18,63139,31767.72,7.96,48,NJ,Major purchase,C,3 years,$150k+,Current,0,Harbor Servicing,2026-07-21,2026-04-08T00:00:00Z,Complete
+LN-00983,BR-03983,Home Equity,2024-12-24,2034-12-25,26989,20041.03,10.63,120,TX,Auto purchase,A,12 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-07-18,2026-06-06T00:00:00Z,Complete
+LN-00984,BR-03984,Home Equity,2024-01-08,2044-01-09,248746,183252.4,4.44,240,AZ,Major purchase,B,3 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-19,2026-05-22T00:00:00Z,Complete
+LN-00985,BR-03985,Installment,2024-01-08,2028-01-08,53373,29858.86,5.72,48,CA,Education,D,10 years,$150k+,Current,0,Harbor Servicing,2026-07-24,2026-04-09T00:00:00Z,Complete
+LN-00986,BR-03986,Installment,2021-03-04,2041-03-05,54670,32645.16,8.47,240,IL,Auto purchase,B,5 years,$100k-$150k,Current,0,Summit Financial,2026-07-30,2026-04-10T00:00:00Z,Complete
+LN-00987,BR-03987,Home Equity,2021-09-29,2026-09-29,170226,49304.55,3.8,60,NY,Home improvement,D,10 years,$150k+,Current,0,Summit Financial,2026-08-01,2026-06-18T00:00:00Z,Complete
+LN-00988,BR-03988,Installment,2024-08-23,2054-08-24,445984,268480.35,4.73,360,PA,Auto purchase,B,2 years,$100k-$150k,Current,0,Blue Ridge Servicing,2026-05-18,2026-07-19T00:00:00Z,Complete
+LN-00989,BR-03989,Installment,2022-01-31,2042-02-01,48295,35266.67,3.79,240,WA,Debt consolidation,B,2 years,$100k-$150k,Current,0,Summit Financial,2026-07-23,2026-06-11T00:00:00Z,Complete
+LN-00990,BR-03990,Mortgage,2023-11-24,2026-11-24,213727,90197.15,11.51,36,NY,Home improvement,D,10 years,$150k+,Current,0,Summit Financial,2026-08-01,2026-06-20T00:00:00Z,Complete
+LN-00991,BR-03991,Student,2024-12-17,2026-12-18,440825,373355.03,9.7,24,MI,Home improvement,B,3 years,$100k-$150k,Current,0,Summit Financial,2026-04-12,2026-07-30T00:00:00Z,Complete
+LN-00992,BR-03992,Auto,2022-11-19,2052-11-19,56904,33831.95,5.71,360,PA,Major purchase,A,3 years,$150k+,Current,0,Pioneer Credit,2026-04-10,2026-05-30T00:00:00Z,Complete
+LN-00993,BR-03993,Personal,2022-05-21,2025-05-21,109391,85961.05,6.21,36,NY,Medical,A,7 years,$75k-$100k,Current,0,Northstar Servicing,2026-07-22,2026-06-01T00:00:00Z,Complete
+LN-00994,BR-03994,Personal,2023-02-22,2026-02-22,42282,28254.51,9.69,36,MI,Debt consolidation,B,3 years,$100k-$150k,Current,0,Summit Financial,2026-07-11,2026-04-18T00:00:00Z,Complete
+LN-00995,BR-03995,Installment,2023-04-08,2033-04-08,98070,0,11.11,120,MA,Major purchase,B,12 years,$150k+,Closed,0,Summit Financial,2026-06-14,2026-05-25T00:00:00Z,Complete
+LN-00996,BR-03996,Installment,2022-11-18,2037-11-18,430388,171558.51,9.05,180,CO,Debt consolidation,B,7 years,$75k-$100k,Late,30,Pioneer Credit,2026-05-26,2026-07-14T00:00:00Z,Complete
+LN-00997,BR-03997,Auto,2023-07-01,2027-07-01,92252,35327.29,7.15,48,PA,Auto purchase,D,12 years,$150k+,Current,0,Northstar Servicing,2026-04-05,2026-04-09T00:00:00Z,Complete
+LN-00998,BR-03998,Auto,2022-04-07,2024-04-07,70368,38620.55,5.75,24,AZ,Major purchase,B,12 years,$50k-$75k,Current,0,Blue Ridge Servicing,2026-04-12,2026-05-16T00:00:00Z,Partial
+LN-00999,BR-03999,Student,2024-07-02,2034-07-03,429786,215430.95,6.86,120,MD,Auto purchase,C,2 years,$150k+,Current,0,Blue Ridge Servicing,2026-07-16,2026-04-13T00:00:00Z,Complete
+LN-01000,BR-04000,Home Equity,2021-07-22,2027-07-23,322479,236940.15,4.05,72,TX,Auto purchase,B,3 years,$50k-$75k,Current,0,Harbor Servicing,2026-04-21,2026-04-20T00:00:00Z,Complete

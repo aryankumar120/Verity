@@ -1,0 +1,5 @@
+loan_id,borrower_id,loan_type,origination_date,maturity_date,original_principal,current_balance,interest_rate,term_months,borrower_state,loan_purpose,credit_grade,employment_length,income_band,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status
+DEMO-001,BR-9001,Personal,2024-01-15,2027-01-15,25000,19800,8.25,36,CA,Debt consolidation,B,5 years,$75k-$100k,Current,0,Northstar Servicing,2026-08-01,2026-08-20T10:00:00Z,Complete
+DEMO-002,BR-9002,Auto,2024-03-10,2028-03-10,30000,32200,7.1,48,TX,Auto,A,7 years,$100k-$150k,Current,0,Atlas Loan Co.,2026-08-02,2026-08-18T10:00:00Z,Complete
+DEMO-003,BR-9003,Installment,2023-02-05,2022-12-05,18000,12000,9.5,36,NY,Personal,C,3 years,$50k-$75k,Late,30,Summit Financial,2026-07-30,2026-08-01T10:00:00Z,Complete
+DEMO-004,BR-9004,Mortgage,2022-05-12,2032-05-12,180000,152000,6.2,120,CA,Home improvement,B,8 years,$150k+,Current,0,Harbor Servicing,2026-08-01,2026-08-22T10:00:00Z,Complete

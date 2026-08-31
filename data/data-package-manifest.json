@@ -1,0 +1,9 @@
+{
+  "package": "Intain Campus FinTech Challenge 2026 synthetic loan data package",
+  "primary_file": "loan_tape.csv",
+  "primary_records": 1000,
+  "servicer_update_records": 250,
+  "document_manifest_records": 1000,
+  "expected_exception_records": 28,
+  "purpose": "Local judging/demo data aligned to organizer-provided package structure."
+}

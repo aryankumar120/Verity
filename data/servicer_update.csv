@@ -1,0 +1,251 @@
+loan_id,borrower_id,current_balance,interest_rate,payment_status,days_past_due,servicer_name,last_payment_date,last_updated_at,document_status,source_system
+LN-00001,BR-03001,289617.45,7.59,Delinquent,45,Blue Ridge Servicing,2026-04-03,2026-05-06T00:00:00Z,Complete,servicer_update.csv
+LN-00002,BR-03002,140231.89,8.13,Current,0,Pioneer Credit,2026-07-04,2026-04-23T00:00:00Z,Complete,servicer_update.csv
+LN-00003,BR-03003,41312.72,7.12,Current,0,Atlas Loan Co.,2026-06-01,2026-06-08T00:00:00Z,Complete,servicer_update.csv
+LN-00004,BR-03004,236393.98,7.51,Delinquent,15,Northstar Servicing,2026-06-20,2026-04-05T00:00:00Z,Complete,servicer_update.csv
+LN-00005,BR-03005,60223.28,9.41,Current,0,Harbor Servicing,2026-07-09,2026-06-15T00:00:00Z,Complete,servicer_update.csv
+LN-00006,BR-03006,162544.24,9.05,Current,0,Pioneer Credit,2026-07-30,2026-04-12T00:00:00Z,Complete,servicer_update.csv
+LN-00007,BR-03007,269440.17,7.25,Current,0,Harbor Servicing,2026-04-19,2026-07-04T00:00:00Z,Complete,servicer_update.csv
+LN-00008,BR-03008,152851.65,4.12,Late,30,Northstar Servicing,2026-07-08,2026-05-20T00:00:00Z,Complete,servicer_update.csv
+LN-00009,BR-03009,0,9.13,Current,0,Blue Ridge Servicing,2026-06-14,2026-04-17T00:00:00Z,Complete,servicer_update.csv
+LN-00010,BR-03010,183612.8,10.28,Current,0,Northstar Servicing,2026-06-01,2026-04-11T00:00:00Z,Complete,servicer_update.csv
+LN-00011,BR-03011,199152.83,6.26,Current,0,Pioneer Credit,2026-05-13,2026-08-01T00:00:00Z,Complete,servicer_update.csv
+LN-00012,BR-03012,82163.51,7.96,Current,0,Summit Financial,2026-04-29,2026-07-05T00:00:00Z,Complete,servicer_update.csv
+LN-00013,BR-03013,108158.77,4.86,Current,0,Pioneer Credit,2026-07-08,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00014,BR-03014,215288.09,9.98,Late,60,Blue Ridge Servicing,2026-07-03,2026-07-04T00:00:00Z,Complete,servicer_update.csv
+LN-00015,BR-03015,223491.78,8.14,Current,0,Blue Ridge Servicing,2026-06-23,2026-04-20T00:00:00Z,Complete,servicer_update.csv
+LN-00016,BR-03016,179015.09,6.73,Current,0,Northstar Servicing,2026-06-02,2026-04-09T00:00:00Z,Complete,servicer_update.csv
+LN-00017,BR-03017,161323.36,4.44,Current,0,Pioneer Credit,2026-07-02,2026-04-14T00:00:00Z,Complete,servicer_update.csv
+LN-00018,BR-03018,0,12.05,Closed,0,Atlas Loan Co.,2026-06-28,2026-06-06T00:00:00Z,Complete,servicer_update.csv
+LN-00019,BR-03019,20597.71,6.93,Current,0,Summit Financial,2026-04-06,2026-06-29T00:00:00Z,Complete,servicer_update.csv
+LN-00020,BR-03020,163136.14,7.04,Current,0,Atlas Loan Co.,2026-05-18,2026-05-10T00:00:00Z,Complete,servicer_update.csv
+LN-00021,BR-03021,37653.75,4.87,Current,0,Summit Financial,2026-05-03,2026-06-20T00:00:00Z,Complete,servicer_update.csv
+LN-00022,BR-03022,-215423.9,3.91,Current,0,Pioneer Credit,2026-04-08,2026-07-02T00:00:00Z,Complete,servicer_update.csv
+LN-00023,BR-03023,472840,9.33,Current,0,Harbor Servicing,2026-07-19,2026-07-11T00:00:00Z,Complete,servicer_update.csv
+LN-00024,BR-03024,180165.91,6.49,Current,0,Pioneer Credit,2026-06-29,2026-06-19T00:00:00Z,Complete,servicer_update.csv
+LN-00025,BR-03025,32073.04,35,Current,0,Atlas Loan Co.,2026-05-13,2026-05-12T00:00:00Z,Complete,servicer_update.csv
+LN-00026,BR-03026,236194.24,7.69,Current,15,Pioneer Credit,2026-06-27,2026-07-24T00:00:00Z,Complete,servicer_update.csv
+LN-00027,BR-03027,26219.1,5.47,Closed,0,Atlas Loan Co.,2026-08-01,2026-04-29T00:00:00Z,Complete,servicer_update.csv
+LN-00028,BR-03028,269965.71,11.99,Current,0,Harbor Servicing,2026-07-14,2026-07-08T00:00:00Z,,servicer_update.csv
+LN-00029,BR-03029,77155.37,5.38,Delinquent,30,Blue Ridge Servicing,2026-04-05,2026-08-01T00:00:00Z,Complete,servicer_update.csv
+LN-00030,BR-03030,169287.28,10.27,Current,0,Summit Financial,2026-05-11,2024-01-15T10:00:00Z,Complete,servicer_update.csv
+LN-00031,BR-03031,67585.06,4.12,Current,0,Summit Financial,2026-07-27,2026-06-05T00:00:00Z,Complete,servicer_update.csv
+LN-00032,BR-03032,205258.02,6.85,Current,0,Blue Ridge Servicing,2026-06-10,2026-05-05T00:00:00Z,Partial,servicer_update.csv
+,BR-03033,89768.13,11.45,Delinquent,60,Blue Ridge Servicing,2026-06-29,2026-04-06T00:00:00Z,Complete,servicer_update.csv
+LN-00001,BR-03034,153274.42,6.43,Current,0,Atlas Loan Co.,2026-05-01,2026-06-14T00:00:00Z,Complete,servicer_update.csv
+LN-00035,BR-03001,113171.88,4.7,Late,45,Northstar Servicing,2026-05-16,2026-07-15T00:00:00Z,Complete,servicer_update.csv
+LN-00036,,290895.24,5.41,Current,0,Harbor Servicing,2026-05-30,2026-05-02T00:00:00Z,Complete,servicer_update.csv
+LN-00037,BR-03037,127991.86,5.01,Current,0,Summit Financial,2026-05-02,2026-06-30T00:00:00Z,Partial,servicer_update.csv
+LN-00038,BR-03038,233105.33,unknown,Current,0,Northstar Servicing,2026-07-18,2026-04-05T00:00:00Z,Complete,servicer_update.csv
+LN-00039,BR-03039,345679.24,5.48,Current,0,Northstar Servicing,2026-05-12,2026-07-19T00:00:00Z,Complete,servicer_update.csv
+LN-00040,BR-03040,350919,12.15,Current,0,Blue Ridge Servicing,2026-07-21,2026-07-28T00:00:00Z,Complete,servicer_update.csv
+LN-00041,BR-03041,71320.91,11.29,Current,60,Atlas Loan Co.,2026-07-27,2026-04-08T00:00:00Z,Complete,servicer_update.csv
+LN-00042,BR-03042,46065.3,10.19,Closed,0,Summit Financial,2026-07-14,2026-04-28T00:00:00Z,Complete,servicer_update.csv
+LN-00043,BR-03043,107685.6,6.35,Current,0,Atlas Loan Co.,2026-06-21,2026-06-14T00:00:00Z,,servicer_update.csv
+LN-00044,BR-03044,295870.56,6.2,Current,0,Blue Ridge Servicing,2026-07-15,2026-04-13T00:00:00Z,Complete,servicer_update.csv
+LN-00045,BR-03045,96576.99,7.16,Late,45,Pioneer Credit,2026-06-27,2024-01-15T10:00:00Z,Complete,servicer_update.csv
+LN-00046,BR-03046,0,11.24,Closed,0,Northstar Servicing,2026-05-29,2026-04-30T00:00:00Z,Complete,servicer_update.csv
+LN-00047,BR-03047,75771.31,24,Current,0,Summit Financial,2026-05-10,2026-05-18T00:00:00Z,Complete,servicer_update.csv
+LN-00048,BR-03048,-119899.12,9.25,Current,0,Blue Ridge Servicing,2026-07-16,2026-05-31T00:00:00Z,Complete,servicer_update.csv
+,BR-03049,46320.33,12.34,Current,0,Blue Ridge Servicing,2026-07-08,2026-05-07T00:00:00Z,Complete,servicer_update.csv
+LN-00001,BR-03050,126263.89,5.28,Current,0,Pioneer Credit,2026-07-17,2026-04-04T00:00:00Z,Complete,servicer_update.csv
+LN-00051,BR-03001,318560.63,9.77,Current,0,Summit Financial,2026-06-20,2026-06-26T00:00:00Z,Complete,servicer_update.csv
+LN-00052,,16959.18,7.53,Current,0,Harbor Servicing,2026-07-15,2026-05-30T00:00:00Z,Complete,servicer_update.csv
+LN-00053,BR-03053,N/A,5.11,Current,0,Summit Financial,2026-06-02,2026-05-07T00:00:00Z,Complete,servicer_update.csv
+LN-00054,BR-03054,228445.36,11.6,Late,thirty,Pioneer Credit,2026-04-22,2026-04-26T00:00:00Z,Complete,servicer_update.csv
+LN-00055,BR-03055,16059.0,10.32,Closed,0,Pioneer Credit,2026-07-09,2026-07-09T00:00:00Z,Complete,servicer_update.csv
+LN-00056,BR-03056,302077.3,11.71,Current,30,Blue Ridge Servicing,2026-04-26,2026-05-20T00:00:00Z,Complete,servicer_update.csv
+LN-00057,BR-03057,47758.0,4.09,Current,0,Northstar Servicing,2026-05-29,2026-04-28T00:00:00Z,,servicer_update.csv
+LN-00058,BR-03058,298592.04,9.87,Delinquent,60,Atlas Loan Co.,2026-04-04,2024-01-15T10:00:00Z,Complete,servicer_update.csv
+LN-00059,BR-03059,119882.38,9.09,Late,90,Atlas Loan Co.,2026-04-22,2026-05-24T00:00:00Z,Complete,servicer_update.csv
+LN-00060,BR-03060,184671.88,9.61,Current,0,Blue Ridge Servicing,2026-06-20,2026-06-15T00:00:00Z,Complete,servicer_update.csv
+LN-00061,BR-03061,293745,4.49,Current,0,Pioneer Credit,2026-07-08,2026-07-22T00:00:00Z,Complete,servicer_update.csv
+LN-00062,BR-03062,9939.82,8.75,Current,0,Northstar Servicing,2026-04-09,2026-06-28T00:00:00Z,Partial,servicer_update.csv
+LN-00063,BR-03063,339596.21,-2,Current,0,Blue Ridge Servicing,2026-07-01,2026-05-25T00:00:00Z,Complete,servicer_update.csv
+LN-00064,BR-03064,73683.88,9.68,Current,0,Summit Financial,2026-06-24,2026-04-18T00:00:00Z,Complete,servicer_update.csv
+LN-00065,BR-03065,111794.2,11.77,Current,0,Atlas Loan Co.,2026-06-20,2026-04-29T00:00:00Z,Complete,servicer_update.csv
+,BR-03066,9232.09,8.43,Delinquent,30,Pioneer Credit,2026-05-07,2026-04-06T00:00:00Z,Complete,servicer_update.csv
+LN-00001,BR-03067,59120.98,8.14,Current,0,Northstar Servicing,2026-06-04,2026-05-02T00:00:00Z,Complete,servicer_update.csv
+LN-00068,BR-03001,4200.0,5.94,Closed,0,Northstar Servicing,2026-07-01,2026-06-20T00:00:00Z,Complete,servicer_update.csv
+LN-00069,BR-03069,40866.87,unknown,Current,0,Northstar Servicing,2026-04-19,2026-04-03T00:00:00Z,Complete,servicer_update.csv
+LN-00070,BR-03070,58663.2,9.49,Closed,0,Atlas Loan Co.,2026-06-22,2026-06-07T00:00:00Z,Complete,servicer_update.csv
+LN-00071,BR-03071,71093.82,5.81,Current,30,Blue Ridge Servicing,2026-06-11,2026-05-30T00:00:00Z,Complete,servicer_update.csv
+LN-00072,BR-03072,197959.49,12.46,Current,0,Atlas Loan Co.,2026-06-19,2026-05-25T00:00:00Z,,servicer_update.csv
+LN-00073,BR-03073,40229.37,11.51,Current,0,Summit Financial,2026-06-02,2024-01-15T10:00:00Z,Complete,servicer_update.csv
+LN-00074,BR-03074,87362.44,11.46,Current,0,Harbor Servicing,2026-06-03,2026-04-08T00:00:00Z,Complete,servicer_update.csv
+LN-00075,BR-03075,-244278.98,6.3,Late,45,Harbor Servicing,2026-05-02,2026-07-10T00:00:00Z,Complete,servicer_update.csv
+LN-00076,BR-03076,429134,4.76,Current,0,Northstar Servicing,2026-07-29,2026-07-09T00:00:00Z,Complete,servicer_update.csv
+LN-00077,BR-03077,119572.65,5.29,Delinquent,60,Summit Financial,2026-07-13,2026-07-31T00:00:00Z,Complete,servicer_update.csv
+LN-00078,BR-03078,169037.78,-2,Current,0,Atlas Loan Co.,2026-04-19,2026-04-07T00:00:00Z,Complete,servicer_update.csv
+LN-00079,,101081.38,7.81,Current,0,Atlas Loan Co.,2026-05-04,2026-04-28T00:00:00Z,Complete,servicer_update.csv
+LN-00080,BR-03080,211382.27,11.48,Late,45,Atlas Loan Co.,2026-07-21,2026-05-30T00:00:00Z,Partial,servicer_update.csv
+LN-00081,BR-03081,N/A,7.53,Late,45,Summit Financial,2026-07-28,2026-06-08T00:00:00Z,Complete,servicer_update.csv
+LN-00082,BR-03082,24378.68,4.71,Late,thirty,Pioneer Credit,2026-04-04,2026-04-25T00:00:00Z,Complete,servicer_update.csv
+LN-00083,BR-03083,74874.9,11.77,Closed,45,Northstar Servicing,2026-07-25,2026-06-08T00:00:00Z,Complete,servicer_update.csv
+LN-00084,BR-03084,133076.98,9.28,Current,60,Northstar Servicing,2026-04-27,2026-07-31T00:00:00Z,Partial,servicer_update.csv
+LN-00085,BR-03085,107574.45,11.73,Current,0,Harbor Servicing,2026-04-24,2026-06-16T00:00:00Z,,servicer_update.csv
+LN-00086,BR-03086,174343.62,7.73,Current,0,Pioneer Credit,2026-07-25,2024-01-15T10:00:00Z,Complete,servicer_update.csv
+LN-00087,BR-03087,81650.55,10.9,Late,45,Blue Ridge Servicing,2026-05-04,2026-07-01T00:00:00Z,Complete,servicer_update.csv
+LN-00088,BR-03088,258419.09,6.51,Current,0,Northstar Servicing,2026-07-08,2026-07-13T00:00:00Z,Complete,servicer_update.csv
+LN-00089,BR-03089,390617,8.05,Current,0,Blue Ridge Servicing,2026-07-06,2026-07-26T00:00:00Z,Complete,servicer_update.csv
+LN-00090,BR-03090,0,5.43,Closed,0,Blue Ridge Servicing,2026-07-01,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00091,BR-03091,268368.83,24,Current,0,Harbor Servicing,2026-04-08,2026-05-22T00:00:00Z,Complete,servicer_update.csv
+,BR-03092,208997.87,7.66,Current,0,Atlas Loan Co.,2026-05-20,2026-07-14T00:00:00Z,Complete,servicer_update.csv
+LN-00001,BR-03093,15167.84,6.45,Current,0,Harbor Servicing,2026-07-03,2026-07-02T00:00:00Z,Complete,servicer_update.csv
+LN-00094,BR-03001,20119.99,8.0,Current,0,Northstar Servicing,2026-07-14,2026-04-19T00:00:00Z,Partial,servicer_update.csv
+LN-00095,BR-03095,257904.34,10.59,Delinquent,30,Northstar Servicing,2026-06-12,2026-06-22T00:00:00Z,Complete,servicer_update.csv
+LN-00096,BR-03096,79203.53,5.43,Delinquent,60,Blue Ridge Servicing,2026-04-12,2026-07-15T00:00:00Z,Complete,servicer_update.csv
+LN-00097,BR-03097,19691.85,10.66,Closed,0,Pioneer Credit,2026-07-01,2026-04-23T00:00:00Z,Complete,servicer_update.csv
+LN-00098,BR-03098,64325.74,12.22,Current,30,Blue Ridge Servicing,2026-05-13,2026-07-03T00:00:00Z,Complete,servicer_update.csv
+LN-00099,BR-03099,107664.87,9.32,Late,15,Blue Ridge Servicing,2026-07-11,2026-06-07T00:00:00Z,,servicer_update.csv
+LN-00100,BR-03100,179681.08,10.6,Current,0,Pioneer Credit,2026-05-21,2024-01-15T10:00:00Z,Complete,servicer_update.csv
+LN-00101,BR-03101,137006.25,6.27,Current,0,Summit Financial,2026-07-24,2026-04-12T00:00:00Z,Complete,servicer_update.csv
+LN-00102,BR-03102,311033.5,8.85,Current,0,Harbor Servicing,2026-04-14,2026-04-24T00:00:00Z,Complete,servicer_update.csv
+LN-00103,BR-03103,52918.46,7.03,Current,0,Harbor Servicing,2026-05-31,2026-04-16T00:00:00Z,Complete,servicer_update.csv
+LN-00104,BR-03104,185755.67,4.71,Current,0,Pioneer Credit,2026-06-01,2026-04-20T00:00:00Z,Complete,servicer_update.csv
+LN-00105,BR-03105,0,7.6,Closed,0,Northstar Servicing,2026-05-22,2026-07-05T00:00:00Z,Complete,servicer_update.csv
+LN-00106,BR-03106,227332.81,10.68,Current,0,Atlas Loan Co.,2026-05-17,2026-07-08T00:00:00Z,Complete,servicer_update.csv
+LN-00107,BR-03107,214987.91,7.49,Current,0,Summit Financial,2026-05-29,2026-05-12T00:00:00Z,Partial,servicer_update.csv
+LN-00108,BR-03108,85077.96,9.6,Current,0,Harbor Servicing,2026-07-09,2026-05-29T00:00:00Z,Complete,servicer_update.csv
+LN-00109,BR-03109,203689.7,5.4,Current,0,Pioneer Credit,2026-04-18,2026-06-20T00:00:00Z,Complete,servicer_update.csv
+LN-00110,BR-03110,334686.28,11.12,Current,0,Atlas Loan Co.,2026-05-06,2026-07-22T00:00:00Z,Complete,servicer_update.csv
+LN-00111,BR-03111,149175.13,5.64,Late,90,Atlas Loan Co.,2026-04-08,2026-07-21T00:00:00Z,Complete,servicer_update.csv
+LN-00112,BR-03112,103705.8,8.19,Current,0,Pioneer Credit,2026-07-12,2026-05-23T00:00:00Z,Complete,servicer_update.csv
+LN-00113,BR-03113,6524.69,6.16,Current,0,Harbor Servicing,2026-04-15,2026-05-14T00:00:00Z,Complete,servicer_update.csv
+LN-00114,BR-03114,156701.62,8.64,Current,0,Harbor Servicing,2026-05-22,2026-07-14T00:00:00Z,Complete,servicer_update.csv
+LN-00115,BR-03115,96403.02,11.54,Current,0,Summit Financial,2026-07-16,2026-07-27T00:00:00Z,Complete,servicer_update.csv
+LN-00116,BR-03116,336792.11,10.06,Current,0,Blue Ridge Servicing,2026-07-08,2026-05-04T00:00:00Z,Complete,servicer_update.csv
+LN-00117,BR-03117,46020.37,4.61,Current,0,Northstar Servicing,2026-05-12,2026-04-27T00:00:00Z,Complete,servicer_update.csv
+LN-00118,BR-03118,95458.07,3.99,Current,0,Summit Financial,2026-04-14,2026-06-01T00:00:00Z,Complete,servicer_update.csv
+LN-00119,BR-03119,139762.67,11.0,Current,0,Summit Financial,2026-04-20,2026-06-17T00:00:00Z,Complete,servicer_update.csv
+LN-00120,BR-03120,62141.4,6.26,Current,0,Northstar Servicing,2026-07-11,2026-06-14T00:00:00Z,Complete,servicer_update.csv
+LN-00121,BR-03121,353109.44,3.69,Current,0,Atlas Loan Co.,2026-06-02,2026-04-25T00:00:00Z,Complete,servicer_update.csv
+LN-00122,BR-03122,250084.7,3.57,Current,0,Summit Financial,2026-06-10,2026-07-27T00:00:00Z,Complete,servicer_update.csv
+LN-00123,BR-03123,0,11.55,Closed,0,Atlas Loan Co.,2026-04-18,2026-04-12T00:00:00Z,Complete,servicer_update.csv
+LN-00124,BR-03124,89278.51,9.07,Current,0,Northstar Servicing,2026-07-17,2026-05-02T00:00:00Z,Complete,servicer_update.csv
+LN-00125,BR-03125,107979.61,6.7,Current,0,Harbor Servicing,2026-05-13,2026-06-03T00:00:00Z,Complete,servicer_update.csv
+LN-00126,BR-03126,140882.13,5.5,Delinquent,60,Harbor Servicing,2026-06-03,2026-07-11T00:00:00Z,Complete,servicer_update.csv
+LN-00127,BR-03127,77241.78,7.06,Late,15,Atlas Loan Co.,2026-07-05,2026-06-23T00:00:00Z,Complete,servicer_update.csv
+LN-00128,BR-03128,18177.35,9.52,Current,0,Harbor Servicing,2026-07-05,2026-07-18T00:00:00Z,Complete,servicer_update.csv
+LN-00129,BR-03129,105989.93,4.39,Current,0,Northstar Servicing,2026-06-11,2026-04-03T00:00:00Z,Complete,servicer_update.csv
+LN-00130,BR-03130,173647.94,6.58,Current,0,Northstar Servicing,2026-06-03,2026-06-13T00:00:00Z,Complete,servicer_update.csv
+LN-00131,BR-03131,343889.34,5.75,Current,0,Pioneer Credit,2026-05-21,2026-06-30T00:00:00Z,Missing,servicer_update.csv
+LN-00132,BR-03132,89389.29,7.08,Current,0,Blue Ridge Servicing,2026-05-04,2026-07-07T00:00:00Z,Missing,servicer_update.csv
+LN-00133,BR-03133,99107.12,4.72,Current,0,Atlas Loan Co.,2026-06-06,2026-05-01T00:00:00Z,Complete,servicer_update.csv
+LN-00134,BR-03134,128305.89,8.74,Current,0,Atlas Loan Co.,2026-04-17,2026-05-20T00:00:00Z,Complete,servicer_update.csv
+LN-00135,BR-03135,45573.3,8.64,Current,0,Blue Ridge Servicing,2026-06-26,2026-05-24T00:00:00Z,Complete,servicer_update.csv
+LN-00136,BR-03136,154254.35,8.73,Current,0,Pioneer Credit,2026-05-15,2026-05-17T00:00:00Z,Complete,servicer_update.csv
+LN-00137,BR-03137,287319.08,9.84,Current,0,Harbor Servicing,2026-06-15,2026-04-27T00:00:00Z,Complete,servicer_update.csv
+LN-00138,BR-03138,93945.0,5.17,Current,0,Northstar Servicing,2026-05-15,2026-05-31T00:00:00Z,Complete,servicer_update.csv
+LN-00139,BR-03139,328992.37,6.74,Current,0,Summit Financial,2026-06-03,2026-04-22T00:00:00Z,Complete,servicer_update.csv
+LN-00140,BR-03140,95314.26,3.63,Current,0,Harbor Servicing,2026-04-13,2026-04-08T00:00:00Z,Complete,servicer_update.csv
+LN-00141,BR-03141,207614.23,5.2,Current,0,Harbor Servicing,2026-04-24,2026-07-10T00:00:00Z,Partial,servicer_update.csv
+LN-00142,BR-03142,75364.28,5.51,Current,0,Harbor Servicing,2026-07-24,2026-05-30T00:00:00Z,Complete,servicer_update.csv
+LN-00143,BR-03143,170048.57,4.68,Late,45,Summit Financial,2026-06-23,2026-05-16T00:00:00Z,Complete,servicer_update.csv
+LN-00144,BR-03144,95849.18,7.9,Current,0,Pioneer Credit,2026-04-27,2026-04-21T00:00:00Z,Complete,servicer_update.csv
+LN-00145,BR-03145,37829.06,10.53,Late,90,Northstar Servicing,2026-06-14,2026-07-23T00:00:00Z,Complete,servicer_update.csv
+LN-00146,BR-03146,220391.57,11.13,Current,0,Northstar Servicing,2026-04-18,2026-04-30T00:00:00Z,Complete,servicer_update.csv
+LN-00147,BR-03147,62272.7,11.11,Current,0,Blue Ridge Servicing,2026-06-12,2026-06-30T00:00:00Z,Complete,servicer_update.csv
+LN-00148,BR-03148,152449.36,12.46,Delinquent,60,Blue Ridge Servicing,2026-07-14,2026-07-22T00:00:00Z,Complete,servicer_update.csv
+LN-00149,BR-03149,71774.73,7.88,Current,0,Harbor Servicing,2026-07-28,2026-07-10T00:00:00Z,Complete,servicer_update.csv
+LN-00150,BR-03150,122791.91,6.76,Current,0,Northstar Servicing,2026-05-28,2026-07-14T00:00:00Z,Complete,servicer_update.csv
+LN-00151,BR-03151,130199.51,11.37,Current,0,Atlas Loan Co.,2026-07-07,2026-05-28T00:00:00Z,Complete,servicer_update.csv
+LN-00152,BR-03152,20577.32,7.79,Current,0,Summit Financial,2026-06-20,2026-05-28T00:00:00Z,Complete,servicer_update.csv
+LN-00153,BR-03153,144292.72,6.34,Current,0,Summit Financial,2026-07-08,2026-05-27T00:00:00Z,Complete,servicer_update.csv
+LN-00154,BR-03154,30868.6,3.71,Current,0,Blue Ridge Servicing,2026-06-17,2026-06-16T00:00:00Z,Complete,servicer_update.csv
+LN-00155,BR-03155,344416.41,11.47,Current,0,Summit Financial,2026-06-14,2026-04-12T00:00:00Z,Complete,servicer_update.csv
+LN-00156,BR-03156,-8500.0,4.88,Closed,0,Northstar Servicing,2026-07-18,2026-05-09T00:00:00Z,Complete,servicer_update.csv
+LN-00157,BR-03157,259986.44,12.08,Current,0,Summit Financial,2026-06-01,2026-07-11T00:00:00Z,Complete,servicer_update.csv
+LN-00158,BR-03158,254080.87,4.44,Current,0,Pioneer Credit,2026-07-07,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00159,BR-03159,208395.06,11.05,Current,0,Blue Ridge Servicing,2026-07-31,2026-04-09T00:00:00Z,Complete,servicer_update.csv
+LN-00160,BR-03160,98762.69,8.21,Current,0,Blue Ridge Servicing,2026-07-30,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00161,BR-03161,77281.16,5.12,Current,0,Atlas Loan Co.,2026-04-15,2026-05-07T00:00:00Z,Complete,servicer_update.csv
+LN-00162,BR-03162,135352.23,4.61,Current,0,Harbor Servicing,2026-05-21,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00163,BR-03163,257149.93,6.9,Current,0,Summit Financial,2026-04-13,2026-07-31T00:00:00Z,Complete,servicer_update.csv
+LN-00164,BR-03164,270615.3,9.6,Current,0,Harbor Servicing,2026-04-08,2026-07-28T00:00:00Z,Complete,servicer_update.csv
+LN-00165,BR-03165,218397.79,9.82,Current,0,Blue Ridge Servicing,2026-07-20,2026-05-18T00:00:00Z,Partial,servicer_update.csv
+LN-00166,BR-03166,247249.51,9.6,Late,15,Harbor Servicing,2026-05-10,2026-04-08T00:00:00Z,Complete,servicer_update.csv
+LN-00167,BR-03167,39589.53,7.65,Current,0,Summit Financial,2026-06-25,2026-05-08T00:00:00Z,Complete,servicer_update.csv
+LN-00168,BR-03168,291116.93,10.4,Current,0,Pioneer Credit,2026-06-07,2026-07-08T00:00:00Z,Complete,servicer_update.csv
+LN-00169,BR-03169,158542.98,10.4,Delinquent,60,Blue Ridge Servicing,2026-07-30,2026-05-02T00:00:00Z,Complete,servicer_update.csv
+LN-00170,BR-03170,0,3.63,Closed,0,Harbor Servicing,2026-07-02,2026-06-05T00:00:00Z,Complete,servicer_update.csv
+LN-00171,BR-03171,50015.42,3.77,Current,0,Atlas Loan Co.,2026-05-26,2026-04-16T00:00:00Z,Complete,servicer_update.csv
+LN-00172,BR-03172,195693.55,3.86,Current,0,Blue Ridge Servicing,2026-05-16,2026-05-24T00:00:00Z,Complete,servicer_update.csv
+LN-00173,BR-03173,311071.2,5.58,Current,0,Harbor Servicing,2026-05-08,2026-04-05T00:00:00Z,Complete,servicer_update.csv
+LN-00174,BR-03174,161469.32,9.31,Current,0,Harbor Servicing,2026-05-30,2026-04-11T00:00:00Z,Partial,servicer_update.csv
+LN-00175,BR-03175,137804.11,10.08,Current,0,Harbor Servicing,2026-07-26,2026-05-03T00:00:00Z,Complete,servicer_update.csv
+LN-00176,BR-03176,93705.57,4.52,Current,0,Summit Financial,2026-06-19,2026-06-02T00:00:00Z,Partial,servicer_update.csv
+LN-00177,BR-03177,175549.9,11.76,Current,0,Summit Financial,2026-05-29,2026-05-11T00:00:00Z,Complete,servicer_update.csv
+LN-00178,BR-03178,158414.71,6.37,Delinquent,60,Northstar Servicing,2026-06-13,2026-06-12T00:00:00Z,Complete,servicer_update.csv
+LN-00179,BR-03179,0,11.17,Closed,0,Atlas Loan Co.,2026-04-30,2026-05-05T00:00:00Z,Complete,servicer_update.csv
+LN-00180,BR-03180,40292.09,11.29,Late,45,Northstar Servicing,2026-07-17,2026-05-08T00:00:00Z,Complete,servicer_update.csv
+LN-00181,BR-03181,273660.14,7.46,Current,0,Harbor Servicing,2026-07-18,2026-05-29T00:00:00Z,Complete,servicer_update.csv
+LN-00182,BR-03182,86984.46,5.01,Late,30,Northstar Servicing,2026-07-01,2026-05-17T00:00:00Z,Complete,servicer_update.csv
+LN-00183,BR-03183,212664.81,5.36,Current,0,Harbor Servicing,2026-07-01,2026-04-14T00:00:00Z,Complete,servicer_update.csv
+LN-00184,BR-03184,199725.38,11.45,Current,0,Blue Ridge Servicing,2026-06-30,2026-04-12T00:00:00Z,Complete,servicer_update.csv
+LN-00185,BR-03185,186334.98,5.11,Late,15,Summit Financial,2026-05-08,2026-04-14T00:00:00Z,Complete,servicer_update.csv
+LN-00186,BR-03186,0,11.11,Closed,0,Blue Ridge Servicing,2026-05-16,2026-04-06T00:00:00Z,Complete,servicer_update.csv
+LN-00187,BR-03187,44534.36,8.58,Current,0,Summit Financial,2026-07-18,2026-06-17T00:00:00Z,Complete,servicer_update.csv
+LN-00188,BR-03188,255614.04,5.9,Current,0,Harbor Servicing,2026-07-08,2026-06-28T00:00:00Z,Complete,servicer_update.csv
+LN-00189,BR-03189,235233.8,6.95,Current,0,Harbor Servicing,2026-06-13,2026-05-19T00:00:00Z,Complete,servicer_update.csv
+LN-00190,BR-03190,312033.55,6.16,Current,0,Northstar Servicing,2026-07-18,2026-06-15T00:00:00Z,Complete,servicer_update.csv
+LN-00191,BR-03191,174531.14,6.99,Late,15,Blue Ridge Servicing,2026-06-11,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00192,BR-03192,98493.7,3.96,Late,45,Blue Ridge Servicing,2026-04-04,2026-05-05T00:00:00Z,Complete,servicer_update.csv
+LN-00193,BR-03193,148815.93,3.82,Delinquent,15,Northstar Servicing,2026-05-07,2026-06-26T00:00:00Z,Complete,servicer_update.csv
+LN-00194,BR-03194,133778.35,5.67,Current,0,Blue Ridge Servicing,2026-05-19,2026-05-28T00:00:00Z,Complete,servicer_update.csv
+LN-00195,BR-03195,99621.67,10.53,Current,0,Summit Financial,2026-06-05,2026-07-27T00:00:00Z,Complete,servicer_update.csv
+LN-00196,BR-03196,31867.26,5.57,Current,0,Blue Ridge Servicing,2026-04-18,2026-04-14T00:00:00Z,Partial,servicer_update.csv
+LN-00197,BR-03197,211032.69,11.21,Current,0,Atlas Loan Co.,2026-06-14,2026-04-26T00:00:00Z,Complete,servicer_update.csv
+LN-00198,BR-03198,214586.74,5.8,Current,0,Northstar Servicing,2026-04-17,2026-06-20T00:00:00Z,Complete,servicer_update.csv
+LN-00199,BR-03199,48183.07,3.96,Current,0,Atlas Loan Co.,2026-05-24,2026-06-28T00:00:00Z,Complete,servicer_update.csv
+LN-00200,BR-03200,133896.81,12.16,Current,0,Northstar Servicing,2026-06-27,2026-07-23T00:00:00Z,Complete,servicer_update.csv
+LN-00201,BR-03201,115802.76,8.78,Current,0,Pioneer Credit,2026-06-25,2026-07-06T00:00:00Z,Complete,servicer_update.csv
+LN-00202,BR-03202,276846.9,9.58,Current,0,Harbor Servicing,2026-04-03,2026-04-08T00:00:00Z,Complete,servicer_update.csv
+LN-00203,BR-03203,87960.95,10.98,Current,0,Atlas Loan Co.,2026-06-05,2026-06-15T00:00:00Z,Complete,servicer_update.csv
+LN-00204,BR-03204,195912.42,7.68,Current,0,Pioneer Credit,2026-04-29,2026-04-22T00:00:00Z,Complete,servicer_update.csv
+LN-00205,BR-03205,102191.59,7.11,Current,0,Blue Ridge Servicing,2026-04-06,2026-04-06T00:00:00Z,Complete,servicer_update.csv
+LN-00206,BR-03206,136953.7,3.65,Current,0,Pioneer Credit,2026-06-06,2026-05-15T00:00:00Z,Complete,servicer_update.csv
+LN-00207,BR-03207,0,5.47,Closed,0,Harbor Servicing,2026-07-27,2026-07-21T00:00:00Z,Complete,servicer_update.csv
+LN-00208,BR-03208,222781.57,7.54,Current,0,Northstar Servicing,2026-05-27,2026-07-16T00:00:00Z,Complete,servicer_update.csv
+LN-00209,BR-03209,52158.21,7.09,Current,0,Pioneer Credit,2026-04-26,2026-04-30T00:00:00Z,Complete,servicer_update.csv
+LN-00210,BR-03210,56132.51,10.49,Current,0,Blue Ridge Servicing,2026-05-25,2026-05-25T00:00:00Z,Complete,servicer_update.csv
+LN-00211,BR-03211,41176.47,3.59,Late,30,Northstar Servicing,2026-07-03,2026-04-03T00:00:00Z,Complete,servicer_update.csv
+LN-00212,BR-03212,166514.19,11.0,Current,0,Pioneer Credit,2026-07-01,2026-08-01T00:00:00Z,Complete,servicer_update.csv
+LN-00213,BR-03213,169768.01,5.6,Current,0,Blue Ridge Servicing,2026-07-01,2026-04-08T00:00:00Z,Complete,servicer_update.csv
+LN-00214,BR-03214,151927.7,9.81,Current,0,Harbor Servicing,2026-06-22,2026-07-09T00:00:00Z,Complete,servicer_update.csv
+LN-00215,BR-03215,213688.17,7.62,Current,0,Blue Ridge Servicing,2026-06-26,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00216,BR-03216,185683.92,10.86,Current,0,Pioneer Credit,2026-07-07,2026-06-03T00:00:00Z,Complete,servicer_update.csv
+LN-00217,BR-03217,107618.2,12.06,Current,0,Northstar Servicing,2026-04-24,2026-04-13T00:00:00Z,Complete,servicer_update.csv
+LN-00218,BR-03218,129028.56,3.68,Current,0,Harbor Servicing,2026-06-08,2026-04-22T00:00:00Z,Complete,servicer_update.csv
+LN-00219,BR-03219,258867.91,4.91,Current,0,Harbor Servicing,2026-07-03,2026-07-31T00:00:00Z,Complete,servicer_update.csv
+LN-00220,BR-03220,15484.38,4.29,Current,0,Blue Ridge Servicing,2026-06-10,2026-07-10T00:00:00Z,Complete,servicer_update.csv
+LN-00221,BR-03221,180725.9,4.47,Current,0,Summit Financial,2026-07-30,2026-05-02T00:00:00Z,Complete,servicer_update.csv
+LN-00222,BR-03222,49230.38,5.01,Current,0,Harbor Servicing,2026-06-14,2026-05-10T00:00:00Z,Complete,servicer_update.csv
+LN-00223,BR-03223,109538.27,10.68,Delinquent,60,Atlas Loan Co.,2026-07-31,2026-07-27T00:00:00Z,Complete,servicer_update.csv
+LN-00224,BR-03224,95957.43,10.99,Current,0,Atlas Loan Co.,2026-04-13,2026-04-09T00:00:00Z,Partial,servicer_update.csv
+LN-00225,BR-03225,126154.93,4.12,Current,0,Blue Ridge Servicing,2026-05-16,2026-06-13T00:00:00Z,Complete,servicer_update.csv
+LN-00226,BR-03226,255882.6,8.28,Current,0,Northstar Servicing,2026-04-30,2026-05-14T00:00:00Z,Complete,servicer_update.csv
+LN-00227,BR-03227,345481.99,9.29,Delinquent,15,Atlas Loan Co.,2026-04-04,2026-06-21T00:00:00Z,Complete,servicer_update.csv
+LN-00228,BR-03228,224622.53,9.39,Current,0,Northstar Servicing,2026-05-08,2026-06-30T00:00:00Z,Complete,servicer_update.csv
+LN-00229,BR-03229,177806.64,9.25,Current,0,Summit Financial,2026-07-24,2026-04-16T00:00:00Z,Complete,servicer_update.csv
+LN-00230,BR-03230,135606.96,7.79,Current,0,Summit Financial,2026-05-15,2026-06-17T00:00:00Z,Complete,servicer_update.csv
+LN-00231,BR-03231,61380.66,9.77,Current,0,Summit Financial,2026-07-18,2026-07-10T00:00:00Z,Complete,servicer_update.csv
+LN-00232,BR-03232,72013.12,11.65,Current,0,Summit Financial,2026-06-03,2026-04-20T00:00:00Z,Complete,servicer_update.csv
+LN-00233,BR-03233,52415.35,4.43,Current,0,Atlas Loan Co.,2026-07-04,2026-04-24T00:00:00Z,Complete,servicer_update.csv
+LN-00234,BR-03234,52924.52,9.88,Current,0,Blue Ridge Servicing,2026-04-25,2026-07-07T00:00:00Z,Missing,servicer_update.csv
+LN-00235,BR-03235,26271.11,11.79,Current,0,Harbor Servicing,2026-04-07,2026-06-05T00:00:00Z,Complete,servicer_update.csv
+LN-00236,BR-03236,69663.65,13.02,Current,0,Summit Financial,2026-06-29,2026-04-27T00:00:00Z,Complete,servicer_update.csv
+LN-00237,BR-03237,239759.16,7.76,Current,0,Blue Ridge Servicing,2026-05-15,2026-04-18T00:00:00Z,Complete,servicer_update.csv
+LN-00238,BR-03238,351127.35,6.55,Current,0,Blue Ridge Servicing,2026-05-19,2026-07-17T00:00:00Z,Complete,servicer_update.csv
+LN-00239,BR-03239,92958.03,11.23,Late,30,Blue Ridge Servicing,2026-04-23,2026-06-04T00:00:00Z,Complete,servicer_update.csv
+LN-00240,BR-03240,124070.41,11.58,Current,0,Northstar Servicing,2026-04-30,2026-07-22T00:00:00Z,Complete,servicer_update.csv
+LN-00241,BR-03241,14361.87,5.17,Current,0,Pioneer Credit,2026-05-07,2026-06-05T00:00:00Z,Complete,servicer_update.csv
+LN-00242,BR-03242,86897.04,6.59,Current,0,Atlas Loan Co.,2026-07-03,2026-04-03T00:00:00Z,Partial,servicer_update.csv
+LN-00243,BR-03243,129027.58,4.01,Current,0,Atlas Loan Co.,2026-04-25,2026-05-18T00:00:00Z,Complete,servicer_update.csv
+LN-00244,BR-03244,311512.36,9.99,Current,0,Blue Ridge Servicing,2026-06-07,2026-06-18T00:00:00Z,Complete,servicer_update.csv
+LN-00245,BR-03245,365211.8,3.72,Current,0,Harbor Servicing,2026-05-16,2026-05-07T00:00:00Z,Complete,servicer_update.csv
+LN-00246,BR-03246,42744.21,7.69,Current,0,Pioneer Credit,2026-07-27,2026-05-16T00:00:00Z,Complete,servicer_update.csv
+LN-00247,BR-03247,112533.3,12.33,Current,0,Harbor Servicing,2026-04-03,2026-07-10T00:00:00Z,Complete,servicer_update.csv
+LN-00248,BR-03248,88313.57,10.94,Current,0,Harbor Servicing,2026-07-14,2026-06-16T00:00:00Z,Partial,servicer_update.csv
+LN-00249,BR-03249,370024.69,11.34,Current,0,Pioneer Credit,2026-07-23,2026-05-07T00:00:00Z,Complete,servicer_update.csv
+LN-00250,BR-03250,143374.66,5.51,Current,0,Atlas Loan Co.,2026-06-06,2026-05-01T00:00:00Z,Complete,servicer_update.csv

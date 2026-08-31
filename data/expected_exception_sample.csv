@@ -1,0 +1,29 @@
+row,loan_id,issue,field,before,after
+22,LN-00021,negative principal,original_principal,134639,-134639
+23,LN-00022,negative balance,current_balance,215423.9,-215423.9
+24,LN-00023,balance exceeds principal,current_balance,118723.31,472840
+25,LN-00024,maturity before origination,maturity_date,2044-08-27,2024-07-27
+26,LN-00025,invalid interest rate,interest_rate,3.53,35
+27,LN-00026,payment mismatch current dpd,payment_status/days_past_due,"('Current', 0)","('Current', 15)"
+28,LN-00027,closed positive balance,payment_status/current_balance,"('Current', 128586.41)","('Closed', 26219.1)"
+29,LN-00028,missing document,document_status,Missing,
+30,LN-00029,invalid state,borrower_state,WA,ZZ
+31,LN-00030,stale record,last_updated_at,2026-05-26T00:00:00Z,2024-01-15T10:00:00Z
+32,LN-00031,invalid origination date,origination_date,2023-01-25,2026-99-40
+33,LN-00032,invalid maturity date,maturity_date,2028-10-26,not-a-date
+34,,missing loan id,loan_id,LN-00033,
+35,LN-00001,duplicate loan id,loan_id,LN-00034,LN-00001
+36,LN-00035,duplicate borrower combo,borrower_id/original_principal/origination_date,"('BR-03035', 424042, '2023-09-23')","('BR-03001', 487682, '2022-02-13')"
+37,LN-00036,missing borrower id,borrower_id,BR-03036,
+38,LN-00037,invalid numeric principal,original_principal,203196,not-a-number
+39,LN-00038,invalid numeric rate,interest_rate,6.9,unknown
+40,LN-00039,negative principal,original_principal,456544,-456544
+41,LN-00040,balance exceeds principal,current_balance,226333.25,350919
+42,LN-00041,payment mismatch current dpd,payment_status/days_past_due,"('Current', 0)","('Current', 60)"
+43,LN-00042,closed positive balance,payment_status/current_balance,"('Current', 78297.62)","('Closed', 46065.3)"
+44,LN-00043,missing document,document_status,Complete,
+45,LN-00044,invalid state,borrower_state,OR,ZZ
+46,LN-00045,stale record,last_updated_at,2026-05-10T00:00:00Z,2024-01-15T10:00:00Z
+servicer_update,LN-00005,Conflicting source value,current_balance/payment_status/interest_rate,loan_tape.csv value,servicer_update.csv value
+servicer_update,LN-00009,Conflicting source value,current_balance/payment_status/interest_rate,loan_tape.csv value,servicer_update.csv value
+servicer_update,LN-00015,Conflicting source value,current_balance/payment_status/interest_rate,loan_tape.csv value,servicer_update.csv value

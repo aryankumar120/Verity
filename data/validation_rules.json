@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "description": "Configurable validation rules aligned to the Intain Campus FinTech Challenge 2026 Full Stack Track.",
+  "rules": [
+    {
+      "id": "required_fields",
+      "severity": "critical",
+      "description": "Required fields must be present and non-empty.",
+      "fields": [
+        "loan_id",
+        "borrower_id",
+        "loan_type",
+        "origination_date",
+        "maturity_date",
+        "original_principal",
+        "current_balance",
+        "interest_rate",
+        "term_months",
+        "borrower_state",
+        "payment_status",
+        "document_status"
+      ]
+    },
+    {
+      "id": "valid_dates",
+      "severity": "high",
+      "description": "Origination, maturity and payment dates must be valid ISO dates."
+    },
+    {
+      "id": "non_negative_amounts",
+      "severity": "critical",
+      "description": "Original principal and current balance cannot be negative."
+    },
+    {
+      "id": "maturity_after_origination",
+      "severity": "critical",
+      "description": "Maturity date must occur after origination date."
+    },
+    {
+      "id": "balance_not_above_principal",
+      "severity": "high",
+      "description": "Current balance cannot exceed original principal."
+    },
+    {
+      "id": "interest_rate_range",
+      "severity": "high",
+      "description": "Interest rate should be between 0% and 18%."
+    },
+    {
+      "id": "payment_status_consistency",
+      "severity": "high",
+      "description": "Payment status must agree with days past due and closed-loan balance."
+    },
+    {
+      "id": "duplicate_loan_id",
+      "severity": "critical",
+      "description": "Loan IDs must be unique within the source and database."
+    },
+    {
+      "id": "duplicate_borrower_combination",
+      "severity": "medium",
+      "description": "Borrower, original amount and origination date combinations should not repeat unexpectedly."
+    },
+    {
+      "id": "document_status",
+      "severity": "medium",
+      "description": "Required document status must be available and complete where required."
+    },
+    {
+      "id": "stale_record",
+      "severity": "low",
+      "description": "Records older than 180 days since last update require review."
+    },
+    {
+      "id": "valid_state",
+      "severity": "medium",
+      "description": "Borrower state must be a valid US state code."
+    },
+    {
+      "id": "source_conflict",
+      "severity": "high",
+      "description": "Conflicting values between loan_tape.csv and servicer_update.csv require reviewer resolution."
+    },
+    {
+      "id": "repeated_borrower",
+      "severity": "medium",
+      "description": "Suspiciously repeated borrower records should be surfaced for review."
+    }
+  ]
+}

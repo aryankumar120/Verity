@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": "USR-001",
+    "name": "Aarav Mehta",
+    "role": "Data Operator",
+    "email": "aarav.mehta@verity.local"
+  },
+  {
+    "user_id": "USR-002",
+    "name": "Maya Chen",
+    "role": "Reviewer",
+    "email": "maya.chen@verity.local"
+  },
+  {
+    "user_id": "USR-003",
+    "name": "Daniel Brooks",
+    "role": "Data Consumer",
+    "email": "daniel.brooks@verity.local"
+  }
+]
