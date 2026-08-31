@@ -14,7 +14,7 @@ export function validateLoan(loan: Partial<Loan>, source = "upload") {
     ["daysPastDue", loan.daysPastDue]
   ] as const;
   for (const [field, value] of numericFields) {
-    if (value !== undefined && value !== null && value !== "" && !Number.isFinite(Number(value))) {
+    if (value !== undefined && value !== null && !Number.isFinite(value)) {
       issues.push({type:"Invalid numeric value",severity:"high",message:`Field ${field} must contain a valid numeric value.`,field,source});
     }
   }
