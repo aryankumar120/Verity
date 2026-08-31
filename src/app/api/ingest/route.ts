@@ -8,29 +8,63 @@ import crypto from "node:crypto";
 export const runtime = "nodejs";
 
 function normalize(row: Record<string, string>, filename: string): Loan {
+  const toNumber = (value: string | undefined): number => {
+    if (value === undefined || value === null || value.trim() === "") {
+      return 0;
+    }
+
+    const parsed = Number(value.trim());
+
+    return Number.isFinite(parsed) ? parsed : 0;
+  };
+
   return {
     id: String(row.loan_id ?? "").trim(),
+
     borrowerId: String(row.borrower_id ?? "").trim(),
+
     loanType: String(row.loan_type ?? "").trim(),
+
     originationDate: String(row.origination_date ?? "").trim(),
+
     maturityDate: String(row.maturity_date ?? "").trim(),
-    originalPrincipal: Number(row.original_principal ?? 0),
-    currentBalance: Number(row.current_balance ?? 0),
-    interestRate: Number(row.interest_rate ?? 0),
-    termMonths: Number(row.term_months ?? 0),
+
+    originalPrincipal: toNumber(row.original_principal),
+
+    currentBalance: toNumber(row.current_balance),
+
+    interestRate: toNumber(row.interest_rate),
+
+    termMonths: toNumber(row.term_months),
+
     borrowerState: String(row.borrower_state ?? "").trim().toUpperCase(),
+
     loanPurpose: String(row.loan_purpose ?? "").trim(),
+
     creditGrade: String(row.credit_grade ?? "").trim(),
+
     employmentLength: String(row.employment_length ?? "").trim(),
+
     incomeBand: String(row.income_band ?? "").trim(),
+
     paymentStatus: String(row.payment_status ?? "").trim(),
-    daysPastDue: Number(row.days_past_due ?? 0),
+
+    daysPastDue: toNumber(row.days_past_due),
+
     servicerName: String(row.servicer_name ?? "").trim(),
+
     lastPaymentDate: String(row.last_payment_date ?? "").trim(),
-    lastUpdatedAt: String(row.last_updated_at ?? "").trim() || new Date().toISOString(),
+
+    lastUpdatedAt:
+      String(row.last_updated_at ?? "").trim() ||
+      new Date().toISOString(),
+
     documentStatus: String(row.document_status ?? "").trim(),
+
     sourceSystem: filename,
+
     status: "pending",
+
     exceptionCount: 0
   };
 }
