@@ -50,7 +50,8 @@ CREATE TABLE IF NOT EXISTS exceptions (
   status TEXT NOT NULL,
   created_at TEXT NOT NULL,
   ai_recommendation TEXT,
-  ai_confidence REAL
+  ai_confidence REAL,
+  reviewer_comment TEXT
 );
 CREATE TABLE IF NOT EXISTS audit_events (
   id TEXT PRIMARY KEY,
@@ -83,6 +84,7 @@ CREATE TABLE IF NOT EXISTS import_rows (
 `);
 
 try { db.prepare("ALTER TABLE imports ADD COLUMN raw_data TEXT").run(); } catch {}
+try { db.prepare("ALTER TABLE exceptions ADD COLUMN reviewer_comment TEXT").run(); } catch {}
 
 const loanColumns = ["id","borrowerId","loanType","originationDate","maturityDate","originalPrincipal","currentBalance","interestRate","termMonths","borrowerState","loanPurpose","creditGrade","employmentLength","incomeBand","paymentStatus","daysPastDue","servicerName","lastPaymentDate","lastUpdatedAt","documentStatus","sourceSystem","status","exceptionCount","verifiedAt","verifiedBy","recordHash"];
 const loanDbColumns = ["id","borrower_id","loan_type","origination_date","maturity_date","original_principal","current_balance","interest_rate","term_months","borrower_state","loan_purpose","credit_grade","employment_length","income_band","payment_status","days_past_due","servicer_name","last_payment_date","last_updated_at","document_status","source_system","status","exception_count","verified_at","verified_by","record_hash"];
@@ -124,11 +126,19 @@ export function updateLoan(id: string, patch: Partial<Loan>) {
   return getLoan(id);
 }
 export function updateException(id: string, patch: Partial<Exception>) {
-  const mapping: Record<string,string> = { aiRecommendation: "ai_recommendation", aiConfidence: "ai_confidence", status: "status" };
+  const mapping: Record<string, string> = {
+    aiRecommendation: "ai_recommendation",
+    aiConfidence: "ai_confidence",
+    reviewerComment: "reviewer_comment",
+    status: "status"
+  };
   const entries = Object.entries(patch).filter(([key]) => mapping[key]);
   if (!entries.length) return getException(id);
   const sql = entries.map(([key]) => `${mapping[key]} = ?`).join(", ");
-  db.prepare(`UPDATE exceptions SET ${sql} WHERE id = ?`).run(...entries.map(([,value]) => value), id);
+  db.prepare(`UPDATE exceptions SET ${sql} WHERE id = ?`).run(
+    ...entries.map(([, value]) => value),
+    id
+  );
   return getException(id);
 }
 export function createImport(filename: string, rowCount: number, successCount: number, failedCount: number, rawData: string) {
@@ -138,6 +148,13 @@ export function createImport(filename: string, rowCount: number, successCount: n
 }
 export function addImportRow(importId: string, rowNumber: number, rawData: unknown, normalizedData: unknown, status: string, errors: string[]) {
   db.prepare("INSERT INTO import_rows (id,import_id,row_number,raw_data,normalized_data,status,errors) VALUES (?,?,?,?,?,?,?)").run(crypto.randomUUID(),importId,rowNumber,JSON.stringify(rawData),JSON.stringify(normalizedData),status,JSON.stringify(errors));
+}
+export function countLoansByBorrower(borrowerId: string) {
+  return (db.prepare("SELECT COUNT(*) as n FROM loans WHERE borrower_id = ?").get(borrowerId) as { n: number }).n;
+}
+export function findFingerprintMatch(borrowerId: string, originalPrincipal: number, originationDate: string, excludeId: string) {
+  const row = db.prepare("SELECT id FROM loans WHERE borrower_id = ? AND original_principal = ? AND origination_date = ? AND id != ?").get(borrowerId, originalPrincipal, originationDate, excludeId);
+  return row ? (row as { id: string }).id : null;
 }
 export function summary() {
   const total = (db.prepare("SELECT COUNT(*) as n FROM loans").get() as {n:number}).n;
@@ -151,6 +168,22 @@ export function summary() {
 }
 
 function mapLoan(row: any): Loan { return { id:row.id, borrowerId:row.borrower_id, loanType:row.loan_type, originationDate:row.origination_date, maturityDate:row.maturity_date, originalPrincipal:Number(row.original_principal), currentBalance:Number(row.current_balance), interestRate:Number(row.interest_rate), termMonths:Number(row.term_months), borrowerState:row.borrower_state, loanPurpose:row.loan_purpose, creditGrade:row.credit_grade, employmentLength:row.employment_length, incomeBand:row.income_band, paymentStatus:row.payment_status, daysPastDue:Number(row.days_past_due), servicerName:row.servicer_name, lastPaymentDate:row.last_payment_date, lastUpdatedAt:row.last_updated_at, documentStatus:row.document_status, sourceSystem:row.source_system, status:row.status, exceptionCount:Number(row.exception_count), verifiedAt:row.verified_at || undefined, verifiedBy:row.verified_by || undefined, recordHash:row.record_hash || undefined }; }
-function mapException(row: any): Exception { return { id:row.id, loanId:row.loan_id, borrowerId:row.borrower_id, type:row.type, severity:row.severity, message:row.message, field:row.field, source:row.source, status:row.status, createdAt:row.created_at, aiRecommendation:row.ai_recommendation || undefined, aiConfidence:row.ai_confidence == null ? undefined : Number(row.ai_confidence) }; }
+function mapException(row: any): Exception {
+  return {
+    id: row.id,
+    loanId: row.loan_id,
+    borrowerId: row.borrower_id,
+    type: row.type,
+    severity: row.severity,
+    message: row.message,
+    field: row.field,
+    source: row.source,
+    status: row.status,
+    createdAt: row.created_at,
+    aiRecommendation: row.ai_recommendation || undefined,
+    aiConfidence: row.ai_confidence == null ? undefined : Number(row.ai_confidence),
+    reviewerComment: row.reviewer_comment || undefined
+  };
+}
 function mapAudit(row: any): AuditEvent { return { id:row.id, loanId:row.loan_id || undefined, action:row.action, actor:row.actor, actorRole:row.actor_role, metadata:row.metadata, createdAt:row.created_at, hash:row.hash }; }
 

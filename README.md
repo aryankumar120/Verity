@@ -32,11 +32,14 @@ Data Consumer
 ## Key capabilities
 
 - CSV ingestion with raw file and row lineage
+- Automatic file-type detection: a primary loan tape, a servicer update, or a document manifest are each handled correctly instead of being forced through one shape
 - Canonical loan normalization
-- Deterministic validation for required fields, dates, balances, rates, payment consistency, state codes, documents and stale records
+- Deterministic validation for required fields, dates, balances, rates, payment consistency, state codes, documents and stale records, with severities sourced from `data/validation_rules.json` so the rule set is genuinely configurable rather than hardcoded
+- Cross-source conflict detection: uploading `servicer_update.csv` or `document_manifest.csv` compares each field against the existing verified/normalized loan and raises a reviewer exception when sources disagree, instead of corrupting the primary dataset
+- Cross-import duplicate and repeated-borrower detection that checks against the whole database, not only the current file
 - Persisted exception queue generated from the uploaded file
 - Human-gated AI review
-- Groq API integration with a deterministic local fallback
+- Groq API integration (`openai/gpt-oss-120b` by default) with a deterministic local fallback
 - Reviewer approval, correction and rejection state transitions
 - Backend field-edit API with revalidation
 - Verified record creation with SHA-256 hashing
@@ -57,7 +60,7 @@ The `data/` directory includes a complete synthetic competition-style package al
 - `expected_exception_sample.csv`: representative known exceptions for demo orientation.
 - `sample-loan-tape.csv`: four-row compact fixture for quick smoke testing.
 
-For the competition-style demo, start from an empty database with `npm run seed`, then upload `data/loan_tape.csv`. The four-row sample remains available when a very fast local smoke test is useful.
+For the competition-style demo, start from an empty database with `npm run seed`, then upload `data/loan_tape.csv`. The four-row sample remains available when a very fast local smoke test is useful. After the primary tape is loaded, uploading `data/servicer_update.csv` and `data/document_manifest.csv` demonstrates cross-source conflict detection against the already-verified population.
 
 ## Tech stack
 
@@ -73,7 +76,7 @@ Create a local `.env.local` file:
 
 ```bash
 GROQ_API_KEY=your_groq_api_key_here
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b
 NEXT_PUBLIC_APP_NAME=Verity
 ```
 
@@ -148,8 +151,8 @@ GET   /api/audit/:loanId
 
 ## Assignment mapping
 
-- Module A: ingestion, normalization, raw-file lineage and import summary
-- Module B: deterministic validation and exception creation
+- Module A: ingestion, normalization, raw-file lineage, import summary and automatic detection of loan tape vs. servicer update vs. document manifest files
+- Module B: deterministic validation and exception creation, driven by `data/validation_rules.json`
 - Module C: persisted exception queue and reviewer decisions
 - Module D: AI explanation, recommendation, confidence and human control
 - Module E: canonical verified record, reviewer, timestamp and hash

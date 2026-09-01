@@ -14,7 +14,11 @@ function localReview(loanId: string) {
     "Invalid state": "Replace the state code with the verified two-letter borrower state from the authoritative source.",
     "Payment mismatch": "Confirm payment status against the latest payment ledger and balance evidence before approval.",
     "Missing document": "Request the missing document or update the document manifest when source evidence confirms availability.",
-    "Stale record": "Confirm the latest source update before treating this record as current."
+    "Stale record": "Confirm the latest source update before treating this record as current.",
+    "Conflicting values": "Compare the loan tape value against the secondary source value, identify which source is authoritative for this field, and apply that value before approval.",
+    "Repeated borrower record": "Confirm whether the repeated borrower records represent legitimate separate loans or a data entry duplication before approval.",
+    "Duplicate loan ID": "Confirm which record is authoritative and correct or remove the duplicate before approval.",
+    "Duplicate borrower combination": "Confirm with the source system whether this is a genuine repeat loan or a duplicate submission."
   };
   const recommendation = recommendations[primary.type] || "Review the flagged field against the authoritative source and record the final decision.";
   const confidence = primary.severity === "critical" ? 0.94 : primary.severity === "high" ? 0.89 : primary.severity === "medium" ? 0.85 : 0.81;
@@ -29,13 +33,13 @@ async function groqReview(loanId: string) {
   const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${process.env.GROQ_API_KEY}` },
-    body: JSON.stringify({ model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile", temperature: 0.1, response_format: { type: "json_object" }, messages: [{ role: "system", content: "You produce strict JSON for a human-gated financial data review workflow." }, { role: "user", content: prompt }] })
+    body: JSON.stringify({ model: process.env.GROQ_MODEL || "openai/gpt-oss-120b", temperature: 0.1, response_format: { type: "json_object" }, messages: [{ role: "system", content: "You produce strict JSON for a human-gated financial data review workflow." }, { role: "user", content: prompt }] })
   });
   if (!response.ok) throw new Error(`Groq API returned ${response.status}`);
   const data = await response.json();
   const text = String(data.choices?.[0]?.message?.content || "").replace(/^```json\s*/i, "").replace(/```$/i, "").trim();
   const parsed = JSON.parse(text);
-  return { loanId, summary: String(parsed.summary), recommendation: String(parsed.recommendation), confidence: Math.max(0, Math.min(1, Number(parsed.confidence))), factors: Array.isArray(parsed.factors) ? parsed.factors : [], model: process.env.GROQ_MODEL || "llama-3.3-70b-versatile" };
+  return { loanId, summary: String(parsed.summary), recommendation: String(parsed.recommendation), confidence: Math.max(0, Math.min(1, Number(parsed.confidence))), factors: Array.isArray(parsed.factors) ? parsed.factors : [], model: process.env.GROQ_MODEL || "openai/gpt-oss-120b" };
 }
 
 export async function POST(request: Request) {
@@ -45,7 +49,7 @@ export async function POST(request: Request) {
   if (process.env.GROQ_API_KEY) {
     try {
       result = await groqReview(loanId);
-      provider = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+      provider = process.env.GROQ_MODEL || "openai/gpt-oss-120b";
     } catch {
       result = localReview(loanId);
       provider = "local-rule-reasoner";

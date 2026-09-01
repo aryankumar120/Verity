@@ -43,6 +43,7 @@ export type Exception = {
   createdAt: string;
   aiRecommendation?: string;
   aiConfidence?: number;
+  reviewerComment?: string;
 };
 
 export type AuditEvent = {

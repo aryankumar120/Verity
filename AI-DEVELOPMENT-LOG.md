@@ -20,12 +20,21 @@ AI-generated implementation ideas were reviewed against the challenge requiremen
 
 Approximately 70% of scaffolding, UI ideation, API drafting, workflow analysis and test generation was AI-assisted. Core architecture decisions, challenge mapping, validation boundaries, audit semantics, product flow and final integration were human-reviewed.
 
+## Additional prompts (post-review hardening pass)
+
+10. Detect whether an uploaded CSV is a primary loan tape, a servicer update, or a document manifest, and route each to the correct backend handling instead of assuming one shape.
+11. Implement cross-source conflict detection between the loan tape and the servicer update / document manifest files, raising reviewer exceptions instead of silently overwriting or corrupting records.
+12. Make validation severities configurable by reading them from `validation_rules.json` instead of hardcoding them in the validation engine.
+13. Verify the Groq model configured for the AI review endpoint is still current and not deprecated, and update the default accordingly.
+
 ## Rejected AI outputs
 
 1. An early approach allowed AI suggestions to directly update loan fields. Rejected because the challenge requires AI output to remain separate from the final human decision.
 2. An early architecture placed the entire workflow in the browser with local state only. Rejected because the challenge requires backend API and database persistence.
 3. An early ingestion flow discarded invalid rows instead of persisting them as reviewer exceptions. Rejected because the Reviewer must receive the actual exceptions generated from the uploaded loan tape.
 4. An early AI integration depended only on an external model. Rejected because the demo must remain usable when the provider is unavailable, so a deterministic fallback is retained.
+5. An early servicer-update handling approach ingested the second-source file through the same primary loan-tape parser used for `loan_tape.csv`. Rejected because the files do not share a schema; that approach silently created corrupted duplicate loan records under generated IDs instead of comparing values against the existing record.
+6. An early conflict-resolution approach let the update file overwrite the existing loan value directly. Rejected because the challenge requires conflicting values to be routed to a human reviewer, not resolved automatically.
 
 ## Lessons learned
 

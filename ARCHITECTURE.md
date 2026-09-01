@@ -60,7 +60,7 @@ The APIs are stateful and read from the same SQLite records that drive the conso
 
 ## AI integration
 
-The application uses the Groq API through its OpenAI-compatible HTTP interface when `GROQ_API_KEY` is configured. The model is configurable through `GROQ_MODEL`. The default is `llama-3.3-70b-versatile`.
+The application uses the Groq API through its OpenAI-compatible HTTP interface when `GROQ_API_KEY` is configured. The model is configurable through `GROQ_MODEL`. The default is `openai/gpt-oss-120b`.
 
 The prompt instructs the model to return structured JSON containing a summary, recommendation, confidence and validation factors. The server clamps confidence to the valid range and records the recommendation in the exception and audit trail.
 
